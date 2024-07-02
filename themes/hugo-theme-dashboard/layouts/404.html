@@ -1,0 +1,18 @@
+<!-- layouts/_default/single.html -->
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}">
+    <head>
+      <link rel="stylesheet" href="{{ "css/style.css" | absURL }}">
+      <link rel="stylesheet" href="{{ "css/normalize.css" | absURL }}">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    </head>
+    <body>
+        {{- partial "header.html" . -}}
+      <div id="content" class="missing-body">
+          <h1>404 - Page Not Found</h1>
+          <p>Sorry, the page you are looking for does not exist.</p>
+          <p>You can always go <a href="/">back to the homepage</a>.</p>
+      </div>
+        {{- partial "footer.html" . -}}
+    </body>
+</html>

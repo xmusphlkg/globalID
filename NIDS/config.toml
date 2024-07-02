@@ -1,0 +1,4 @@
+baseURL = "http://nids.kangguo/"
+languageCode = "en-us"
+title = "Infectious Disease Surveillance Dashboard"
+theme = "hugo-theme-dashboard"

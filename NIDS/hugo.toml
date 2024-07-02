@@ -1,0 +1,7 @@
+theme = 'hugo-theme-dashboard'
+disablePathToLower = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

@@ -1,11 +1,7 @@
 <!-- layouts/_default/single.html -->
 <!DOCTYPE html>
 <html lang="{{ .Site.Language.Lang }}">
-    <head>
-      <link rel="stylesheet" href="/css/style.css">
-      <link rel="stylesheet" href="/css/normalize.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-    </head>
+  {{- partial "head.html" . -}}
     <body>
         {{- partial "header.html" . -}}
       <div id="content" class="index-container">

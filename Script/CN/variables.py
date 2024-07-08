@@ -107,15 +107,18 @@ The word count should be between 100 and 110 words. Here is the data for {diseas
 {table_data_str}"""
 highlights_check = "Analyze the following text and tell me if it is the Highlights section to {disease_name} report. If it is, please answer me Yes. If not, please answer me No."
 ## Analysis
-analysis_create = """Provide a concise case analysis of the reported data for {disease_name} in Chinese mainland, following the format below:
-### Cases Analysis
-...... (Word count: 100-110 words)
-### Deaths Analysis
-...... (Word count: 100-110 words)
+caseanalysis_create = """Provide a deep cases analysis of the reported data for {disease_name} in Chinese mainland:
 Here is the data for {disease_name} in Chinese mainland:
 {table_data_str}"""
-analysis_check = """Evaluate the given text and determine whether it corresponds to the analysis section of a report related to {disease_name}.
-If it is indeed the analysis section and includes the sub-sections "### Cases Analysis" and "### Deaths Analysis," respond with 'Yes'.
+caseanalysis_check = """Evaluate the given text and determine whether it corresponds to the cases analysis section of a report related to {disease_name}.
+If it is indeed the cases analysis section respond with 'Yes'.
+If these conditions are not met, respond with 'No'."""
+
+deathanalysis_create = """Provide a deep deaths analysis of the reported data for {disease_name} in Chinese mainland:
+Here is the data for {disease_name} in Chinese mainland:
+{table_data_str}"""
+deathanalysis_check = """Evaluate the given text and determine whether it corresponds to the deaths analysis section of a report related to {disease_name}.
+If it is indeed the deaths analysis section respond with 'Yes'.
 If these conditions are not met, respond with 'No'."""
 
 ## mail

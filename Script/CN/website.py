@@ -1,4 +1,8 @@
 import plotly.graph_objects as go
+from openai import OpenAI
+from reporttext import fetch_openai
+import os
+import time
 
 def update_pages(diseases_order, diseases_order_cn, disease_index, df, analysis_MonthYear):
   disease = diseases_order[disease_index]

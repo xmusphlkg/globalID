@@ -8,7 +8,7 @@ import shutil
 
 from system import get_sources
 from dataget import fetch_data, process_table_data
-# from analysis import generate_weekly_report
+from report import generate_reports
 # from sendmail import send_email_to_subscriber
 
 # load environment variables
@@ -18,6 +18,8 @@ sources = get_sources(env_path)
 # detect existing dates in GetData folder
 folder_path_get = "./Data/GetData/CN/"
 folder_path_save = "./Data/AllData/CN/"
+folder_path_mail = "./Mail/CN/"
+folder_path_web = "./Website/content/CN"
 existing_dates = [os.path.splitext(file)[0] for file in os.listdir(folder_path_get) if os.path.isfile(os.path.join(folder_path_get, file))]
 
 # Call the function to fetch data
@@ -68,17 +70,16 @@ if new_dates:
     with open(readme_path, "w") as readme_file:
         readme_file.write(updated_readme_content)
     
-#     test_mail = os.environ['test_mail']
-#     send_mail = os.environ['send_mail']
-#     # change working directory
-#     os.chdir("../../Script")
-#     for YearMonth in new_dates:
-#         print("Generate report for " + YearMonth)
-#         generate_weekly_report(YearMonth)
-#     if send_mail == 'True':
-#         send_email_to_subscriber(test_mail)
+    test_mail = os.environ['test_mail']
+    send_mail = os.environ['send_mail']
+    # change working directory
+    for YearMonth in new_dates:
+        print("Generate report for " + YearMonth)
+        generate_reports(YearMonth, folder_path_get, folder_path_save, folder_path_mail, folder_path_web)
+    # if send_mail == 'True':
+    #     send_email_to_subscriber(test_mail)
 
-#     # print success message
-#     print("Data updated successfully!")
-# else:
-#     print("No new data, stop.")
+    # print success message
+    print("Data updated successfully!")
+else:
+    print("No new data, stop.")

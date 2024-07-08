@@ -54,3 +54,7 @@ Website:
   main: # create_website function
     create: 'gpt-4-1106-preview'
     check: 'gpt-4-1106-preview'
+# other setting
+Link:
+  main:
+    source: 'https://github.com/xmusphlkg/globalID/tree/main/Data/AllData/CN'

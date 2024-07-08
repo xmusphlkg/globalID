@@ -2,6 +2,16 @@ import pandas as pd
 from plotnine import *
 
 def calculate_change_data(df, analysis_date):
+    """
+    Calculate the change in cases and deaths for each disease compared to the previous month and previous year.
+
+    Args:
+        df (pd.DataFrame): The DataFrame containing the data.
+        analysis_date (datetime): The date to analyze.
+
+    Returns:
+        pd.DataFrame: The DataFrame containing the change in cases and deaths for each disease.    
+    """
     # get latest data
     latest_data_1 = df[df['Date'] == analysis_date]
     latest_data_1 = latest_data_1.sort_values(by='Diseases', ascending=True).reset_index()
@@ -38,6 +48,16 @@ def calculate_change_data(df, analysis_date):
     return change_data
 
 def format_table_data(table_data, analysis_date):
+    """
+    generate table data for report
+
+    Args:
+        table_data (pd.DataFrame): The DataFrame containing the data.
+        analysis_date (datetime): The date to analyze.
+
+    Returns:
+        pd.DataFrame: The DataFrame containing the formatted table data.    
+    """
     table_data = table_data.copy()
     # Cases, Deaths display with thousand separator
     table_data['Cases'] = table_data['Cases'].apply(lambda x: format(x, ','))
@@ -105,25 +125,5 @@ def generate_merge_chart(change_data, original_file):
     change_data_total = change_data_total.sort_values(by='Diseases', key=lambda x: x.map(diseases_order.index))
     diseases = change_data_total['Diseases'].tolist()
     diseases_cn = change_data_total['DiseasesCN'].tolist()
-    change_data_total = change_data_total.melt(id_vars=['Diseases', 'DiseasesCN'],
-                                              value_vars=['Cases', 'Deaths'], 
-                                              var_name='Type',
-                                              value_name='Value')
-    change_data_total = change_data_total.sort_values(by='Diseases', key=lambda x: x.map(diseases_order.index))
-
-    # Generate plot for Cases
-    plot_total = (
-        ggplot(change_data_total, 
-              aes(y='Value', x='reorder(Diseases, Value)', fill = 'Type')) +
-        geom_bar(stat="identity", position="identity") +
-        scale_y_continuous(limits = [0, None], expand = [0, 0, 0.2, 0]) +
-        coord_flip() +
-        theme_bw()+
-        theme(legend_position='none')+
-        facet_wrap('~Type', nrow=1, scales='free_x')+
-        labs(x ='', y = '')
-    )
-    merged_chart_path = "temp/merged_chart.png"
-    plot_total.save(merged_chart_path, dpi=300, width=10, height=10)
 
     return diseases, diseases_cn

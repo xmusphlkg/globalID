@@ -175,3 +175,22 @@ html, body {
     display: block;
   }
 }
+
+.loader {
+  position: fixed;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  background-color: #334A59;
+  animation: load 3s linear infinite;
+}
+
+@keyframes load {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}

@@ -1,5 +1,6 @@
 <!-- header.html -->
 <header>
+  <div class="loader"></div>
   <div class="top-nav">
       <div class="logo">
           <a href="{{ "/" | relLangURL }}"><img src="{{ "/images/logo.png" | absURL }}" alt="Logo"></a>
@@ -31,4 +32,9 @@
           <a href="{{ "/subscribe/" | relLangURL }}">Subscribe</a>
       </div>
   </div>
+  <script>
+    window.addEventListener('load', function() {
+      document.querySelector('.loader').style.display = 'none';
+    });
+  </script>
 </header>

@@ -53,36 +53,47 @@ def plot_disease_data(disease_data, disease):
         str: the plotly figure in html format
     """
     # Cases over time
-    data = disease_data.copy()
-    data = data[['Date', 'Cases']]
-
     fig = go.Figure(layout=go.Layout(
-        title=go.layout.Title(text=f'{disease}'),
-        xaxis=go.layout.XAxis(title=go.layout.xaxis.Title(text='Date')),
-        yaxis=go.layout.YAxis(title=go.layout.yaxis.Title(text='Cases')),
+        title=go.layout.Title(text=f'{disease} Cases Over Time'),
+        xaxis=go.layout.XAxis(
+            title=go.layout.xaxis.Title(text='Date')
+        ),
+        yaxis=go.layout.YAxis(
+            title=go.layout.yaxis.Title(text='Cases'),
+            rangemode='tozero',  # start from zero
+            tickformat=',d'  # integer format
+        ),
         template='plotly_white'
     ))
-    fig.add_trace(go.Scatter(x = disease_data['Date'],
-                            y = disease_data['Cases'],
-                            mode='lines',
-                            name=disease,
-                            hovertemplate='Date: %{x}<br>Cases: %{y}'))
+    fig.add_trace(go.Scatter(
+        x=disease_data['Date'],
+        y=disease_data['Cases'],
+        mode='lines',
+        name=disease,
+        hovertemplate='Date: %{x}<br>Cases: %{y:,}'
+    ))
     plot_html_1 = fig.to_html(full_html=False, include_plotlyjs=False)
 
     # Deaths over time
-    data = disease_data.copy()
-    data = data[['Date', 'Deaths']]
     fig = go.Figure(layout=go.Layout(
-        title=go.layout.Title(text=f'{disease}'),
-        xaxis=go.layout.XAxis(title=go.layout.xaxis.Title(text='Date')),
-        yaxis=go.layout.YAxis(title=go.layout.yaxis.Title(text='Deaths')),
+        title=go.layout.Title(text=f'{disease} Deaths Over Time'),
+        xaxis=go.layout.XAxis(
+            title=go.layout.xaxis.Title(text='Date')
+        ),
+        yaxis=go.layout.YAxis(
+            title=go.layout.yaxis.Title(text='Deaths'),
+            rangemode='tozero',  # start from zero
+            tickformat=',d'  # integer format
+        ),
         template='plotly_white'
     ))
-    fig.add_trace(go.Scatter(x = disease_data['Date'],
-                            y = disease_data['Deaths'],
-                            mode='lines',
-                            name=disease,
-                            hovertemplate='Date: %{x}<br>Deaths: %{y}'))
+    fig.add_trace(go.Scatter(
+        x=disease_data['Date'],
+        y=disease_data['Deaths'],
+        mode='lines',
+        name=disease,
+        hovertemplate='Date: %{x}<br>Deaths: %{y:,}'
+    ))
     plot_html_2 = fig.to_html(full_html=False, include_plotlyjs=False)
 
     return plot_html_1, plot_html_2

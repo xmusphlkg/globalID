@@ -5,6 +5,7 @@ from requests.exceptions import RequestException
 import re
 from bs4 import BeautifulSoup
 import os
+from pathlib import Path
 import pandas as pd
 from datetime import datetime
 import json
@@ -434,10 +435,12 @@ def process_table_data(results, path):
         
         if origin == 'CN':
             data = clean_table_data_cn(data_raw,
-                                       results[i])
+                                       results[i],
+                                       Path(__file__).parent / 'variables' / 'diseaseName2Code.csv')
         else:
             data = clean_table_data(data_raw,
-                                    results[i])
+                                    results[i],
+                                    Path(__file__).parent / 'variables' / 'diseaseCode2Name.csv')
 
         # Save the results for each month to a CSV file
         file_name = os.path.join(path, results[i]["YearMonth"] + ".csv")

@@ -38,19 +38,18 @@ def calculate_change_data(df, analysis_date):
     return change_data
 
 def format_table_data(table_data, analysis_date):
-    # 复制数据
     table_data = table_data.copy()
-    # Cases, Deaths显示千分符号
+    # Cases, Deaths display with thousand separator
     table_data['Cases'] = table_data['Cases'].apply(lambda x: format(x, ','))
     table_data['Deaths'] = table_data['Deaths'].apply(lambda x: format(x, ','))
     
-    # ChangeCasesMonth, ChangeCasesYear, ChangeDeathsMonth, ChangeDeathsYear显示千分符号
+    # ChangeCasesMonth, ChangeCasesYear, ChangeDeathsMonth, ChangeDeathsYear display with thousand separator
     table_data['ChangeCasesMonth'] = table_data['ChangeCasesMonth'].apply(lambda x: format(x, ','))
     table_data['ChangeCasesYear'] = table_data['ChangeCasesYear'].apply(lambda x: format(x, ','))
     table_data['ChangeDeathsMonth'] = table_data['ChangeDeathsMonth'].apply(lambda x: format(x, ','))
     table_data['ChangeDeathsYear'] = table_data['ChangeDeathsYear'].apply(lambda x: format(x, ','))
     
-    # ChangeCasesMonthPer, ChangeCasesYearPer, ChangeDeathsMonthPer, ChangeDeathsYearPer显示百分比
+    # ChangeCasesMonthPer, ChangeCasesYearPer, ChangeDeathsMonthPer, ChangeDeathsYearPer display with percentage
     table_data['ChangeCasesMonthPer'] = table_data['ChangeCasesMonthPer'].apply(lambda x: format(x, '.2%'))
     table_data['ChangeCasesYearPer'] = table_data['ChangeCasesYearPer'].apply(lambda x: format(x, '.2%'))
     table_data['ChangeDeathsMonthPer'] = table_data['ChangeDeathsMonthPer'].apply(lambda x: format(x, '.2%'))

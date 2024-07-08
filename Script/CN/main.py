@@ -4,9 +4,10 @@ import os
 from datetime import datetime
 import pandas as pd
 import glob
+import shutil
 
 from system import get_sources
-from getdata import fetch_data, process_table_data
+from dataget import fetch_data, process_table_data
 # from analysis import generate_weekly_report
 # from sendmail import send_email_to_subscriber
 
@@ -15,16 +16,15 @@ env_path = os.path.join(os.path.dirname(__file__), 'config.yml')
 sources = get_sources(env_path)
 
 # detect existing dates in GetData folder
-folder_path = "./Data/GetData/CN/"
-existing_dates = [os.path.splitext(file)[0] for file in os.listdir(folder_path) if os.path.isfile(os.path.join(folder_path, file))]
+folder_path_get = "./Data/GetData/CN/"
+folder_path_save = "./Data/AllData/CN/"
+existing_dates = [os.path.splitext(file)[0] for file in os.listdir(folder_path_get) if os.path.isfile(os.path.join(folder_path_get, file))]
 
 # Call the function to fetch data
 results, new_dates, current_date = fetch_data(sources, existing_dates)
 
 if new_dates:
     # get data from url and save to GetData folder
-    folder_path_get = folder_path + "GetData/"
-    folder_path_save = folder_path + "AllData/"
     process_table_data(results, folder_path_get)
 
     # access the folder
@@ -53,7 +53,7 @@ if new_dates:
     max_date = data['YearMonthDay'].max()
     max_date = datetime.strptime(max_date, '%Y/%m/%d').strftime("%Y %B")
     data.to_csv(os.path.join(folder_path_save, max_date + '.csv'), index=False, encoding='utf-8', header=True)
-    os.system(f"cp {folder_path_save}{max_date}.csv {folder_path_save}latest.csv")
+    shutil.copyfile(os.path.join(folder_path_save, max_date + '.csv'), os.path.join(folder_path_save, 'latest.csv'))
 
     # modify the markdown file
     readme_path = "./Readme.md"

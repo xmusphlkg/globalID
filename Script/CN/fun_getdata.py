@@ -5,11 +5,8 @@ import re
 from bs4 import BeautifulSoup
 import os
 import pandas as pd
-from requests.exceptions import ConnectionError
 from datetime import datetime
-import variables
 import json
-from io import StringIO
 from urllib.parse import urljoin
 from report_text import openai_trans
 
@@ -81,7 +78,6 @@ def get_rss_results(url, label, origin):
 
 
 # define a function to get china cdc weekly results
-
 def get_cdc_results(url, label, origin):
     # Send an HTTP request to get the webpage content
     response = requests.get(url)

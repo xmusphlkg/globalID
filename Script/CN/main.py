@@ -4,93 +4,14 @@ import os
 from datetime import datetime
 import pandas as pd
 import glob
-import yaml
-import ast
 
 from function import get_rss_results, get_gov_results, get_cdc_results, process_table_data
 from analysis import generate_weekly_report
 from sendmail import send_email_to_subscriber
 
-# fetch data from setting
-def fetch_data(existing_dates):
-    sources = [
-        {
-            'active': os.environ['SOURCE_PUBMED_ACTIVE'],
-            'label': os.environ['SOURCE_PUBMED_LABEL'],
-            'url': os.environ['SOURCE_PUBMED_URL'],
-            'origin': os.environ['SOURCE_PUBMED_ORIGIN'],
-            'function': os.environ['SOURCE_PUBMED_FUNCTION'],
-            'results': [],
-            'new_dates': []
-        },
-        {
-            'active': os.environ['SOURCE_CDC_ACTIVE'],
-            'label': os.environ['SOURCE_CDC_LABEL'],
-            'url': os.environ['SOURCE_CDC_URL'],
-            'origin': os.environ['SOURCE_CDC_ORIGIN'],
-            'function': os.environ['SOURCE_CDC_FUNCTION'],
-            'results': [],
-            'new_dates': []
-        },
-        {
-            'active': os.environ['SOURCE_GOV_ACTIVE'],
-            'label': os.environ['SOURCE_GOV_LABEL'],
-            'url': os.environ['SOURCE_GOV_URL'],
-            'origin': os.environ['SOURCE_GOV_ORIGIN'],
-            'form_data': os.environ['SOURCE_GOV_DATA'],
-            'function': os.environ['SOURCE_GOV_FUNCTION'],
-            'results': [],
-            'new_dates': []
-        }
-    ]
-
-    for source in sources:
-        active = source['active']
-        label = source['label']
-        if active == 'False':
-            print(f"{label} is not active, try next one.")
-            continue
-
-        url = source['url']
-        origin = source['origin']
-        get_results = globals()[source['function']]
-
-        if 'form_data' in source:
-            form_data = ast.literal_eval(source['form_data'])
-            results = get_results(url, form_data, label, origin)
-        else:
-            results = get_results(url, label, origin)
-
-        new_dates = [result['YearMonth'] for result in results if result['YearMonth'] not in existing_dates and result['YearMonth'] not in source['new_dates']]
-        if not new_dates:
-            print(f"No new data in {label}, try next one.")
-        else:
-            source['results'] = [result for result in results if result['YearMonth'] in new_dates]
-            source['new_dates'] = new_dates
-            print(f"Find new data in {label}: {new_dates}")
-
-    results = [result for source in sources for result in source['results']]
-    new_dates = list(set([date for source in sources for date in source['new_dates']]))
-    current_date = datetime.now().strftime("%Y%m%d")
-
-    return results, new_dates, current_date
-
-# set working directory
-os.chdir("./Data/GetData")
-
-# detect existing dates
-folder_path = "WeeklyReport/"  # file path
+# detect existing dates in GetData folder
+folder_path = "./Data/GetData/CN/"
 existing_dates = [os.path.splitext(file)[0] for file in os.listdir(folder_path) if os.path.isfile(os.path.join(folder_path, file))]
-
-# get environment from config.yml
-with open('../../config.yml', 'r') as file:
-    config_dict = yaml.safe_load(file)
-for section, subsections in config_dict.items():
-    for key, subvalues in subsections.items():
-        for subkey, value in subvalues.items():
-            if isinstance(value, str):
-                env_var_name = f"{section.upper()}_{key.upper()}_{subkey.upper()}"
-                os.environ[env_var_name] = value
 
 # Call the function to fetch data
 results, new_dates, current_date = fetch_data(existing_dates)
@@ -126,18 +47,8 @@ if new_dates:
         date_data = merged_data[merged_data['YearMonth'] == YearMonth]
         if date_data.empty:
             continue
-        file_name = '..' + '/CleanData/WeeklyReport/ALL/' + YearMonth + '.csv'
+        file_name = f'../CleanData/WeeklyReport/ALL/{YearMonth}.csv'
         date_data.to_csv(file_name, index=False, encoding="UTF-8-sig")
-        # save the data to a CSV file for each disease
-        for disease in disease_unique:
-            disease_date_data = date_data[date_data['Diseases'] == disease]
-            if disease_date_data.empty:
-                continue
-            disease = disease.title()
-            file_name = '..' + '/CleanData/WeeklyReport/' + disease + '/' + YearMonth + '.csv'
-            if not os.path.exists('..' + '/CleanData/WeeklyReport/' + disease):
-                os.makedirs('..' + '/CleanData/WeeklyReport/' + disease)
-            disease_date_data.to_csv(file_name, index=False, encoding="UTF-8-sig")
 
     # read all CSV files
     folder_path = '../CleanData/WeeklyReport/'

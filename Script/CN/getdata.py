@@ -1,6 +1,7 @@
 
 import requests
 import xmltodict
+from requests.exceptions import RequestException
 import re
 from bs4 import BeautifulSoup
 import os
@@ -12,6 +13,15 @@ from report_text import openai_trans
 
 # define a function to extract date from text
 def extract_date(text):
+    """
+    Extract the date from a text string, English version.
+
+    Args:
+        text (str): A text string containing the date, such as "Weekly Epidemiological Update - 1 June 2021".
+
+    Returns:
+        str: The extracted date in the format "YYYY Month", such as "2021 June".
+    """
     text_without_tags = re.sub(r"<[^>]+>", "", text)
     text_without_special_chars = re.sub(r"[^a-zA-Z0-9\s]", "", text_without_tags)
     match = re.search(r"\b([A-Za-z]+)\s+(\d{4})\b", text_without_special_chars)
@@ -21,6 +31,16 @@ def extract_date(text):
           return(None)
 
 def extract_date_cn(text):
+    """
+    Extract the date from a text string, Chinese version.
+
+    Args:
+        text (str): A text string containing the date, such as "2021年6月".
+
+    Returns:
+        str: The extracted date in the format "YYYY Month", such as "2021 June".
+    """
+
     text_without_tags = re.sub(r"<[^>]+>", "", text)
     text_without_special_chars = re.sub(r"[^a-zA-Z0-9\u4e00-\u9fa5\s]", "", text_without_tags)
     match = re.search(r"(\d{4})年(\d{1,2})月", text_without_special_chars)
@@ -34,6 +54,15 @@ def extract_date_cn(text):
         return None
     
 def find_max_date(YearMonths):
+    """
+    Find the maximum date from a list of dates in the format "YYYY Month".
+
+    Args:
+        YearMonths (list): A list of dates in the format "YYYY Month".
+
+    Returns:
+        str: The maximum date in the format "YYYY Month", such as "2021 June".
+    """
     date_objects = [datetime.strptime(date, "%Y %B") for date in YearMonths]
     max_date = max(date_objects, key=lambda x: x)
     max_date_str = max_date.strftime("%Y %B")
@@ -41,15 +70,36 @@ def find_max_date(YearMonths):
 
 # define a function to get PubMed RSS results
 def get_rss_results(url, label, origin):
-    # Send request and get response
-    response = requests.get(url)
+    """
+    Get the latest results from a PubMed RSS feed.
 
-    # Check response status code
-    if response.status_code != 200:
-        raise Exception(f"Failed to fetch {label} results. Status code: {response.status_code}")
+    Args:
+        url (str): The URL of the PubMed RSS feed.
+        label (str): The label for the source of the results.
+        origin (str): The origin of the results.
+
+    Raises:
+        Exception: If there are no items found in the RSS feed.
+
+    Returns:
+        list: A list of dictionaries containing the extracted information.    
+    """
+    # Send request and get response
+    try:
+        response = requests.get(url)
+        response.raise_for_status()
+    except RequestException as e:
+        raise Exception(f"Failed to fetch {label} results from {url}. Error: {e}")
 
     # Parse XML results
-    rss_results = xmltodict.parse(response.content)
+    try:
+        rss_results = xmltodict.parse(response.content)
+        items = rss_results.get("rss", {}).get("channel", {}).get("item", [])
+    except Exception as e:
+        raise Exception(f"Error parsing XML from {url}. Error: {e}")
+    
+    if not items:
+        raise Exception(f"No items found in RSS feed from {url}.")
 
     # Extract results
     results = []
@@ -79,20 +129,41 @@ def get_rss_results(url, label, origin):
 
 # define a function to get china cdc weekly results
 def get_cdc_results(url, label, origin):
-    # Send an HTTP request to get the webpage content
-    response = requests.get(url)
+    """
+    Get the latest results from the China CDC Weekly.
 
-    # Check response status code
-    if response.status_code != 200:
-        raise Exception(f"Failed to fetch {label} results. Status code: {response.status_code}")
+    Args:
+        url (str): The URL of the China CDC Weekly.
+        label (str): The label for the source of the results.
+        origin (str): The origin of the results.
+
+    Raises:
+        Exception: If there are no <a> tags found in the HTML content.
+
+    Returns:
+        list: A list of dictionaries containing the extracted information.    
+    """
+    # Send an HTTP request to get the webpage content
+    try:
+        response = requests.get(url)
+        response.raise_for_status()
+    except RequestException as e:
+        raise Exception(f"Failed to fetch {label} results from {url}. Error: {e}")
 
     # Parse HTML results
-    html_content = response.text
-    soup = BeautifulSoup(html_content, "html.parser")
-    a_tags = soup.find_all("a")
-    result_list = []
+    try:
+        html_content = response.text
+        soup = BeautifulSoup(html_content, "html.parser")
+        a_tags = soup.find_all("a")
+    except Exception as e:
+        raise Exception(f"Error parsing HTML from {url}. Error: {e}")
+    
+    # Extract results
+    if not a_tags:
+        raise Exception(f"No <a> tags found in HTML content from {url}.")
 
     # Traverse each <a> tag, extract text and link
+    result_list = []
     for a_tag in a_tags:
         text = a_tag.text.strip()
         link = a_tag.get("href")
@@ -116,18 +187,38 @@ def get_cdc_results(url, label, origin):
     return result_list
 
 def get_gov_results(url, form_data, label, origin):
-    # Send a request and get the response
-    response = requests.post(url, data=form_data)
-    if response.status_code != 200:
-        raise Exception(f"Failed to fetch {label} results. Status code: {response.status_code}")
+    """
+    Get the latest results from a government website.
 
-    # Check if the response contains data
-    if response.json()['data']['results'] == []:
-        raise Exception(f"Failed to fetch {label} results. No data returned.")
+    Args:
+        url (str): The URL of the government website.
+        form_data (dict): The form data to be sent in the POST request.
+        label (str): The label for the source of the results.
+        origin (str): The origin of the results.
+
+    Raises:
+        Exception: If there are no results returned from the government website.
+
+    Returns:
+        list: A list of dictionaries containing the extracted information.
+    """
+    # Send a request and get the response
+    try:
+        response = requests.post(url, data=form_data)
+        response.raise_for_status()
+    except RequestException as e:
+        raise Exception(f"Failed to fetch {label} results from {url}. Error: {e}")
     
-    # Extract results
-    titles = [response.json()['data']['results'][i]['source']['title'] for i in range(10)]
-    links = [response.json()['data']['results'][i]['source']['urls'] for i in range(10)]
+    # Parse JSON results
+    try:
+        titles = [response.json()['data']['results'][i]['source']['title'] for i in range(10)]
+        links = [response.json()['data']['results'][i]['source']['urls'] for i in range(10)]
+    except Exception as e:
+        raise Exception(f"Error parsing JSON from {url}. Error: {e}")
+    
+    # Check if the response contains data
+    if len(response.json()['data']['results']) == 0:
+        raise Exception(f"Failed to fetch {label} results. No data returned.")
 
     # Traverse each <a> tag, extract text and link
     result_list = []
@@ -152,24 +243,53 @@ def get_gov_results(url, form_data, label, origin):
 
 # define a function to get table data from URLs
 def is_column_meaningful(column):
-    """Check if a pandas Series contains meaningful data."""
+    """
+    Check if a pandas Series contains meaningful data.
+
+    Args:
+        column (pandas.Series): A pandas Series representing a column in a table.
+
+    Returns:
+        bool: True if the column contains meaningful data, False otherwise.
+    """
     non_empty_rows = column[column != ""].count()
     return non_empty_rows / len(column) > 0.1
 
+# define a function to get table data from URLs
 def get_table_data(url):
+    """
+    Get table data from a URL.
+
+    Args:
+        url (str): The URL of the webpage containing the table data.
+
+    Raises:
+        Exception: If the HTTP response status code is not 200.
+
+    Returns:
+        pandas.DataFrame: A DataFrame containing the table data.
+    """
     # Send a request and get the response
-    response = requests.get(url)
-    if response.status_code != 200:
-        print(url)
-        raise Exception("Failed to fetch web content, status code: {}".format(response.status_code))
-    else:
+    try:
+        response = requests.get(url)
+        response.raise_for_status()
         print("Successfully fetched web content, urls: {}".format(url))
-
+    except RequestException as e:
+        raise Exception(f"Failed to fetch web content from {url}. Error: {e}")
+    
     # Use pandas to directly parse the table data
-    text = response.text
-    soup = BeautifulSoup(text, 'html.parser')
-    tables = soup.find_all('table')[0]
-
+    try:
+        text = response.text
+        soup = BeautifulSoup(text, 'html.parser')
+        tables = soup.find_all('table')[0]
+    except Exception as e:
+        raise Exception(f"Error parsing HTML table from {url}. Error: {e}")
+    
+    # Check if the table contains data
+    if len(tables) == 0:
+        raise Exception(f"No tables found in HTML content from {url}.")
+    
+    # Extract the table data
     data = []
     thead = tables.find('thead')
     if thead:
@@ -192,7 +312,19 @@ def get_table_data(url):
 
     return table_data
 
-def clean_table_data(data, filtered_result):
+def clean_table_data(data, filtered_result, Code2Name):
+    """
+    Clean the table data and add additional columns.
+
+    Args:
+        data (pandas.DataFrame): A DataFrame containing the table data.
+        filtered_result (dict): A dictionary containing the extracted information.
+        Code2Name (dict): A dictionary mapping disease codes to disease names.
+
+    Returns:
+        pandas.DataFrame: A cleaned DataFrame containing the table data.
+    
+    """
     # Clean database
     data = data.iloc[1:].copy()
     data.columns = ['Diseases', 'Cases', 'Deaths']
@@ -212,7 +344,7 @@ def clean_table_data(data, filtered_result):
         data[name] = value
     
     # trans Diseases to DiseasesCN
-    diseaseCode2Name = pd.read_csv("../../Script/WeeklyReport/variables/diseaseCode2Name.csv")
+    diseaseCode2Name = pd.read_csv(Code2Name)
     diseaseCode2Name = dict(zip(diseaseCode2Name["Code"], diseaseCode2Name["Name"]))
     data['DiseasesCN'] = data['Diseases'].map(diseaseCode2Name)
 
@@ -222,7 +354,18 @@ def clean_table_data(data, filtered_result):
 
     return table_data
 
-def clean_table_data_cn(data, filtered_result):
+def clean_table_data_cn(data, filtered_result, Name2Code):
+    """
+    Clean the table data and add additional columns.
+
+    Args:
+        data (pandas.DataFrame): A DataFrame containing the table data.
+        filtered_result (dict): A dictionary containing the extracted information.
+        Name2Code (dict): A dictionary mapping disease names to disease codes.
+
+    Returns:
+        pandas.DataFrame: A cleaned DataFrame containing the table data.    
+    """
     # Clean database
     data = data.iloc[1:].copy()
     data.columns = ['DiseasesCN', 'Cases', 'Deaths']
@@ -245,7 +388,7 @@ def clean_table_data_cn(data, filtered_result):
         data[name] = value
     
     # trans DiseasesCN to Diseases
-    diseaseName2Code_df = pd.read_csv("../../Script/WeeklyReport/variables/diseaseName2Code.csv")
+    diseaseName2Code_df = pd.read_csv(Name2Code)
     diseaseName2Code = dict(zip(diseaseName2Code_df["Name"], diseaseName2Code_df["Code"]))
     data['Diseases'] = data['DiseasesCN'].map(diseaseName2Code)
     
@@ -261,7 +404,7 @@ def clean_table_data_cn(data, filtered_result):
     
     # if update diseaseName2Code.csv
     if len(na_indices) > 0:
-        diseaseName2Code_df.to_csv("../../Script/WeeklyReport/variables/diseaseName2Code.csv", index=False)
+        diseaseName2Code_df.to_csv(Name2Code, index=False)
 
     # Reorder the column names
     column_order = ['Date', 'YearMonthDay', 'YearMonth', 'Diseases', 'DiseasesCN', 'Cases', 'Deaths', 'Incidence', 'Mortality', 'ProvinceCN', 'Province', 'ADCode', 'DOI', 'URL', 'Source']
@@ -269,7 +412,7 @@ def clean_table_data_cn(data, filtered_result):
 
     return table_data
 
-def process_table_data(results):
+def process_table_data(results, path):
     """
     Process table data from URLs and save the results to CSV files.
 
@@ -297,5 +440,42 @@ def process_table_data(results):
                                     results[i])
 
         # Save the results for each month to a CSV file
-        file_name = os.path.join("WeeklyReport/", results[i]["YearMonth"] + ".csv")
+        file_name = os.path.join(path, results[i]["YearMonth"] + ".csv")
         data.to_csv(file_name, index=False, encoding="UTF-8-sig")
+
+
+def fetch_data(sources, existing_dates):
+    """
+    Fetch data from sources specified in the provided configuration.
+    
+    Args:
+        sources (list): A list of source configurations.
+        existing_dates (list): A list of existing dates in the GetData folder.
+    
+    Returns:
+        tuple: Contains a list of fetched data results, new dates, and the current date.
+    """
+    results = []
+    new_dates = set()
+    for source in sources:
+        if not source['active']:
+            print(f"{source['label']} is not active, try next one.")
+            continue
+        
+        get_results = globals()[source['function']]
+        kwargs = {'url': source['url'], 'label': source['label'], 'origin': source['origin']}
+        if 'form_data' in source:
+            kwargs['form_data'] = source['form_data']
+        
+        source_results = get_results(**kwargs)
+        source_new_dates = [result['YearMonth'] for result in source_results 
+                            if result['YearMonth'] not in existing_dates]
+        if source_new_dates:
+            results.extend([result for result in source_results if result['YearMonth'] in source_new_dates])
+            new_dates.update(source_new_dates)
+            print(f"Find new data in {source['label']}: {source_new_dates}")
+        else:
+            print(f"No new data in {source['label']}, try next one.")
+
+    current_date = datetime.now().strftime("%Y%m%d")
+    return results, list(new_dates), current_date

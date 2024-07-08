@@ -1,0 +1,4 @@
+test.ipynb
+
+# ignore python cache files
+*.pyc

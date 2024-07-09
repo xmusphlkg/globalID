@@ -46,9 +46,9 @@ def create_report_page(disease_name,
     cases_box_content = openai_single(
         os.environ['REPORT_CASEANALYSIS_CREATE'],
         os.environ['REPORT_CASEANALYSIS_CHECK'],
-        variables.analysis_create.format(disease_name=disease_name, table_data_str=table_data_str),
-        variables.analysis_check.format(disease_name=disease_name),
-        variables.analysis_words,
+        variables.caseanalysis_create.format(disease_name=disease_name, table_data_str=table_data_str),
+        variables.caseanalysis_check.format(disease_name=disease_name),
+        variables.caseanalysis_words,
         "Cases Analysis",
         disease_name
         )

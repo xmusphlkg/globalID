@@ -30,7 +30,8 @@ alert_content = "The text in report is generated automatically by generative AI.
 # page words limit
 introduction_words = 100
 highlights_words = 110
-analysis_words = 230
+caseanalysis_words = 230
+deathanalysis_words = 230
 
 # analysis date range
 analysis_years = 10

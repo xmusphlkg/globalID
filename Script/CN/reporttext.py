@@ -63,14 +63,14 @@ def openai_single(model_create, model_check,
                   content_create, content_check,
                   content_words,
                   section, disease,
-                  token = 500, max_retries=20, delay=1):
+                  token = 2000, max_retries=20, delay=1):
     """
     Generate box content for single disease.
 
     - model_create: The name of the model to use for the completion.
     - model_check: The name of the model to use for the check.
-    - user_content: The content provided by the user for the completion.
-    - check_content: The content provided by the user for the check.
+    - content_create: The content provided by the user for the completion.
+    - content_check: The content provided by the user for the check.
     - section: The section of the report.
     - disease: The disease of the report.
     - token: The maximum number of tokens to generate.
@@ -196,7 +196,7 @@ def openai_key(model_create, model_check, content_create, content_check, token =
             return content_raw
         else:
             attempt += 1
-            logging.info(f"Retrying ({attempt}/{max_retries})...")
+            logging.warning(f"Retrying ({attempt}/{max_retries})...")
             logging.info(f"box_check: {box_check}")
             logging.info(f"box_content: {content_raw}")
     logging.error("Key: Maximum retries reached. Failed to create response.")
@@ -235,7 +235,7 @@ def openai_image(model_create, user_content, default, max_retries=20, delay=1):
                 logging.error("An error occurred and cannot get response error information.")
             attempt += 1
             time.sleep(delay)
-            logging.info(f"Retrying ({attempt}/{max_retries})...")
+            logging.warning(f"Retrying ({attempt}/{max_retries})...")
 
     logging.error("Maximum retries reached. Failed to fetch response. Using unsplash random image instead.")
     return default
@@ -370,7 +370,7 @@ def fetch_openai(model, client, messages, info = "", token = 500, max_retries=20
             else:
                 attempt += 1
                 time.sleep(delay)
-            logging.info(f"Retrying ({attempt}/{max_retries})...")
+            logging.warning(f"Retrying ({attempt}/{max_retries})...")
     logging.error(f"{info}: Maximum retries reached. Failed to fetch response.")
     return None
 

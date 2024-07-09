@@ -4,9 +4,57 @@
   {{- partial "head.html" . -}}
     <body>
         {{- partial "header.html" . -}}
-      <div id="content" class="index-container">
-          <iframe width="100%" height= "100%"
-          src= "https://kanggle.shinyapps.io/auto-tsmodel/"></iframe>
-      </div>
+        <div id="map" class="map" tabindex="0"></div>
+        <div class="legend" id="legend">
+            <ul></ul>
+        </div>
+        <script language="javascript"
+            src="https://webapi.amap.com/maps?v=2.0&key=6f0e9a9c2ae675d128fec377fed66cc9&plugin=AMap.Scale,AMap.ToolBar"></script>
+        <script type="text/javascript"
+            src="./js/support_map.js"></script>
+        <script type="text/javascript">
+            var label = ['Supported', 'Scheduled'];
+            var color = ['#41ae76', '#ccece6'];
+            var dis = new AMap.DistrictLayer.World({
+                zIndex: 10,
+                styles: {
+                    'stroke-width': 0.8,
+                    'fill': function (d) {
+                        var country = data.find(c => {
+                            return c.name == d.SOC;
+                        });
+                        if (!country) {
+                            return '#fff';
+                        }
+                        value = country.var;
+                        if (value == label[0]) {
+                            return color[0];
+                        } else {
+                            return color[1];
+                        }
+                    },
+                    'coastline-stroke': 'rgba(0,0,0,0)'
+                }
+            });
+    
+            var map = new AMap.Map('map', {
+                layers: [
+                    dis,
+                ],
+                center: [140, 30],
+                zoom: 3,
+                zooms: [2, 20],
+                viewMode: '3D',
+                showLabel: false,
+            });
+            var ul = document.querySelector('.legend ul');
+            ul.innerHTML = '';
+            color.forEach((c, i) => {
+                ul.innerHTML +=
+                    '<li><span style="background: ' + c + ';"></span><a>' + label[i] + '</a></li>';
+            });
+            map.addControl(new AMap.Scale());
+            map.addControl(new AMap.ToolBar());
+        </script>
     </body>
 </html>

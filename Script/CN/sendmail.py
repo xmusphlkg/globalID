@@ -54,7 +54,7 @@ def get_subscriber_list(url:str, file_name = "subscriber.xlsx"):
         os.remove(file_name)
         return df
 
-def send_email_to_subscriber(test_info):
+def send_email_to_subscriber(test_info, folder_path_mail):
     
     sender_email = os.environ['smtp_sender']
     url = os.environ['smtp_server_url']
@@ -66,9 +66,15 @@ def send_email_to_subscriber(test_info):
     recipient_email = df['email_address']
     subject = "Global Infectious Diseases Report - Automated Update"
 
-    body_main = open("../Report/mail/latest.md", "r").read()
-    body_table = open("../Report/table/latest.md", "r").read()
-    body_table = markdown.markdown(body_table, extensions=['markdown.extensions.tables'])
+    # read the email content
+    with open(os.path.join(folder_path_mail, 'latest_main.md'), 'r') as file:
+        body_main = file.read()
+    
+    # read the table content
+    with open(os.path.join(folder_path_mail, 'latest_table.md'), 'r') as file:
+        body_table = file.read()
+        body_table = markdown.markdown(body_table, extensions=['markdown.extensions.tables'])
+    
     email_info = re.sub(r'(https?://\S+)', r'<a href="\1">\1</a>', variables.email_info)
 
     # send email to all subscribers

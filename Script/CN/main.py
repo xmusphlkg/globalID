@@ -86,7 +86,7 @@ if new_dates:
         logging.info(f"Start processing {YearMonth} data...")
         generate_reports(YearMonth, folder_path_get, folder_path_save, folder_path_mail, folder_path_web)
     if send_mail == 'True':
-        send_email_to_subscriber(test_mail)
+        send_email_to_subscriber(test_mail, folder_path_mail)
 
     # print success message
     logging.info(f"Data processing completed for {new_dates}.")

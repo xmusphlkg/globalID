@@ -1,26 +1,23 @@
 ## Introduction
 
 ## Overview
+In the specified period of May 2024, numerous infectious diseases have been reported in mainland China with considerable prevalence and impact. Among them, Hand Foot and Mouth Disease (HFMD) had the highest incidence with 193230 cases followed by other common diseases such as Hepatitis, Infectious Diarrhea, Syphilis, and Tuberculosis. The reported incidences of these diseases were 135827, 127630, 84304, and 54217 cases respectively. However, the mortality rate is meager in these diseases with just two deaths in HFMD, three in Infectious Diarrhea, 179 in Syphilis and three in Tuberculosis.
 
-In May 2024, the infectious disease landscape in Mainland China exhibited significant variations in disease prevalence, distribution, and associated mortality. The highest total number of cases were reported for Hand, Foot, and Mouth Disease (HFMD) with 193,230 cases but low associated mortality (2 deaths). This was followed by Hepatitis with 135,827 cases and a higher mortality rate of 53 deaths. Infectious diarrhea cases were also high at 127,630, with 3 deaths reported. Other considerable disease burdens were seen with Tuberculosis (84304 cases with 179 deaths) and Syphilis (54217 cases with 3 deaths). 
+In terms of mortality, Hepatitis showed the maximum number of deaths among all reported diseases in the same period. It has 53 deaths followed by Hepatitis B and Hepatitis C having 40 and 13 deaths respectively. The overall high mortality rate was also seen in Rabies with 37 reported deaths out of 42 reported cases, reflecting a high death-to-case ratio. Another disease of concern is Acquired Immune Deficiency Syndrome (AIDS) with 1726 deaths despite a relatively low incidence. It is important to note that for AIDS the number of deaths represents all-cause mortality reported in the month by cumulative reported AIDS patients.
 
-On the other hand, lower incidence diseases but notable in terms of mortality included Rabies, with 42 cases leading to a sizable 37 deaths, reflecting a high case-fatality rate. Other diseases such as Japanese Encephalitis and Neonatal Tetanus exhibited low case numbers but high morbidity, with 173 and 5 cases, respectively, and a mortality rate of three each.
+## Concerns 
+High incidence diseases such as HFMD, Hepatitis, Infectious Diarrhea, Syphilis and Tuberculosis demand significant attention due to their widespread prevalence. These diseases not only strain the healthcare system due to their high frequency, but they also have the potential to create public panic during outbreaks, consequently impacting social and economic aspects of the society. HFMD particularly stands out due to its remarkably high occurrence.
 
-## Concerns
+Furthermore, although the public concern generally revolves around high incidence diseases, diseases with notably high mortality rates should not be overlooked. While AIDS, Hepatitis and Rabies have comparatively lower frequency, the risk they carry in terms of mortality is significant. This is especially true for Rabies and AIDS, where the high number of recorded deaths in contrast to the lower number of reported cases presents a serious public health concern.
 
-Among diseases with high incidence, Hepatitis warrants particular attention. It constitutes a vast disease burden, with Hepatitis B (106985 cases, 40 deaths) and C (23334 cases, 13 deaths) being the most prevalent. Owing to its chronic nature and potential for severe liver disease, it poses a long-term public health challenge.
+## Recommendations 
+For high incidence diseases like HFMD and Hepatitis, it is recommended that the public adhere to strict hygiene practices. Regular hand washing, avoiding close contact with sick individuals, and maintaining clean environments can significantly prevent the spread of such diseases. Health authorities should make continued efforts to educate the public about these preventative measures and ensure vaccination policies are followed strictly, especially for Hepatitis. 
 
-Public concern may not always align with epidemiological data. Diseases with high case-fatality rates, although relatively rare, often generate substantial apprehension. For instance, Rabies might not be a significant contributor to overall disease burden, but its high case-fatality rate can invoke disproportionate fear. Similarly, HFMD, despite its high incidence, does not lead to significant mortality, but it could cause considerable public concern given its potential to affect children significantly.
+It is also important to encourage regular medical check-ups and prompt treatment seeking behavior among the public to manage these diseases effectively. Intervention programs that facilitate easy access to healthcare services can greatly contribute to this.
 
-## Recommendations
+For high mortality diseases like AIDS and Rabies, efforts should be focused on early detection and timely treatment. Safe sex education and promoting the usage of condoms can help prevent the transmission of AIDS. For Rabies, public awareness about immediate treatment post-exposure and the significance of pet vaccination can aid in reducing the risk and mortality. 
 
-Public health interventions should prioritize diseases with both high incidence and significant associated mortality. Efforts should be directed towards Hepatitis prevention, via enhanced vaccination programs, improving hygiene and sanitation, and providing safer blood and injection services. Addressing the disease burden posed by the high incidence of HFMD, Tuberculosis and Syphilis is critical. Public health campaigns focusing on hygiene for HFMD, early detection for Tuberculosis, and safe sexual practices for Syphilis could be beneficial. 
-
-Nevertheless, not all strategies should be purely incidence-based. High case-fatality diseases like Rabies mustn't be overlooked. Community awareness initiatives about the importance of immediate medical care following suspected exposure, together with improved access to post-exposure prophylaxis, are essential. 
-
-Lastly, effective public health communication is crucial. Facts must be transparent and easily understood, to dispel unnecessary fears and misconceptions. Diseases like HFMD, despite their high incidence, have low case-fatality rates and hence require balanced messaging to prevent undue panic. Conversely, low-incidence but high-case fatality diseases like Rabies, require urgent actions like seeking immediate medical care if exposed. 
-
-In conclusion, a multi-pronged strategy, encompassing prevention, early detection and treatment, as well as effective health communication, is essential in controlling the varying disease burdens across Mainland China.
+In general, health authorities should prioritize strengthening disease surveillance systems and conduct regular epidemiological investigations to identify hotspots and evaluate the effectiveness of interventions. Public health policies should continue to adapt based on the changing dynamics of disease prevalence and public health concerns.
 
 
 ## Latest Update

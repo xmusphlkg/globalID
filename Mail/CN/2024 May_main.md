@@ -2,33 +2,36 @@ Dear [Recipient],
 
 I hope this email finds you well. China CDC has published the new data on the cases and deaths of notifiable infectious diseases in Chinese mainland in 2024 May.
 
-**1. Acquired immune deficiency syndrome:** In May 2024, mainland China has reported 6404 new cases and 1726 deaths due to AIDS. The disease has maintained an extremely high mortality rate with approximately 27% of those confirmed with the virus in May succumbing.
+In the analysis of monthly cases and deaths related to various diseases in Chinese mainland for the month of 2024 May, here are some key points:
 
-**2. Acute hemorrhagic conjunctivitis:** We've seen a significant number of new cases - 4208 in total. However, only one death was attributed to this disease indicating a low fatality rate.
+**1. Acquired Immune Deficiency Syndrome:** There were 6404 cases and 1726 deaths reported. It's noticeable that the number of deaths is a significant proportion of the total number of cases, indicating the seriousness of this disease.
 
-**3. Anthrax:** There have been 66 reported cases of Anthrax in May with one resultant death. Introduction and execution of effective treatment plans could be the reason for low fatality.
+**2. Acute Hemorrhagic Conjunctivitis:** A total of 4208 cases were reported, with only 1 death. This indicates a high prevalence but low mortality rate for this disease.
 
-**4. Brucellosis:** With no deaths and 4755 new cases, managing the spread of brucellosis appears to be effective in terms of preventing fatalities but less so in terms of controlling its spread.
+**3. Anthrax:** There were 66 cases and 1 death. The numbers are relatively lower compared to other diseases, symbolising a lower incidence and death rate for this month.
 
-**5. Cholera:**  Only 12 cases have been reported in May and no deaths were reported.
+**4. Brucellosis:** A high number of cases at 4755 were reported, but with no related deaths. This can be interpreted as a high infection rate but with effective treatment methods.
 
-**6. Dengue:** Dengue infection is quite common with 3311 new cases, however, no fatalities were reported.
+**5. Dengue:** Significant 3311 cases but no related deaths were reported. This shows a controlled mortality rate despite the high number of cases.
 
-**7. Diphtheria:** No case has been reported in the mainland in May 2024.
+**6. Tuberculosis:** This infectious disease has a high caseload of 84304, with 179 deaths. The disease continues to be a significant health challenge.
 
-**8. Dysentery:** Even though the number of new cases was high (10871), no deaths were reported.
+**7. Hepatitis:** Hepatitis in general has a large number of reported cases (135827), with hepatitis B (106985 cases) being the most common type. The diseases caused 53 deaths.
 
-**9. Echinococcosis:** There were 436 new cases emerged and no fatalities reported.
+**8. Hand Foot and Mouth Disease:** This disease had a very high incidence with 193230 cases reported, but very low mortality with only 2 deaths.
 
-**10.Hand foot and mouth disease:** This prevalent disease marked a remarkable escalation with 193230 new cases in May, causing two fatalities. 
+**9. Influenza:** With only 51676 cases and no deaths, the circumstances are better controlled compared to other diseases.
 
-Further details for remaining diseases can be extracted in the same manner. Please note that the "NAN" and "0" values indicate that this specific data was either not available or not reported.
+**10. Japanese Encephalitis:** With 173 cases and 3 deaths, this disease has relatively low occurrence but a noticeable death rate in its cases series.
 
+- Due to ongoing verifications and updates, the 12 months' data cannot be added together to get the cumulative data for the year.
+- Currently, Monkey pox data is not included in the 31 provinces level of disease management.
+- Infectious diarrhoea excludes some other specific fevers and diseases.
 
 The notion generated automatically, and assistant by AI. Please check the data and description carefully.
 
 Best regards,
-CNIDS
+NIDS
 
 2024-07-09
 

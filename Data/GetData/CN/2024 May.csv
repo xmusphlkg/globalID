@@ -1,0 +1,48 @@
+﻿Date,YearMonthDay,YearMonth,Diseases,DiseasesCN,Cases,Deaths,Incidence,Mortality,ProvinceCN,Province,ADCode,DOI,URL,Source
+2024-05-01,2024/05/01,2024 May,Total,合计,1227286,2084,-10,-10,全国,China,100000,missing,https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1806581689096187904.html,GOV Data
+2024-05-01,2024/05/01,2024 May,Plague,鼠疫,0,0,-10,-10,全国,China,100000,missing,https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1806581689096187904.html,GOV Data
+2024-05-01,2024/05/01,2024 May,Cholera,霍乱,0,0,-10,-10,全国,China,100000,missing,https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1806581689096187904.html,GOV Data
+2024-05-01,2024/05/01,2024 May,SARS-CoV,传染性非典型肺炎,0,0,-10,-10,全国,China,100000,missing,https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1806581689096187904.html,GOV Data
+2024-05-01,2024/05/01,2024 May,Acquired immune deficiency syndrome,艾滋病,4987,1611,-10,-10,全国,China,100000,missing,https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1806581689096187904.html,GOV Data
+2024-05-01,2024/05/01,2024 May,Hepatitis,病毒性肝炎,165333,195,-10,-10,全国,China,100000,missing,https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1806581689096187904.html,GOV Data
+2024-05-01,2024/05/01,2024 May,Hepatitis A,甲型肝炎,1419,0,-10,-10,全国,China,100000,missing,https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1806581689096187904.html,GOV Data
+2024-05-01,2024/05/01,2024 May,Hepatitis B,乙型肝炎,139523,20,-10,-10,全国,China,100000,missing,https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1806581689096187904.html,GOV Data
+2024-05-01,2024/05/01,2024 May,Hepatitis C,丙型肝炎,20462,174,-10,-10,全国,China,100000,missing,https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1806581689096187904.html,GOV Data
+2024-05-01,2024/05/01,2024 May,Hepatitis D,丁型肝炎,15,0,-10,-10,全国,China,100000,missing,https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1806581689096187904.html,GOV Data
+2024-05-01,2024/05/01,2024 May,Hepatitis E,戊型肝炎,3310,1,-10,-10,全国,China,100000,missing,https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1806581689096187904.html,GOV Data
+2024-05-01,2024/05/01,2024 May,Other hepatitis,未分型肝炎,604,0,-10,-10,全国,China,100000,missing,https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1806581689096187904.html,GOV Data
+2024-05-01,2024/05/01,2024 May,Poliomyelitis,脊髓灰质炎,0,0,-10,-10,全国,China,100000,missing,https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1806581689096187904.html,GOV Data
+2024-05-01,2024/05/01,2024 May,Human infection with H5N1 virus,人感染高致病性禽流感,0,0,-10,-10,全国,China,100000,missing,https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1806581689096187904.html,GOV Data
+2024-05-01,2024/05/01,2024 May,Measles,麻疹,162,0,-10,-10,全国,China,100000,missing,https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1806581689096187904.html,GOV Data
+2024-05-01,2024/05/01,2024 May,Epidemic hemorrhagic fever,流行性出血热,359,2,-10,-10,全国,China,100000,missing,https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1806581689096187904.html,GOV Data
+2024-05-01,2024/05/01,2024 May,Rabies,狂犬病,13,10,-10,-10,全国,China,100000,missing,https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1806581689096187904.html,GOV Data
+2024-05-01,2024/05/01,2024 May,Japanese encephalitis,流行性乙型脑炎,3,0,-10,-10,全国,China,100000,missing,https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1806581689096187904.html,GOV Data
+2024-05-01,2024/05/01,2024 May,Dengue,登革热,109,0,-10,-10,全国,China,100000,missing,https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1806581689096187904.html,GOV Data
+2024-05-01,2024/05/01,2024 May,Anthrax,炭疽,21,1,-10,-10,全国,China,100000,missing,https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1806581689096187904.html,GOV Data
+2024-05-01,2024/05/01,2024 May,Dysentery,细菌性和阿米巴性痢疾,3408,0,-10,-10,全国,China,100000,missing,https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1806581689096187904.html,GOV Data
+2024-05-01,2024/05/01,2024 May,Tuberculosis,肺结核,63595,251,-10,-10,全国,China,100000,missing,https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1806581689096187904.html,GOV Data
+2024-05-01,2024/05/01,2024 May,Typhoid fever and paratyphoid fever,伤寒和副伤寒,418,0,-10,-10,全国,China,100000,missing,https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1806581689096187904.html,GOV Data
+2024-05-01,2024/05/01,2024 May,Meningococcal meningitis,流行性脑脊髓膜炎,12,0,-10,-10,全国,China,100000,missing,https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1806581689096187904.html,GOV Data
+2024-05-01,2024/05/01,2024 May,Pertussis,百日咳,97669,2,-10,-10,全国,China,100000,missing,https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1806581689096187904.html,GOV Data
+2024-05-01,2024/05/01,2024 May,Diphtheria,白喉,0,0,-10,-10,全国,China,100000,missing,https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1806581689096187904.html,GOV Data
+2024-05-01,2024/05/01,2024 May,Neonatal tetanus,新生儿破伤风,2,0,-10,-10,全国,China,100000,missing,https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1806581689096187904.html,GOV Data
+2024-05-01,2024/05/01,2024 May,Scarlet fever,猩红热,10271,0,-10,-10,全国,China,100000,missing,https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1806581689096187904.html,GOV Data
+2024-05-01,2024/05/01,2024 May,Brucellosis,布鲁氏菌病,8007,1,-10,-10,全国,China,100000,missing,https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1806581689096187904.html,GOV Data
+2024-05-01,2024/05/01,2024 May,Gonorrhea,淋病,8611,0,-10,-10,全国,China,100000,missing,https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1806581689096187904.html,GOV Data
+2024-05-01,2024/05/01,2024 May,Syphilis,梅毒,60962,7,-10,-10,全国,China,100000,missing,https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1806581689096187904.html,GOV Data
+2024-05-01,2024/05/01,2024 May,Leptospirosis,钩端螺旋体病,22,0,-10,-10,全国,China,100000,missing,https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1806581689096187904.html,GOV Data
+2024-05-01,2024/05/01,2024 May,Schistosomiasis,血吸虫病,3,0,-10,-10,全国,China,100000,missing,https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1806581689096187904.html,GOV Data
+2024-05-01,2024/05/01,2024 May,Malaria,疟疾,236,0,-10,-10,全国,China,100000,missing,https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1806581689096187904.html,GOV Data
+2024-05-01,2024/05/01,2024 May,Human infection with H7N9 virus,人感染H7N9禽流感,0,0,-10,-10,全国,China,100000,missing,https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1806581689096187904.html,GOV Data
+2024-05-01,2024/05/01,2024 May,Monkey pox,猴痘,49,0,-10,-10,全国,China,100000,missing,https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1806581689096187904.html,GOV Data
+2024-05-01,2024/05/01,2024 May,Influenza,流行性感冒,440431,4,-10,-10,全国,China,100000,missing,https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1806581689096187904.html,GOV Data
+2024-05-01,2024/05/01,2024 May,Mumps,流行性腮腺炎,10197,0,-10,-10,全国,China,100000,missing,https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1806581689096187904.html,GOV Data
+2024-05-01,2024/05/01,2024 May,Rubella,风疹,82,0,-10,-10,全国,China,100000,missing,https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1806581689096187904.html,GOV Data
+2024-05-01,2024/05/01,2024 May,Acute hemorrhagic conjunctivitis,急性出血性结膜炎,2920,0,-10,-10,全国,China,100000,missing,https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1806581689096187904.html,GOV Data
+2024-05-01,2024/05/01,2024 May,Leprosy,麻风病,31,0,-10,-10,全国,China,100000,missing,https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1806581689096187904.html,GOV Data
+2024-05-01,2024/05/01,2024 May,Typhus,流行性和地方性斑疹伤寒,190,0,-10,-10,全国,China,100000,missing,https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1806581689096187904.html,GOV Data
+2024-05-01,2024/05/01,2024 May,Kala azar,黑热病,27,0,-10,-10,全国,China,100000,missing,https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1806581689096187904.html,GOV Data
+2024-05-01,2024/05/01,2024 May,Echinococcosis,包虫病,380,0,-10,-10,全国,China,100000,missing,https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1806581689096187904.html,GOV Data
+2024-05-01,2024/05/01,2024 May,Filariasis,丝虫病,0,0,-10,-10,全国,China,100000,missing,https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1806581689096187904.html,GOV Data
+2024-05-01,2024/05/01,2024 May,Infectious diarrhea,其他感染性腹泻病,122593,0,-10,-10,全国,China,100000,missing,https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1806581689096187904.html,GOV Data
+2024-05-01,2024/05/01,2024 May,Hand foot and mouth disease,手足口病,226183,0,-10,-10,全国,China,100000,missing,https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1806581689096187904.html,GOV Data

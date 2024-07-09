@@ -6,6 +6,9 @@ on:
     # IMPORTANT: Set cron job in UTC timezone
     - cron: '0 6 * * *'
 
+permissions:
+  contents: write
+  
 jobs:
   run-python-script:
     runs-on: ubuntu-22.04

@@ -1,24 +1,24 @@
 # email information
-email_info = "\n\n\n\nFurther support: lkg1116@outlook.com" + "\n\nFull Report Link: https://github.com/xmusphlkg/CNIDS/blob/master/Report/report%20latest.pdf" + "\n\nDashboard Link: https://lkg1116.shinyapps.io/CNIDS/" + "\n\nData Source: https://github.com/xmusphlkg/CNIDS/tree/master/Data" + "\n\nUnsubscribe: https://forms.office.com/r/V6vH7rRfeq"
+email_info = "\n\n\n\nFurther support: lkg1116@outlook.com" + "\n\nDashboard Link: https://globalinfectiousdisease.com/" + "\n\nData Source: https://github.com/xmusphlkg/globalID/tree/main/Data" + "\n\nUnsubscribe: https://forms.office.com/r/V6vH7rRfeq"
 email_head = "I hope this email finds you well. China CDC has published the new data on the cases and deaths of notifiable infectious diseases in Chinese mainland in {analysis_YearMonth}."
 email_end = "The notion generated automatically, and assistant by AI. Please check the data and description carefully."
-email_sign = "Best regards,\nCNIDS"
+email_sign = "Best regards,\nNIDS"
 
 # links to application
-links_app = "https://lkg1116.shinyapps.io/CNIDS/"
+links_app = "https://globalinfectiousdisease.com/"
 
 # links to website
-links_web = "https://github.com/xmusphlkg/CNIDS"
+links_web = "https://globalinfectiousdisease.com/"
 
 # project description
-cover_project = "CNIDS: Chinese Notifiable Infectious Diseases Surveillance Project"
-cover_title_1 = "Chinese Notifiable Infectious Diseases"
+cover_project = "NIDS: Notifiable Infectious Diseases Surveillance Project"
+cover_title_1 = "Notifiable Infectious Diseases"
 cover_title_2 = "Surveillance Report"
 cover_info_1 = "Automatically Generate by Python and generative AI"
 cover_info_2 = "Power by: Github Action"
 cover_info_3 = "Design by: Kangguo Li"
 cover_info_4 = "Generated Date: {date_now}"
-cover_info_5 = "Cite Us: CNIDs: Chinese Notifiable Infectious Diseases Surveillance Project. <u><a href='https://github.com/xmusphlkg/CNIDS'>Github</a></u>"
+cover_info_5 = "Cite Us: NIDs: Notifiable Infectious Diseases Surveillance Project. <u><a href='https://globalinfectiousdisease.com/'>Github</a></u>"
 
 # default cover
 cover_image = "https://source.unsplash.com/collection/94734566/1024x1792"
@@ -39,7 +39,7 @@ analysis_years = 10
 # Prompt
 ## abstract
 abstract_create = """Craft an epidemiological report analyzing the prevalence and impact of various diseases in Chinese mainland for the specified month and year, {analysis_MonthYear}.
-The report should not only focus on diseases with a high incidence but also those that are of public concern. 
+The report should not only focus on diseases with a high incidence but also those that are of public concern, siginificant increase in cases or deaths, or have a high mortality rate.
 The report should be between 1000 and 1200 words, structured as follows:
 ## Overview
 2 paragraphs to analysis cases and deaths, respectively.

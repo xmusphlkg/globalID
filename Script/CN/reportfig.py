@@ -87,14 +87,17 @@ def plot_disease_data(disease_data, disease):
             dtick=dtick,
             range=[0, range]
         ),
-        template='ggplot2'
+        template='ggplot2',
+        margin=dict(l=0, r=50, t=0, b=100),
+        autosize=True
     ))
     fig.add_trace(go.Scatter(
         x=disease_data['Date'],
         y=disease_data['Cases'],
         mode='lines',
         name=disease,
-        hovertemplate='Date: %{x}<br>Cases: %{y:,}'
+        hovertemplate='Date: %{x}<br>Cases: %{y:,}',
+        line=dict(color='rgb(23,40,105)')
     ))
     plot_html_1 = fig.to_html(full_html=False, include_plotlyjs=False)
 
@@ -112,14 +115,17 @@ def plot_disease_data(disease_data, disease):
             dtick=dtick,
             range=[0, range]
         ),
-        template='ggplot2'
+        template='ggplot2',
+        margin=dict(l=0, r=50, t=0, b=100),
+        autosize=True
     ))
     fig.add_trace(go.Scatter(
         x=disease_data['Date'],
         y=disease_data['Deaths'],
         mode='lines',
         name=disease,
-        hovertemplate='Date: %{x}<br>Deaths: %{y:,}'
+        hovertemplate='Date: %{x}<br>Deaths: %{y:,}',
+        line=dict(color='rgb(98,129,11)')
     ))
     plot_html_2 = fig.to_html(full_html=False, include_plotlyjs=False)
 
@@ -141,16 +147,17 @@ def plot_disease_heatmap(disease_data, disease):
     # Cases over time
     data = disease_data.copy()
     data = data[['Year', 'Month', 'Cases']]
-    data = data.pivot(index='Month', columns='Year', values='Cases')
+    data = data.pivot(index='Year', columns='Month', values='Cases')
 
     fig = go.Figure(layout=go.Layout(
         xaxis=go.layout.XAxis(title=go.layout.xaxis.Title(text='Month'), tickmode='linear'),
         yaxis=go.layout.YAxis(title=go.layout.yaxis.Title(text='Year'), tickmode='linear'),
-        template='ggplot2'
+        template='ggplot2',
+        margin=dict(l=0, r=50, t=0, b=100)
     ))
     fig.add_trace(go.Heatmap(z=data.values,
-                             x=data.index,
-                             y=data.columns,
+                             y=data.index,
+                             x=data.columns,
                              name=disease,
                              colorscale=[[0, 'rgb(175,223,239)'], [1, 'rgb(23,40,105)']],
                              hovertemplate='Month: %{x}<br>Year: %{y}<br>Cases: %{z:,}'))
@@ -159,16 +166,17 @@ def plot_disease_heatmap(disease_data, disease):
     # Deaths over time
     data = disease_data.copy()
     data = data[['Year', 'Month', 'Deaths']]
-    data = data.pivot(index='Month', columns='Year', values='Deaths')
+    data = data.pivot(index='Year', columns='Month', values='Deaths')
 
     fig = go.Figure(layout=go.Layout(
         xaxis=go.layout.XAxis(title=go.layout.xaxis.Title(text='Month'), tickmode='linear'),
         yaxis=go.layout.YAxis(title=go.layout.yaxis.Title(text='Year'), tickmode='linear'),
-        template='ggplot2'
+        template='ggplot2',
+        margin=dict(l=0, r=50, t=0, b=100)
     ))
     fig.add_trace(go.Heatmap(z=data.values,
-                             x=data.index,
-                             y=data.columns,
+                             y=data.index,
+                             x=data.columns,
                              name=disease,
                              colorscale=[[0, 'rgb(236,234,8)'], [1, 'rgb(98,129,11)']],
                              hovertemplate='Month: %{x}<br>Year: %{y}<br>Deaths: %{z:,}'))

@@ -4,7 +4,7 @@ Version: {{analysis_YearMonth}}
 
 ## Introduction
 
-{{intriduction}}
+{{introduction}}
 
 ## Highlights
 

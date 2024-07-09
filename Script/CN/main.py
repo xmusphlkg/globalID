@@ -10,7 +10,7 @@ import logging
 from system import get_sources
 from dataget import fetch_data, process_table_data
 from report import generate_reports
-# from sendmail import send_email_to_subscriber
+from sendmail import send_email_to_subscriber
 
 # set up folder paths
 folder_path_get = "../../Data/GetData/CN/"
@@ -85,10 +85,10 @@ if new_dates:
                             filemode='w')
         logging.info(f"Start processing {YearMonth} data...")
         generate_reports(YearMonth, folder_path_get, folder_path_save, folder_path_mail, folder_path_web)
-    # if send_mail == 'True':
-    #     send_email_to_subscriber(test_mail)
+    if send_mail == 'True':
+        send_email_to_subscriber(test_mail)
 
     # print success message
-    print("Data updated successfully!")
+    logging.info(f"Data processing completed for {new_dates}.")
 else:
     print("No new data, stop.")

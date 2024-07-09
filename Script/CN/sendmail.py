@@ -64,7 +64,7 @@ def send_email_to_subscriber(test_info):
 
     df = get_subscriber_list(fileurl)
     recipient_email = df['email_address']
-    subject = "CNIDS Automatic Report Update!"
+    subject = "Global Infectious Diseases Report - Automated Update"
 
     body_main = open("../Report/mail/latest.md", "r").read()
     body_table = open("../Report/table/latest.md", "r").read()

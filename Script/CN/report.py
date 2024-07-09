@@ -158,4 +158,4 @@ def generate_reports(analysis_YearMonth, folder_path_get, folder_path_save, fold
         # wait for all pages
         for future in as_completed(futures):
             page_result = future.result()
-            logging.info(f"Processed report page {futures.index(future)} with result:", page_result)
+            logging.info(f"Processed {page_result}")

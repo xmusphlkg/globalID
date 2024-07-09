@@ -76,7 +76,6 @@ def plot_disease_data(disease_data, disease):
 
     # Deaths over time
     fig = go.Figure(layout=go.Layout(
-        title=go.layout.Title(text=f'{disease} Deaths Over Time'),
         xaxis=go.layout.XAxis(
             title=go.layout.xaxis.Title(text='Date')
         ),
@@ -111,21 +110,27 @@ def plot_disease_heatmap(disease_data, disease):
         str: the plotly figure in html format
     """
 
+    # color scale
+    color_scale = [
+        [0, '#AFDFEFFF'],
+        [1, '#172869FF']
+    ]
+
     # Cases over time
     data = disease_data.copy()
     data = data[['Year', 'Month', 'Cases']]
     data = data.pivot(index='Month', columns='Year', values='Cases')
 
     fig = go.Figure(layout=go.Layout(
-        title=go.layout.Title(text=f'{disease}'),
-        xaxis=go.layout.XAxis(title=go.layout.xaxis.Title(text='Year')),
-        yaxis=go.layout.YAxis(title=go.layout.yaxis.Title(text='Month')),
-        template='plotly_white'
+        xaxis=go.layout.XAxis(title=go.layout.xaxis.Title(text='Month'), tickmode='linear'),
+        yaxis=go.layout.YAxis(title=go.layout.yaxis.Title(text='Year'), tickmode='linear'),
+        template='ggplot2'
     ))
     fig.add_trace(go.Heatmap(z=data.values,
                              x=data.columns,
                              y=data.index,
-                             colorscale='Viridis'))
+                             colorscale=color_scale,
+                             hovertemplate='Month: %{x}<br>Year: %{y}<br>Cases: %{z:,}'))
     plot_html_3 = fig.to_html(full_html=False, include_plotlyjs=False)
 
     # Deaths over time
@@ -134,15 +139,15 @@ def plot_disease_heatmap(disease_data, disease):
     data = data.pivot(index='Month', columns='Year', values='Deaths')
 
     fig = go.Figure(layout=go.Layout(
-        title=go.layout.Title(text=f'{disease}'),
-        xaxis=go.layout.XAxis(title=go.layout.xaxis.Title(text='Year')),
-        yaxis=go.layout.YAxis(title=go.layout.yaxis.Title(text='Month')),
-        template='plotly_white'
+        xaxis=go.layout.XAxis(title=go.layout.xaxis.Title(text='Month'), tickmode='linear'),
+        yaxis=go.layout.YAxis(title=go.layout.yaxis.Title(text='Year'), tickmode='linear'),
+        template='ggplot2'
     ))
     fig.add_trace(go.Heatmap(z=data.values,
                              x=data.columns,
                              y=data.index,
-                             colorscale='Viridis'))
+                             colorscale=color_scale,
+                             hovertemplate='Month: %{x}<br>Year: %{y}<br>Deaths: %{z:,}'))
     plot_html_4 = fig.to_html(full_html=False, include_plotlyjs=False)
 
     return plot_html_3, plot_html_4

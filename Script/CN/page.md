@@ -15,10 +15,10 @@ Version: {{analysis_YearMonth}}
 ### Cases Analysis
 
 <div style="display: flex; width: 100%;">
-<div style="width: 75%;">
+<div style="width: 75%;" class="figure">
 {{caseline}}
 </div>
-<div style="width: 25%;">
+<div style="width: 25%;" class="figure">
 {{caseheatmap}}
 </div>
 </div>
@@ -27,16 +27,17 @@ Version: {{analysis_YearMonth}}
 
 ### Deaths Analysis
 
-{{deathanalysis}}
-
 <div style="display: flex; width: 100%;">
-<div style="width: 75%;">
+<div style="width: 75%;" class="figure">
 {{deathline}}
 </div>
-<div style="width: 25%;">
+<div style="width: 25%;" class="figure">
 {{deathheatmap}}
 </div>
 </div>
+
+
+{{deathanalysis}}
 
 ## Source Data
 

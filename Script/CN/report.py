@@ -2,7 +2,7 @@ import pandas as pd
 import os
 import shutil
 import datetime
-import re
+import logging
 from jinja2 import Template
 from pathlib import Path
 
@@ -11,7 +11,6 @@ from mail import create_mail_table, generate_mail
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from reportpage import create_report_page, create_report_summary
 from reportfig import prepare_disease_data, plot_disease_data, plot_disease_heatmap
-from website import update_pages
 import variables
 
 def process_plot(diseases_order, df):
@@ -33,8 +32,12 @@ def process_plot(diseases_order, df):
         output.append((disease_name, plot_html_1, plot_html_2, plot_html_3, plot_html_4))
     return output
 
-def process_index(analysis_content, analysis_YearMonth, table_md, folder_path_web):
+def process_index(analysis_content, analysis_YearMonth, table_data, folder_path_web):
+    
     datalink = os.environ["LINK_MAIN_SOURCE"]
+
+    table_data['Diseases'] = table_data['Diseases'].apply(lambda x: f"[{x}](./{x.replace(' ', '-')})")
+    table_of_content = table_data.to_markdown(index=False)
 
     with open(Path(__file__).parent / 'index.md', "r") as file:
         template = Template(file.read())
@@ -42,11 +45,11 @@ def process_index(analysis_content, analysis_YearMonth, table_md, folder_path_we
     filled_page = template.render(
         introduction=analysis_content,
         analysis_YearMonth=analysis_YearMonth,
-        table=table_md,
+        table=table_of_content,
         datalink=datalink
     )
 
-    with open(os.path.join(folder_path_web, "-index.md", "w")) as file:
+    with open(os.path.join(folder_path_web, "-index.md"), "w") as file:
         file.write(filled_page)
 
     shutil.copyfile(os.path.join(folder_path_web, '-index.md'), os.path.join(folder_path_web, 'Total.md'))
@@ -106,9 +109,6 @@ def generate_reports(analysis_YearMonth, folder_path_get, folder_path_save, fold
     table_data = table_data.sort_values('Diseases')
     table_data = table_data.reset_index(drop=True)
 
-    # create mail table
-    create_mail_table(table_data, analysis_YearMonth)
-   
     # create summary page
     df_10 = df[df['Date'] >= analysis_date - pd.DateOffset(years=5)]
     df_10 = df_10[['Date', 'YearMonth', 'Diseases', 'Cases', 'Deaths']]
@@ -118,12 +118,12 @@ def generate_reports(analysis_YearMonth, folder_path_get, folder_path_save, fold
     table_data_str = df_10.to_markdown(index=False)
     
     # read legend
-    with open(os.path.join(folder_path_get, 'latest.md'), 'r') as f:
+    with open(os.path.join(folder_path_get, 'latest.txt'), 'r') as f:
         table_legend = f.read()
 
-    # create table    
-    table_data['Diseases'] = table_data['Diseases'].apply(lambda x: f"[{x}](./{x.replace(' ', '-')})")
+    # create table
     table_of_content = table_data.to_markdown(index=False)
+    create_mail_table(table_of_content, analysis_YearMonth, folder_path_mail)
 
     # create report page
     with ThreadPoolExecutor() as executor:
@@ -132,20 +132,21 @@ def generate_reports(analysis_YearMonth, folder_path_get, folder_path_save, fold
         # create cover and mail
         future_cover_mail = executor.submit(generate_mail, table_data_str, table_legend, analysis_YearMonth)
         # create summary
-        future_report_summary = executor.submit(create_report_summary, table_data, table_data_str, analysis_MonthYear, table_legend)
+        future_report_summary = executor.submit(create_report_summary, table_data_str, analysis_MonthYear, table_legend)
 
         future_plot_dict = {disease_name: plots for disease_name, *plots in future_plot.result()}
-        print("Report figures created.")
+        future_plot_dict_length = len(future_plot_dict)
+        logging.info(f"Plots created for {analysis_YearMonth}, {future_plot_dict_length} diseases.")
 
         mail_content = future_cover_mail.result()
         with open(os.path.join(folder_path_mail, f'{analysis_YearMonth}_main.md'), 'w') as f:
             f.write(mail_content)
         shutil.copyfile(os.path.join(folder_path_mail, f'{analysis_YearMonth}_main.md'), os.path.join(folder_path_mail, 'latest_main.md'))
-        print("Mail created.")
+        logging.info(f"Mail content created for {analysis_YearMonth}.")
 
         analysis_content = future_report_summary.result()
-        process_index(analysis_content, analysis_YearMonth, table_of_content, folder_path_web)
-        print("Report summary created.")
+        process_index(analysis_content, analysis_YearMonth, table_data, folder_path_web)
+        logging.info(f"Summary page created for {analysis_YearMonth}.")
 
     with ThreadPoolExecutor(max_workers=len(diseases_order)) as executor:
         futures = [executor.submit(process_page, i, df, analysis_MonthYear, diseases_order, future_plot_dict, folder_path_web) for i in range(len(diseases_order))]
@@ -153,4 +154,4 @@ def generate_reports(analysis_YearMonth, folder_path_get, folder_path_save, fold
         # wait for all pages
         for future in as_completed(futures):
             page_result = future.result()
-            print(f"Processed report page {futures.index(future)} with result:", page_result)
+            logging.info(f"Processed report page {futures.index(future)} with result:", page_result)

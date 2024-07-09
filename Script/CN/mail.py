@@ -31,8 +31,6 @@ def generate_mail(table_data_str, table_legend, analysis_YearMonth):
     mail_time = datetime.datetime.now().strftime("%Y-%m-%d")
     mail_content = mail_head + "\n\n" + mail_info + "\n\n" + mail_main + "\n\n" + mail_end + "\n\n" + mail_signature + "\n\n" + mail_time + "\n\n"
 
-    mail_content = generate_mail(mail_main, analysis_YearMonth)
-
     return mail_content
 
 

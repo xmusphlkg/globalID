@@ -2,6 +2,7 @@ from openai import OpenAI
 import os
 import time
 import re
+import logging
 
 def length_check(box_content, content_words):
     clean_content = re.sub(r'<[^>]+>', '', box_content)
@@ -52,10 +53,10 @@ def openai_trans(model_create, model_check, user_content, setting, token = 500, 
             return content_raw
         else:
             attempt += 1
-            print(f"Retrying ({attempt}/{max_retries})...\n")
-            print(f"box_check: {box_check}\n")
-            print(f"box_content: {content_raw}\n")
-    print("Translate: Maximum retries reached. Failed to create response.")
+            logging.warning(f"Retrying ({attempt}/{max_retries})...")
+            logging.info(f"box_check: {box_check}")
+            logging.info(f"box_content: {content_raw}")
+    logging.error("Translate: Maximum retries reached. Failed to create response.")
     return None
 
 def openai_single(model_create, model_check,
@@ -100,10 +101,10 @@ def openai_single(model_create, model_check,
         if "Yes" in box_check and box_length:
             return box_content
         else:
-            attempt += 1                
-            print(f"Retrying ({attempt}/{max_retries})...\n")
-            print(f"box_check: {box_check}\n")
-            print(f"box_content: {box_content}\n") 
+            attempt += 1
+            logging.warning(f"Retrying ({attempt}/{max_retries})...")
+            logging.info(f"box_check: {box_check}")
+            logging.info(f"box_content: {box_content}")
             if not box_length:
                 # rebuild messages_create
                 content_add = f"Good, but the content is too long. Please shorten the content block to {content_words} words."
@@ -111,7 +112,7 @@ def openai_single(model_create, model_check,
                                   {"role": "user", "content": content_create},
                                   {"role": "assistant", "content": box_content},
                                   {"role": "user", "content": content_add}]
-    print(f"{disease} - {section}: Maximum retries reached. Failed to create response.")
+    logging.error(f"{disease} - {section}: Maximum retries reached. Failed to create response.")
     return None
     
 def openai_mail(model_create, model_check, content_create, content_check, token = 4096, max_retries=20, delay=1):
@@ -150,11 +151,11 @@ def openai_mail(model_create, model_check, content_create, content_check, token 
             return content_raw
         else:
             attempt += 1
-            print(f"Retrying ({attempt}/{max_retries})...\n")
-            print(f"box_check: {box_check}\n")
-            print(f"box_content: {content_raw}\n")
+            logging.warning(f"Retrying ({attempt}/{max_retries})...")
+            logging.info(f"box_check: {box_check}")
+            logging.info(f"box_content: {content_raw}")
 
-    print("Mail: Maximum retries reached. Failed to create response.")
+    logging.error("Mail: Maximum retries reached. Failed to create response.")
     return None
 
 def openai_key(model_create, model_check, content_create, content_check, token = 4096, max_retries=20, delay=1):
@@ -195,10 +196,10 @@ def openai_key(model_create, model_check, content_create, content_check, token =
             return content_raw
         else:
             attempt += 1
-            print(f"Retrying ({attempt}/{max_retries})...\n")
-            print(f"box_check: {box_check}\n")
-            print(f"box_content: {content_raw}\n")
-    print("Key: Maximum retries reached. Failed to create response.")
+            logging.info(f"Retrying ({attempt}/{max_retries})...")
+            logging.info(f"box_check: {box_check}")
+            logging.info(f"box_content: {content_raw}")
+    logging.error("Key: Maximum retries reached. Failed to create response.")
     return None
     
 def openai_image(model_create, user_content, default, max_retries=20, delay=1):
@@ -227,16 +228,16 @@ def openai_image(model_create, user_content, default, max_retries=20, delay=1):
             url = response.data[0].url
             return url
         except Exception as e:
-            print(info, f"An error occurred: {e}")
+            logging.error("An error occurred while fetching the response, retrying...")
             try:
-                print(info, response)
+                logging.error(response)
             except:
-                print(info, "An error occurred and cannot get response error information.")
+                logging.error("An error occurred and cannot get response error information.")
             attempt += 1
             time.sleep(delay)
-            print(info, f"Retrying ({attempt}/{max_retries})...")
+            logging.info(f"Retrying ({attempt}/{max_retries})...")
 
-    print(info, "Maximum retries reached. Failed to fetch response. Using unsplash random image instead.")
+    logging.error("Maximum retries reached. Failed to fetch response. Using unsplash random image instead.")
     return default
 
 def openai_abstract(model_create, model_check, content_create, content_check, token = 4096, max_retries=20, delay=1):
@@ -275,10 +276,11 @@ def openai_abstract(model_create, model_check, content_create, content_check, to
             return content_raw
         else:
             attempt += 1
-            print(f"Retrying ({attempt}/{max_retries})...\n")
-            print(f"box_check: {box_check}\n")
-            print(f"box_content: {content_raw}\n")
+            logging.warning(f"Retrying ({attempt}/{max_retries})...")
+            logging.info(f"box_check: {box_check}")
+            logging.info(f"box_content: {content_raw}")
     
+    logging.error("Abstract: Maximum retries reached. Failed to create response.")
     return None
 
 def bing_analysis(model_create, model_clean, model_check, content_create, content_clean, content_check, max_retries=20, delay=1):
@@ -326,10 +328,10 @@ def bing_analysis(model_create, model_clean, model_check, content_create, conten
             return content_clean
         else:
             attempt += 1
-            print(f"Retrying ({attempt}/{max_retries})...\n")
-            print(f"box_check: {box_check}\n")
-            print(f"box_content: {content_raw}\n")
-    print(f"Maximum retries reached. Failed to create response.")
+            logging.warning(f"Retrying ({attempt}/{max_retries})...")
+            logging.info(f"box_check: {box_check}")
+            logging.info(f"box_content: {content_raw}")
+    logging.error("News: Maximum retries reached. Failed to create response.")
     return None
 
 def fetch_openai(model, client, messages, info = "", token = 500, max_retries=20, delay=1):
@@ -357,21 +359,19 @@ def fetch_openai(model, client, messages, info = "", token = 500, max_retries=20
             generated_text = response.choices[0].message.content
             return generated_text
         except Exception as e:
-            print(info, f"An error occurred: {e}")
+            logging.error("An error occurred while fetching the response, retrying...")
             try:
-                print(info, response)
+                logging.error(response)
             except:
-                print(info, "An error occurred and cannot get response error information.")
+                logging.error("An error occurred and cannot get response error information.")
             ## if error code is 307
             if "307" in str(e):
-                print(info, "Retrying after 10 seconds...")
                 time.sleep(delay*10)
             else:
                 attempt += 1
                 time.sleep(delay)
-            print(info, f"Retrying ({attempt}/{max_retries})...")
-
-    print(info, "Maximum retries reached. Failed to fetch response.")
+            logging.info(f"Retrying ({attempt}/{max_retries})...")
+    logging.error(f"{info}: Maximum retries reached. Failed to fetch response.")
     return None
 
 def update_markdown_file(disease, section, content, analysis_YearMonth):
@@ -414,14 +414,3 @@ def update_markdown_file(disease, section, content, analysis_YearMonth):
             file.write(new_content)
     except Exception as e:
         print(f"An error occurred while updating the Markdown file: {e}")
-
-# table_data_str = table_data.to_markdown(index=False)
-# analysis_content = openai_analysis('gpt-4-32k', 'gpt-3.5-turbo',
-#                                   f"""Analyze the monthly cases and deaths of different diseases in Chinese mainland for {analysis_MonthYear}. Provide a deeply and comprehensive analysis of the data.
-#                                   You need to pay attention: select noteworthy diseases, not all diseases and using below format:
-#                                   <b>disease name:</b> analysis content. <br/><br/> <b>disease name:</b> analysis content. <br/><br/> .....
-                                  
-#                                   This the data for {analysis_MonthYear} in mainland, China:
-#                                   {table_data_str}""",
-#                                   4096)
-# analysis_content = markdown.markdown(analysis_content)

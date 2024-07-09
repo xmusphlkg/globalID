@@ -77,7 +77,6 @@ def plot_disease_data(disease_data, disease):
     dtick, range = calculate_dtick(disease_data['Cases'])
 
     fig = go.Figure(layout=go.Layout(
-        title=go.layout.Title(text=f'{disease} Cases Over Time'),
         xaxis=go.layout.XAxis(
             title=go.layout.xaxis.Title(text='Date')
         ),
@@ -150,8 +149,9 @@ def plot_disease_heatmap(disease_data, disease):
         template='ggplot2'
     ))
     fig.add_trace(go.Heatmap(z=data.values,
-                             x=data.columns,
-                             y=data.index,
+                             x=data.index,
+                             y=data.columns,
+                             name=disease,
                              colorscale=[[0, 'rgb(175,223,239)'], [1, 'rgb(23,40,105)']],
                              hovertemplate='Month: %{x}<br>Year: %{y}<br>Cases: %{z:,}'))
     plot_html_3 = fig.to_html(full_html=False, include_plotlyjs=False)
@@ -167,8 +167,9 @@ def plot_disease_heatmap(disease_data, disease):
         template='ggplot2'
     ))
     fig.add_trace(go.Heatmap(z=data.values,
-                             x=data.columns,
-                             y=data.index,
+                             x=data.index,
+                             y=data.columns,
+                             name=disease,
                              colorscale=[[0, 'rgb(236,234,8)'], [1, 'rgb(98,129,11)']],
                              hovertemplate='Month: %{x}<br>Year: %{y}<br>Deaths: %{z:,}'))
     plot_html_4 = fig.to_html(full_html=False, include_plotlyjs=False)

@@ -132,27 +132,27 @@ def generate_reports(analysis_YearMonth, folder_path_get, folder_path_save, fold
         # create figures
         future_plot = executor.submit(process_plot, diseases_order, df)
         # create cover and mail
-        # future_cover_mail = executor.submit(generate_mail, table_data_str, table_legend, analysis_YearMonth)
+        future_cover_mail = executor.submit(generate_mail, table_data_str, table_legend, analysis_YearMonth)
         # create summary
-        # future_report_summary = executor.submit(create_report_summary, table_data_str, analysis_MonthYear, table_legend)
+        future_report_summary = executor.submit(create_report_summary, table_data_str, analysis_MonthYear, table_legend)
 
         future_plot_dict = {disease_name: plots for disease_name, *plots in future_plot.result()}
         future_plot_dict_length = len(future_plot_dict)
         logging.info(f"Plots created for {analysis_YearMonth}, {future_plot_dict_length} diseases.")
 
-    #     mail_content = future_cover_mail.result()
-    #     with open(os.path.join(folder_path_mail, f'{analysis_YearMonth}_main.md'), 'w') as f:
-    #         f.write(mail_content)
-    #     shutil.copyfile(os.path.join(folder_path_mail, f'{analysis_YearMonth}_main.md'), os.path.join(folder_path_mail, 'latest_main.md'))
-    #     logging.info(f"Mail content created for {analysis_YearMonth}.")
+        mail_content = future_cover_mail.result()
+        with open(os.path.join(folder_path_mail, f'{analysis_YearMonth}_main.md'), 'w') as f:
+            f.write(mail_content)
+        shutil.copyfile(os.path.join(folder_path_mail, f'{analysis_YearMonth}_main.md'), os.path.join(folder_path_mail, 'latest_main.md'))
+        logging.info(f"Mail content created for {analysis_YearMonth}.")
 
-    #     analysis_content = future_report_summary.result()
-    #     process_index(analysis_content, analysis_YearMonth, table_data, folder_path_web)
-    #     logging.info(f"Summary page created for {analysis_YearMonth}.")
+        analysis_content = future_report_summary.result()
+        process_index(analysis_content, analysis_YearMonth, table_data, folder_path_web)
+        logging.info(f"Summary page created for {analysis_YearMonth}.")
 
     with ThreadPoolExecutor(max_workers=len(diseases_order)) as executor:
-        # diseases_length = len(diseases_order)
-        diseases_length = 1
+        diseases_length = len(diseases_order)
+        # diseases_length = 1
         futures = [executor.submit(process_page, i, df, analysis_MonthYear, diseases_order, future_plot_dict, folder_path_web) for i in range(diseases_length)]
 
         # wait for all pages

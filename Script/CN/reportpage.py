@@ -56,9 +56,9 @@ def create_report_page(disease_name,
     deaths_box_content = openai_single(
         os.environ['REPORT_DEATHANALYSIS_CREATE'],
         os.environ['REPORT_DEATHANALYSIS_CHECK'],
-        variables.analysis_create.format(disease_name=disease_name, table_data_str=table_data_str),
-        variables.analysis_check.format(disease_name=disease_name),
-        variables.analysis_words,
+        variables.deathanalysis_create.format(disease_name=disease_name, table_data_str=table_data_str),
+        variables.deathanalysis_check.format(disease_name=disease_name),
+        variables.deathanalysis_words,
         "Deaths Analysis",
         disease_name
         )

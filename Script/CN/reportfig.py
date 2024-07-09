@@ -63,7 +63,7 @@ def plot_disease_data(disease_data, disease):
             rangemode='tozero',  # start from zero
             tickformat=',d'  # integer format
         ),
-        template='plotly_white'
+        template='ggplot2'
     ))
     fig.add_trace(go.Scatter(
         x=disease_data['Date'],
@@ -85,7 +85,7 @@ def plot_disease_data(disease_data, disease):
             rangemode='tozero',  # start from zero
             tickformat=',d'  # integer format
         ),
-        template='plotly_white'
+        template='ggplot2'
     ))
     fig.add_trace(go.Scatter(
         x=disease_data['Date'],

@@ -76,8 +76,10 @@ def process_page(i, df, analysis_MonthYear, diseases_order, future_plot_dict, fo
         datalink=datalink
     )
 
-    with open(os.path.join(folder_path_web, f"{diseases_order[i]}.md", "w")) as file:
+    with open(os.path.join(folder_path_web, f"{diseases_order[i]}.md"), "w") as file:
         file.write(filled_page)
+    
+    return f"{diseases_order[i]} page created."
 
 def generate_reports(analysis_YearMonth, folder_path_get, folder_path_save, folder_path_mail, folder_path_web):
     """
@@ -149,7 +151,9 @@ def generate_reports(analysis_YearMonth, folder_path_get, folder_path_save, fold
         logging.info(f"Summary page created for {analysis_YearMonth}.")
 
     with ThreadPoolExecutor(max_workers=len(diseases_order)) as executor:
-        futures = [executor.submit(process_page, i, df, analysis_MonthYear, diseases_order, future_plot_dict, folder_path_web) for i in range(len(diseases_order))]
+        # diseases_length = len(diseases_order)
+        diseases_length = 1
+        futures = [executor.submit(process_page, i, df, analysis_MonthYear, diseases_order, future_plot_dict, folder_path_web) for i in range(diseases_length)]
 
         # wait for all pages
         for future in as_completed(futures):

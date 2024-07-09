@@ -37,7 +37,7 @@ jobs:
       - name: Commit and push changes
         run: |
           git config --global user.name "github action"
-          git config --global user.email "lkg1116@outlook.com"
+          git config --global user.email "lkg1116@users.noreply.github.com"
           git add .
           git commit -m "Auto update generated files"
-          git push origin master
+          git push origin main

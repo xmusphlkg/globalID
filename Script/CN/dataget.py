@@ -10,7 +10,7 @@ import pandas as pd
 from datetime import datetime
 import json
 from urllib.parse import urljoin
-from Script.CN.reporttext import openai_trans
+from reporttext import openai_trans
 
 # define a function to extract date from text
 def extract_date(text):

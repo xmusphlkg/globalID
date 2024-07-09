@@ -1,53 +1,5 @@
-## Introduction
 
-**CNIDS: Chinese Notifiable Infectious Diseases Surveillance Project**
-
-CNIDS is a project aimed at monitoring notifiable infectious diseases in Chinese mainland. The project utilizes automated technology and data analysis methods to enhance the monitoring and early warning capabilities for infectious diseases, enabling timely measures to be taken to address potential public health risks.
-
-The primary objective of the CNIDS project is to establish an efficient infectious disease Surveillance system that enables real-time monitoring and prediction of legally notifiable infectious diseases. It provides decision-makers with timely information and recommendations to facilitate appropriate measures for disease control and prevention.
-
-Subscribe e-mail to receive the latest report: [Subscribe](https://forms.office.com/r/EJUEfKkttK)
-
-## Usage Example
-
-### **Data Sharing**
-
-1. [`GetData`](./Data/GetData): All original files automatically crawled by the program.
-2. [`CleanData`](./Data/CleanData): Cleaned data files, available for download as needed.
-3. [`AllData`](./Data/AllData): Structured merged file for data analysis.
-
-### **Dynamic Surveillance**
-
-1. After data updates, use AI to automatically generate [reports](./Report).
-2. After report generation, AI automatically generates email content (including data update information and important highlights), sends email notifications to subscribed users, and attaches the report as an attachment.
-
-### **Dashboard Session**
-
-1. Shiny Dashboard automatically reads the latest report data and presents it interactively.
-
-[CNIDS (EN)](https://lkg1116.shinyapps.io/CNIDS/)
-
-[CNIDS (EN & CN)](https://xmusphlkg.github.io/CNID/)
-
-2. It also supports local Docker deployment.
-
-Get the latest image:
-
-```
-docker push kanggle/cnids:latest
-```
-
-Run the image:
-
-```
-docker run -d -p 3838:3838 kanggle/cnids:latest
-```
-
-Open the browser and enter the address:
-
-```
-http://localhost:3838
-```
+# China
 
 ## **Local Deployment**
 
@@ -107,6 +59,14 @@ a. [`config.yml`](./config.yml): Configuration file for data source and AI model
 ## Update Log
 
 ### China CDC Monthly Report
+
+#### 2024 May
+
+Date: 20240709
+
+Updated: ['2024 May']
+
+
 
 #### 2024 April
 

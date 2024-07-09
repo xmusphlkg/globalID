@@ -5,21 +5,25 @@ from datetime import datetime
 import pandas as pd
 import glob
 import shutil
+import logging
 
 from system import get_sources
 from dataget import fetch_data, process_table_data
 from report import generate_reports
 # from sendmail import send_email_to_subscriber
 
+# set up folder paths
+folder_path_get = "../../Data/GetData/CN/"
+folder_path_save = "../../Data/AllData/CN/"
+folder_path_mail = "../../Mail/CN/"
+folder_path_web = "../../Website/content/CN"
+folder_path_log = "../../Log/CN"
+
 # load environment variables
 env_path = os.path.join(os.path.dirname(__file__), 'config.yml')
 sources = get_sources(env_path)
 
 # detect existing dates in GetData folder
-folder_path_get = "./Data/GetData/CN/"
-folder_path_save = "./Data/AllData/CN/"
-folder_path_mail = "./Mail/CN/"
-folder_path_web = "./Website/content/CN"
 existing_dates = [os.path.splitext(file)[0] for file in os.listdir(folder_path_get) if os.path.isfile(os.path.join(folder_path_get, file))]
 
 # Call the function to fetch data
@@ -58,7 +62,7 @@ if new_dates:
     shutil.copyfile(os.path.join(folder_path_save, max_date + '.csv'), os.path.join(folder_path_save, 'latest.csv'))
 
     # modify the markdown file
-    readme_path = "./Readme.md"
+    readme_path = os.path.join(folder_path_log, "README.md")
     with open(readme_path, "r", encoding='utf-8') as readme_file:
         readme_content = readme_file.read()
     update_log = f"#### {year_month}\n\nDate: {current_date}\n\nUpdated: {new_dates}\n\n"
@@ -74,7 +78,12 @@ if new_dates:
     send_mail = os.environ['send_mail']
     # change working directory
     for YearMonth in new_dates:
-        print("Generate report for " + YearMonth)
+        # set up logging
+        logging.basicConfig(level=logging.INFO,
+                            format='%(asctime)s - %(levelname)s - %(message)s',
+                            filename=os.path.join(folder_path_log, YearMonth + '.log'),
+                            filemode='w')
+        logging.info(f"Start processing {YearMonth} data...")
         generate_reports(YearMonth, folder_path_get, folder_path_save, folder_path_mail, folder_path_web)
     # if send_mail == 'True':
     #     send_email_to_subscriber(test_mail)

@@ -1,6 +1,6 @@
 
 import pandas as pd
-import os
+import numpy as np
 import plotly.graph_objects as go
 import variables
 
@@ -42,6 +42,27 @@ def prepare_disease_data(df, disease):
     
     return disease_data
 
+def calculate_dtick(y_values):
+    """
+    Calculate an appropriate Y-axis tick interval based on the maximum Y value.
+    
+    Args:
+        y_values (list or array): Array or list of Y values from the data.
+    
+    Returns:
+        int: Suggested tick interval for Y axis.
+    """
+
+    y_max = np.max(y_values)
+    
+    dtick = int(np.ceil(y_max / 5))
+    
+    dtick = max(1, dtick)
+
+    range = dtick * 5
+    
+    return dtick, range
+
 def plot_disease_data(disease_data, disease):
     """
     Plot disease cases and deaths over time and return html plotly figure.
@@ -53,6 +74,8 @@ def plot_disease_data(disease_data, disease):
         str: the plotly figure in html format
     """
     # Cases over time
+    dtick, range = calculate_dtick(disease_data['Cases'])
+
     fig = go.Figure(layout=go.Layout(
         title=go.layout.Title(text=f'{disease} Cases Over Time'),
         xaxis=go.layout.XAxis(
@@ -61,7 +84,9 @@ def plot_disease_data(disease_data, disease):
         yaxis=go.layout.YAxis(
             title=go.layout.yaxis.Title(text='Cases'),
             rangemode='tozero',  # start from zero
-            tickformat=',d'  # integer format
+            tickformat=',d',  # integer format
+            dtick=dtick,
+            range=[0, range]
         ),
         template='ggplot2'
     ))
@@ -75,6 +100,8 @@ def plot_disease_data(disease_data, disease):
     plot_html_1 = fig.to_html(full_html=False, include_plotlyjs=False)
 
     # Deaths over time
+    dtick, range = calculate_dtick(disease_data['Deaths'])
+
     fig = go.Figure(layout=go.Layout(
         xaxis=go.layout.XAxis(
             title=go.layout.xaxis.Title(text='Date')
@@ -82,7 +109,9 @@ def plot_disease_data(disease_data, disease):
         yaxis=go.layout.YAxis(
             title=go.layout.yaxis.Title(text='Deaths'),
             rangemode='tozero',  # start from zero
-            tickformat=',d'  # integer format
+            tickformat=',d',  # integer format
+            dtick=dtick,
+            range=[0, range]
         ),
         template='ggplot2'
     ))
@@ -110,12 +139,6 @@ def plot_disease_heatmap(disease_data, disease):
         str: the plotly figure in html format
     """
 
-    # color scale
-    color_scale = [
-        [0, '#AFDFEFFF'],
-        [1, '#172869FF']
-    ]
-
     # Cases over time
     data = disease_data.copy()
     data = data[['Year', 'Month', 'Cases']]
@@ -129,7 +152,7 @@ def plot_disease_heatmap(disease_data, disease):
     fig.add_trace(go.Heatmap(z=data.values,
                              x=data.columns,
                              y=data.index,
-                             colorscale=color_scale,
+                             colorscale=[[0, 'rgb(175,223,239)'], [1, 'rgb(23,40,105)']],
                              hovertemplate='Month: %{x}<br>Year: %{y}<br>Cases: %{z:,}'))
     plot_html_3 = fig.to_html(full_html=False, include_plotlyjs=False)
 
@@ -146,7 +169,7 @@ def plot_disease_heatmap(disease_data, disease):
     fig.add_trace(go.Heatmap(z=data.values,
                              x=data.columns,
                              y=data.index,
-                             colorscale=color_scale,
+                             colorscale=[[0, 'rgb(236,234,8)'], [1, 'rgb(98,129,11)']],
                              hovertemplate='Month: %{x}<br>Year: %{y}<br>Deaths: %{z:,}'))
     plot_html_4 = fig.to_html(full_html=False, include_plotlyjs=False)
 

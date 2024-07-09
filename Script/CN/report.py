@@ -55,7 +55,7 @@ def process_index(analysis_content, analysis_YearMonth, table_data, folder_path_
     shutil.copyfile(os.path.join(folder_path_web, '-index.md'), os.path.join(folder_path_web, 'Total.md'))
     
 def process_page(i, df, analysis_MonthYear, diseases_order, future_plot_dict, folder_path_web):
-    introduction, highlights, caseanalysis, deathanalysis = create_report_page(df, diseases_order[i], analysis_MonthYear)
+    introduction, highlights, caseanalysis, deathanalysis = create_report_page(diseases_order[i], df, analysis_MonthYear)
     plot_html_1, plot_html_2, plot_html_3, plot_html_4 = future_plot_dict[diseases_order[i]]
     datalink = os.environ["LINK_MAIN_SOURCE"]
 

@@ -49,10 +49,10 @@ def process_index(analysis_content, analysis_YearMonth, table_data, folder_path_
         datalink=datalink
     )
 
-    with open(os.path.join(folder_path_web, "-index.md"), "w") as file:
+    with open(os.path.join(folder_path_web, "_index.md"), "w") as file:
         file.write(filled_page)
 
-    shutil.copyfile(os.path.join(folder_path_web, '-index.md'), os.path.join(folder_path_web, 'Total.md'))
+    shutil.copyfile(os.path.join(folder_path_web, '_index.md'), os.path.join(folder_path_web, 'Total.md'))
     
 def process_page(i, df, analysis_MonthYear, diseases_order, future_plot_dict, folder_path_web):
     introduction, highlights, caseanalysis, deathanalysis = create_report_page(diseases_order[i], df, analysis_MonthYear)

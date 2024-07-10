@@ -38,7 +38,19 @@ jobs:
           cd ./Script/CN
           python3 main.py
 
+      - name: Check for changes in a specific file
+        id: check_file
+        run: |
+          if git diff --name-only --exit-code "Data/AllData/CN/latest.csv"; then
+            echo "report_latest.pdf has not changed."
+            echo "::set-output name=changed::false"
+          else
+            echo "report_latest.pdf has changed."
+            echo "::set-output name=changed::true"
+          fi
+
       - name: Commit and push changes
+        if: steps.check_file.outputs.changed == 'true'
         run: |
           git config --global user.name "github action"
           git config --global user.email "lkg1116@users.noreply.github.com"

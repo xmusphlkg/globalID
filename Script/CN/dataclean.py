@@ -1,5 +1,4 @@
 import pandas as pd
-from plotnine import *
 
 def calculate_change_data(df, analysis_date):
     """

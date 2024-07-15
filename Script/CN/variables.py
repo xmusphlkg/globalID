@@ -1,5 +1,5 @@
 # email information
-email_info = "\n\n\n\nFurther support: lkg1116@outlook.com" + "\n\nDashboard Link: https://globalinfectiousdisease.com/" + "\n\nData Source: https://github.com/xmusphlkg/globalID/tree/main/Data" + "\n\nUnsubscribe: https://forms.office.com/r/V6vH7rRfeq"
+email_info = "\n\n\n\nFurther support: lkg1116@outlook.com" + "\n\nDashboard Link: https://globalinfectiousdisease.com/" + "\n\nData Source: https://github.com/xmusphlkg/globalID/tree/main/Data" + "\n\nUnsubscribe: https://forms.office.com/r/EJUEfKkttK"
 email_head = "I hope this email finds you well. China CDC has published the new data on the cases and deaths of notifiable infectious diseases in Chinese mainland in {analysis_YearMonth}."
 email_end = "The notion generated automatically, and assistant by AI. Please check the data and description carefully."
 email_sign = "Best regards,\nNIDS"

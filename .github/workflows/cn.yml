@@ -19,6 +19,7 @@ jobs:
       mail_client_secret: ${{ secrets.MAIL_CLIENT_SECRET }}
       mail_tenant_id: ${{ secrets.MAIL_TENANT_ID }}
       mail_user_id: ${{ secrets.MAIL_USER_ID }}
+      onedrive_url: ${{ secrets.ONEDRIVE_URL }}
       test_mail: ${{ vars.TEST_MAIL }}
       send_mail: ${{ vars.SEND_MAIL }}
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

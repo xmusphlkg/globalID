@@ -1,10 +1,21 @@
-<!-- layouts/_default/single.html -->
+<!-- layouts/_index.html -->
 <!DOCTYPE html>
 <html lang="{{ .Site.Language.Lang }}">
   {{- partial "head.html" . -}}
     <body>
         {{- partial "header.html" . -}}
         <div id="map" class="map" tabindex="0"></div>
+        <div class="info" id = 'info' style="min-width: 200px;">
+            <!-- flag and country name -->
+            <span id="eng-name" style="font-size: 20px;">--</span>
+            <!-- country info -->
+            <p>ISO3：<span id="soc">--</span></p>
+            <p>Status：<span id="status">--</span></p>
+            <div id="web">
+            </div>
+            <hr>
+            <p>Click on a country to see the status</p>
+        </div>
         <div class="legend" id="legend">
             <ul></ul>
         </div>
@@ -55,6 +66,45 @@
             });
             map.addControl(new AMap.Scale());
             map.addControl(new AMap.ToolBar());
+
+            map.on('click', function (ev) {
+              var px = ev.pixel;
+              var props = dis.getDistrictByContainerPos(px);
+
+              if (props) {
+                  var SOC = props.SOC;
+                  var fullName = props.NAME_ENG
+                  // format the name, capitalized first letter
+                  fullName = fullName.toLowerCase().replace(/\b[a-z]/g, function(letter) {
+                      return letter.toUpperCase();
+                  });
+
+                  if(SOC){
+                    var country = data.find(c => {
+                        return c.name == SOC;
+                    });
+                    if (country) {
+                        var value = country.var;
+                        var web = country.web;
+                        document.getElementById('eng-name').innerText = fullName;
+                        document.getElementById('soc').innerText = SOC;
+                        document.getElementById('status').innerText = value;
+                        // enable the button
+                        if (value == label[0]) {
+                            document.getElementById('web').innerHTML = '<button onclick="window.open(\'' + web + '\')" class="btn">Go to the website</button>';
+                        } else {
+                            document.getElementById('web').innerHTML = '<span> On the schedule, please wait.</span>';
+                        }
+                    } else {
+                        document.getElementById('eng-name').innerText = fullName;
+                        document.getElementById('soc').innerText = SOC;
+                        document.getElementById('status').innerText = 'Not supported';
+                        // disable the button
+                        document.getElementById('web').innerHTML = '<span>No website, no plans to add one.</span>';
+                    }
+                  }
+              }
+          });
         </script>
     </body>
 </html>

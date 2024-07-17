@@ -1,12 +1,15 @@
+
+// support_map.js
+
 var data = [
-  { "name": "CHN", "var": "Supported" },
-  { "name": "THA", "var": "Scheduled" },
-  { "name": "AUS", "var": "Scheduled" },
-  { "name": "USA", "var": "Scheduled" },
-  { "name": "GBR", "var": "Scheduled" },
-  { "name": "KOR", "var": "Scheduled" },
-  { "name": "NZL", "var": "Scheduled" },
-  { "name": "SWE", "var": "Scheduled" },
-  { "name": "JPN", "var": "Scheduled" },
-  { "name": "SGP", "var": "Scheduled" },
+  { "name": "CHN", "var": "Supported", "web": './CN'},
+  { "name": "THA", "var": "Scheduled", "web": './TH'},
+  { "name": "AUS", "var": "Scheduled", "web": './AU'},
+  { "name": "USA", "var": "Scheduled", "web": './US'},
+  { "name": "GBR", "var": "Scheduled", "web": './GB'},
+  { "name": "KOR", "var": "Scheduled", "web": './KR'},
+  { "name": "NZL", "var": "Scheduled", "web": './NZ'},
+  { "name": "SWE", "var": "Scheduled", "web": './SE'},
+  { "name": "JPN", "var": "Scheduled", "web": './JP'},
+  { "name": "SGP", "var": "Scheduled", "web": './SG'},
 ];

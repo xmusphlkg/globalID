@@ -264,7 +264,7 @@ html, body {
 
 .info {
   position: absolute;
-  top: 70px;
+  bottom: 30px;
   right: 30px;
   background-color: #fff;
   border-radius: 5px;

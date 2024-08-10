@@ -123,15 +123,15 @@ If it is indeed the deaths analysis section respond with 'Yes'.
 If these conditions are not met, respond with 'No'."""
 
 ## mail
-mail_create = """Examine the monthly cases and deaths related to various diseases in Chinese mainland for the month of {analysis_YearMonth}.
-Create a list of key points for each disease, and the list should be structured as follows:
-**1. disease_name:** description.
-**2. disease_name:** description.
-**3. disease_name:** description.
-...... 
-Use the provided data (Cases/Deaths) to support the analysis.
-{table_data_str}.
-{table_legend}"""
+mail_create = """Analyze the provided monthly data on cases and deaths related to various diseases in mainland China for the month of {analysis_YearMonth}.
+Create a summary of key points focusing on infectious diseases, highlighting those that require particular attention. 
+Use the provided data (Cases/Deaths) to substantiate the analysis. 
+Here is the data: 
+
+{table_data_str}, 
+
+and the legend: 
+{table_legend}."""
 mail_check = """Analyze the following text and tell me if it is a short list of important points of infectious diseases. If it is, please answer me Yes. If not, please answer me No.
 {content_raw}"""
 ## cover image

@@ -1,6 +1,4 @@
-## Introduction
-
-# Epidemiological Report: Analysis of Prevalence and Impact of Various Diseases in Chinese Mainland, July 2024
+# Introduction
 
 ## Overview
 

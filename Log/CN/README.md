@@ -11,6 +11,13 @@
 
 ### China CDC Monthly Report
 
+#### 2024 August
+
+Date: 20240913
+
+Updated: ['2024 August']
+
+
 #### 2024 July
 
 Date: 20240828

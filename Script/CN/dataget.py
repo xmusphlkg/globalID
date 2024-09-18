@@ -231,6 +231,11 @@ def get_gov_results(url, form_data, label, origin):
     for title,link in zip(titles,links):
         if title and link:
             date = extract_date_cn(title)
+            # Skip if the date is not extracted
+            if not date:
+                continue
+
+            # Append the extracted information to the results list
             date_obj = datetime.strptime(date, "%Y %B")
             formatted_date = date_obj.strftime("%Y/%m/%d")
             link = json.loads(link).get('common')

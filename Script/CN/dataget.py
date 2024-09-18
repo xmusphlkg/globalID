@@ -106,6 +106,11 @@ def get_rss_results(url, label, origin):
     results = []
     for item in rss_results["rss"]["channel"]["item"]:
         date = extract_date(item["title"])
+        # Skip if the date is not extracted
+        if not date:
+            continue
+
+        # Append the extracted information to the results list
         date_obj = datetime.strptime(date, "%Y %B")
         formatted_date = date_obj.strftime("%Y/%m/%d")
         results.append({

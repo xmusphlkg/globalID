@@ -2,3 +2,5 @@ test.ipynb
 
 # ignore python cache files
 *.pyc
+/venv/
+/Script/CN/test.py

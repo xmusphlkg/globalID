@@ -314,7 +314,13 @@ def get_table_data(url):
         for tr in rows:
             cells = tr.find_all('td')
             if cells:
-                data.append([td.get_text().strip() for td in cells])
+                row_data = []
+                for td in cells:
+                    # remove the supers
+                    for sup in td.find_all('sup'):
+                        sup.decompose()
+                    row_data.append(td.get_text(strip=True))
+                data.append(row_data)
 
     table_data = pd.DataFrame(data)
     for column in table_data:

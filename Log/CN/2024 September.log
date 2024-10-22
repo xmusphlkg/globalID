@@ -1,0 +1,585 @@
+2024-10-22 03:32:40,844 - INFO - Start processing 2024 September data...
+2024-10-22 03:32:45,979 - INFO - Plots created for 2024 September, 46 diseases.
+2024-10-22 03:33:20,816 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:38,282 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:38,685 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:38,687 - INFO - Mail content created for 2024 September.
+2024-10-22 03:33:39,841 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:39,849 - INFO - Summary page created for 2024 September.
+2024-10-22 03:33:42,206 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:42,319 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:42,397 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:42,617 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:42,653 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:42,796 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:42,840 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:42,867 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:42,992 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:42,996 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:43,099 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:43,105 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:43,135 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:43,137 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:43,143 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:43,168 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:43,186 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:43,199 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:43,204 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:43,250 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:43,329 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:43,333 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:43,354 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:43,381 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:43,387 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:43,389 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:43,396 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:43,430 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:43,436 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:43,446 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:43,485 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:43,499 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:43,501 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:43,517 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:43,594 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:43,598 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:43,620 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:43,630 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:43,701 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:43,790 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:43,795 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:43,808 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:43,885 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:43,889 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:43,989 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:43,992 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:44,000 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:44,110 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:44,124 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:44,240 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:44,241 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:44,276 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:44,328 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:44,355 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:44,387 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:44,392 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:44,412 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:44,427 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:44,445 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:44,565 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:44,626 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:44,630 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:44,697 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:44,712 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:44,721 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:44,743 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:44,771 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:44,779 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:44,790 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:44,791 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:44,817 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:44,826 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:44,841 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:44,849 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:44,886 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:44,900 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:44,911 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:45,100 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:45,154 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:45,219 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:45,262 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:45,428 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:45,584 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:45,695 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:45,753 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:46,005 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:46,052 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:46,186 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:46,304 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:46,595 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:46,673 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:46,674 - WARNING - Retrying (1/20)...
+2024-10-22 03:33:46,674 - INFO - box_check: Yes
+2024-10-22 03:33:46,674 - INFO - box_content: Hepatitis D, also known as Hepatitis Delta, is a liver infection caused by the Hepatitis D virus (HDV). It is unique because it requires the presence of the Hepatitis B virus (HBV) to replicate, making it a co-infection or superinfection with HBV. Transmission occurs through contact with infected blood or bodily fluids, commonly via intravenous drug use or unsafe medical practices. Hepatitis D can lead to severe liver disease, increasing the risk of cirrhosis and liver cancer. Prevention includes vaccination against HBV, as there is currently no specific vaccine for HDV. Treatment options are limited and focus on managing HBV co-infection.
+2024-10-22 03:33:46,780 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:46,945 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:46,947 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:47,045 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:47,068 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:47,129 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:47,142 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:47,322 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:47,324 - WARNING - Retrying (1/20)...
+2024-10-22 03:33:47,324 - INFO - box_check: No.
+2024-10-22 03:33:47,324 - INFO - box_content: - **Stable Case Numbers:** From 2020 to 2024, monthly HIV/AIDS cases have stabilized around 4,000 to 6,500, with slight fluctuations year to year.<br/>
+
+- **Fluctuating Mortality Rates:** The number of deaths per month shows consistent fluctuations, averaging around 1,700 to 2,000, indicating varying mortality year-round.<br/>
+
+- **Decreasing Peak Cases:** Peak case numbers have gradually decreased since 2018, suggesting possible improvements in outbreak control and management.<br/>
+
+- **Consistent Seasonal Variation:** There is an evident seasonal pattern, with lower cases and deaths typically in the early months each year, pointing toward enduring cyclical trends.<br/>
+2024-10-22 03:33:47,350 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:47,497 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:47,502 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:47,529 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:47,530 - WARNING - Retrying (1/20)...
+2024-10-22 03:33:47,530 - INFO - box_check: Yes
+2024-10-22 03:33:47,530 - INFO - box_content: - **Low Incidence but Persistent Activity:** Cholera cases in the Chinese mainland have generally been low, with consistent reporting of sporadic cases over the years, peaking occasionally but without significant increases. <br/>
+
+- **Seasonal Variation Observed:** Higher cases often occur between June and September, indicating potential seasonal trends associated with warmer months that may facilitate the spread of cholera. <br/>
+
+- **Mortality Remains Zero:** Despite the occurrence of cases, there have been no reported deaths from cholera during the period, suggesting effective management and healthcare response. <br/>
+
+- **Recent Decline in Cases:** As of September 2024, there is a noticeable decline in cases compared to previous years, possibly indicating improved control measures or environmental factors. <br/>
+2024-10-22 03:33:47,536 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:47,580 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:47,636 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:47,681 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:47,724 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:47,745 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:47,969 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:47,970 - WARNING - Retrying (1/20)...
+2024-10-22 03:33:47,970 - INFO - box_check: Yes.
+2024-10-22 03:33:47,970 - INFO - box_content: - **Significant Decline in Cases:** Rubella cases in Chinese mainland have markedly decreased from a peak of 9,095 cases in May 2019 to just 39 cases by September 2024. This underscores a successful intervention or natural decline. <br/>
+
+- **Seasonal Fluctuations:** Cases typically show higher numbers in spring, with a peak observed from March to June, indicating possible seasonal transmission patterns. <br/>
+
+- **Mortality Stability:** Despite fluctuations in case numbers, the death rate remains extremely low, with only two recorded deaths. This reflects effective healthcare responses or the generally mild nature of rubella. <br/>
+
+- **Recent Stability:** Since 2020, cases have stabilized at lower levels, rarely exceeding 200 monthly cases, suggesting sustained control efforts are effective. <br/>
+2024-10-22 03:33:48,010 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:48,012 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:48,298 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:48,371 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:48,450 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:48,474 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:48,532 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:48,675 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:48,704 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:48,762 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:48,764 - WARNING - Retrying (1/20)...
+2024-10-22 03:33:48,764 - INFO - box_check: Yes.
+2024-10-22 03:33:48,764 - INFO - box_content: - **Seasonal Peaks:** Dengue cases show significant seasonal peaks in September and October, with notable surges in 2014, 2019, and recent increases in 2023. The pattern suggests a late summer to early autumn peak in transmission. <br/>
+
+- **Recent Increase:** The number of cases in September 2024 (4845 cases) indicates a rising trend compared to the previous year, suggesting an urgent need for public health interventions. <br/>
+
+- **Low Mortality Rate:** Despite fluctuating case numbers, the mortality rate remains low, with only sporadic deaths reported. This suggests effective clinical management. <br/>
+
+- **Possible Resurgence:** The upward trend in 2024 points to a potential resurgence, emphasizing the importance of ongoing vector control and public awareness campaigns. <br/>
+2024-10-22 03:33:49,699 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:49,858 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:50,058 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:50,716 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:50,862 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:51,466 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:51,686 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:51,775 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:51,968 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:52,059 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:52,358 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:52,634 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:52,658 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:52,756 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:52,869 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:52,909 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:52,911 - WARNING - Retrying (1/20)...
+2024-10-22 03:33:52,911 - INFO - box_check: Yes
+2024-10-22 03:33:52,911 - INFO - box_content: - **Dramatic Increase in Cases**: Pertussis cases in the Chinese mainland have surged significantly, reaching a peak in April 2024 with 91,272 cases. This marks a dramatic escalation from previous years.<br/>
+
+- **Recent Decline**: After the peak in April 2024, there is a noticeable decline in cases through September 2024, decreasing to 17,316. This suggests potential containment measures or natural epidemic cycle changes.<br/>
+
+- **Low Mortality Rate**: Despite high case numbers, mortality remains relatively low with few recorded deaths, indicating possible effective treatment and management of cases.<br/>
+
+- **Seasonal Patterns**: There appear to be seasonal variations, with higher numbers typically seen mid-year, possibly linked to environmental or social factors affecting transmission.<br/>
+2024-10-22 03:33:52,997 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:53,029 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:53,139 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:53,252 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:53,395 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:53,786 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:54,031 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:54,077 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:54,124 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:54,281 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:54,334 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:54,348 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:54,469 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:54,648 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:54,748 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:54,764 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:55,121 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:55,286 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:55,410 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:55,415 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:55,520 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:55,525 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:55,587 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:55,691 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:55,757 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:55,772 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:55,822 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:56,002 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:56,110 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:56,310 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:56,417 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:56,454 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:56,493 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:56,588 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:56,676 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:56,691 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:56,762 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:56,834 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:56,853 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:56,889 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:56,954 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:56,957 - INFO - Processed Gonorrhea page created.
+2024-10-22 03:33:57,062 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:57,275 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:57,328 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:57,408 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:57,438 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:57,551 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:57,612 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:57,746 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:57,790 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:57,810 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:57,826 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:57,964 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:57,964 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:58,009 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:58,088 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:58,183 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:58,373 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:58,444 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:58,535 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:58,688 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:58,839 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:58,883 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:59,039 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:59,204 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:59,208 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:59,310 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:59,318 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:59,385 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:59,888 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:33:59,926 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:00,134 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:00,135 - WARNING - Retrying (1/20)...
+2024-10-22 03:34:00,135 - INFO - box_check: Yes
+2024-10-22 03:34:00,135 - INFO - box_content: The analysis of tuberculosis (TB) cases in mainland China from 2014 to 2024 reveals notable trends and patterns. Initially, between 2014 and 2016, there was fluctuation in monthly cases, peaking around spring months such as March and April. This could indicate seasonal factors affecting TB transmission or detection. For instance, March 2015 and March 2016 show higher case numbers at 113,242 and 114,627, respectively. A similar trend of a spike in the early months is evident through subsequent years, although the overall case load gradually declines. This decline could be associated with improved public health interventions, enhanced diagnostics, or wider availability of treatments.
+
+Analyzing the mortality data, there’s a discernible increase in the number of TB-related deaths over the years, with notable spikes in late 2022 and 2023, where deaths consistently exceed 300 per month. This occurred even as the case numbers declined, suggesting possible challenges such as resistant TB strains, health system strain, or socio-demographic changes affecting vulnerable populations. In contrast, 2020 experiences a significant reduction both in cases and deaths, likely attributed to COVID-19 pandemic interventions disrupting regular TB transmission patterns, but may have also led to underreporting or reduced focus on TB management due to healthcare resource reallocation.
+
+Between 2022 and 2024, the data indicates a decrease in TB cases, coupled with a noticeable rise in deaths, peaking with a stark increase in mortality in December 2023. This alarming trend calls for closer examination of potential factors contributing to increased mortality, such as treatment failures, co-infections, or delays in healthcare access. Overall, while the long-term trend for TB cases is declining, the mortality rate’s late increase underscores an urgent need for ongoing monitoring and potential redirection of public health strategies to address emerging challenges in TB control.
+2024-10-22 03:34:00,155 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:00,230 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:00,251 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:00,456 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:00,460 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:00,744 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:00,982 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:01,102 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:01,180 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:01,244 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:01,410 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:01,533 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:01,534 - WARNING - Retrying (2/20)...
+2024-10-22 03:34:01,534 - INFO - box_check: No.
+2024-10-22 03:34:01,534 - INFO - box_content: - **Steady case numbers with periodic peaks:** Cases fluctuate between 4,000 and 7,000 monthly, with notable increases in late years, such as 2020 and 2023. <br/>
+- **Seasonal variation:** Lower case counts are observed at the start of each year, likely influenced by reporting delays or seasonal factors, as seen in early 2020 and 2024. <br/>
+- **Stable but high death rates:** Death counts hover between 1,000 and 2,000 monthly, peaking in 2023 with over 2,000 deaths in several months. <br/>
+- **Recent decline in both cases and deaths (2024):** Cases have slightly decreased, with a notable drop from July to September 2024.
+
+2024-10-22 03:34:01,958 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:02,249 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:02,257 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:02,279 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:02,553 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:02,892 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:02,935 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:02,993 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:03,181 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:03,308 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:03,725 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:03,929 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:03,932 - INFO - Processed Poliomyelitis page created.
+2024-10-22 03:34:04,098 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:04,144 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:04,147 - INFO - Processed Other hepatitis page created.
+2024-10-22 03:34:04,309 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:04,606 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:05,091 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:05,151 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:05,529 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:05,561 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:05,801 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:05,960 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:06,152 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:06,328 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:06,330 - WARNING - Retrying (3/20)...
+2024-10-22 03:34:06,330 - INFO - box_check: No
+2024-10-22 03:34:06,330 - INFO - box_content: - **Long-term Increase:** From 2014 to late 2023, there is a clear upward trend in both reported cases and deaths, with peak cases in late 2019 and December 2021. <br/>
+
+- **Recent Fluctuations:** In 2024, the number of cases has fluctuated but generally stabilized, showing a slight decrease compared to previous years. Deaths also demonstrate a similar stabilization pattern. <br/>
+
+- **Seasonal Variation:** Cases and deaths often peak during the latter part of each year, suggesting possible seasonal influences or reporting patterns. <br/>
+
+- **Current Situation (2024):** Cases remain high, with steady numbers in the first nine months, indicating ongoing transmission and significant public health challenge. <br/>
+2024-10-22 03:34:06,763 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:06,766 - INFO - Processed Japanese encephalitis page created.
+2024-10-22 03:34:07,007 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:07,023 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:07,061 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:07,297 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:07,434 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:07,440 - INFO - Processed Monkey pox page created.
+2024-10-22 03:34:07,982 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:08,073 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:08,092 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:08,099 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:08,102 - INFO - Processed Diphtheria page created.
+2024-10-22 03:34:08,110 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:08,266 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:08,884 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:08,918 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:09,073 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:09,552 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:09,555 - INFO - Processed Acute hemorrhagic conjunctivitis page created.
+2024-10-22 03:34:09,896 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:10,605 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:11,122 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:11,566 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:11,626 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:11,886 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:11,982 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:12,081 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:12,469 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:12,480 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:12,502 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:12,925 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:12,945 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:12,948 - INFO - Processed Human infection with H7N9 virus page created.
+2024-10-22 03:34:13,011 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:13,098 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:13,104 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:13,291 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:13,366 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:13,367 - WARNING - Retrying (1/20)...
+2024-10-22 03:34:13,367 - INFO - box_check: Yes
+2024-10-22 03:34:13,367 - INFO - box_content: The analysis of infectious diarrhea cases in mainland China from September 2014 to September 2024 reveals several notable trends and seasonal patterns. The data shows periodic peaks in cases, often around winter months such as December and January, where the numbers tend to be higher. For instance, the winter months of January 2018 and December 2017 exhibit sharp increases, with January 2018 reporting 186,071 cases. Such seasonal variations may be attributed to changes in temperature and behavior that influence disease transmission, such as increased indoor gatherings during colder weather. This pattern also suggests the potential impact of seasonal pathogens, including rotaviruses, which are known to spike in colder months.
+
+Additionally, while the case numbers have fluctuated over time, there is a notable decrease in fatalities associated with infectious diarrhea. In the later years of the dataset, particularly from 2021 onwards, the mortality rates remain low, despite some months having high case counts, such as 196,347 cases in March 2024 with only 1 death. This reduction in death rates might reflect improvements in medical care, timely diagnosis, and effective treatment protocols. The pronounced decline in cases in 2022 and early 2023 could also relate to public health measures taken during the COVID-19 pandemic, including enhanced hygiene and restrictions, which may have indirectly reduced the spread of diarrheal diseases. However, the resurgence in cases from mid-2023 highlights the need for continuous monitoring and public health interventions.
+
+2024-10-22 03:34:13,667 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:13,799 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:13,821 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:13,824 - INFO - Processed Typhus page created.
+2024-10-22 03:34:13,860 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:13,863 - INFO - Processed Anthrax page created.
+2024-10-22 03:34:13,881 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:13,993 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:14,162 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:14,209 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:14,212 - INFO - Processed Influenza page created.
+2024-10-22 03:34:14,696 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:14,699 - INFO - Processed Syphilis page created.
+2024-10-22 03:34:14,846 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:14,889 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:14,890 - WARNING - Retrying (1/20)...
+2024-10-22 03:34:14,890 - INFO - box_check: Yes
+2024-10-22 03:34:14,890 - INFO - box_content: From September 2014 to September 2024, pertussis cases in mainland China exhibit notable trends and fluctuations. Initially, from late 2014 through 2016, pertussis cases remained relatively low, fluctuating between a couple of hundred and around 1,200 per month. However, starting in 2017, there was a significant increase in cases, reaching over 1,000 per month by the summer, peaking at 1,605 cases in August. Further significant rises can be observed in 2018, with cases surpassing 4,000 in August, indicative of a broader trend of increased transmission and potential weakening in herd immunity or vaccination compliance.
+
+The years following 2018 showed a continuous increase, with 2019 reaching a high of 4,388 in August and monthly numbers remaining high. A sharp decline was evident in 2020, possibly due to public health interventions or reporting delays during the COVID-19 pandemic. Cases increased again in 2021 and 2022, highlighting periodic peaks with the highest cases reported in August 2022 at 5,355. However, a dramatic escalation is observed in 2023, with figures surpassing previous maximums, particularly in the latter half of the year, culminating in an unprecedented surge in 2024, peaking in March at 27,078 cases. This sharp rise could be indicative of large-scale outbreaks, possible viral mutations, reduced vaccination rates, or public health system changes. Despite these surges, fatalities remain low compared to the number of cases, though a slight increase in deaths is noted in conjunction with the surges.
+2024-10-22 03:34:14,925 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:15,091 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:15,106 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:15,219 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:15,230 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:15,449 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:15,460 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:15,570 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:15,967 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:16,052 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:16,053 - WARNING - Retrying (1/20)...
+2024-10-22 03:34:16,053 - INFO - box_check: Yes
+2024-10-22 03:34:16,054 - INFO - box_content: The analysis of Hepatitis E cases in mainland China from September 2014 to September 2024 shows a dynamic pattern of fluctuations in both cases and deaths. Overall, cases of Hepatitis E display a seasonal trend with a recurring rise in cases during the early months of each year, particularly in March, which consistently has the highest number of cases across multiple years. For instance, March 2016, 2017, 2018, and 2024 saw substantial increases, peaking at 3401, 3352, 3377, and 3676 cases, respectively. The winter-spring transition appears to be a critical period for increased transmission or reporting. This pattern may be associated with environmental, social, or behavioral factors linked to Hepatitis E virus transmission, such as waterborne outbreaks or seasonal food consumption habits.
+
+In terms of mortality, while the number of deaths remains relatively low compared to the number of cases, there are occasional spikes, particularly in months with high case counts, suggesting potential strain on healthcare systems or delayed access to treatment. Notably, March 2016 recorded five deaths, a sharp increase compared to surrounding months. The years 2020 and beyond show a slight decline in reported cases, possibly influenced by public health interventions or disruptions due to the COVID-19 pandemic. However, a resurgence in 2021 and subsequent years suggests the persistence of the disease, highlighting the need for ongoing surveillance and targeted preventive measures to reduce Hepatitis E morbidity and mortality.
+
+2024-10-22 03:34:16,165 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:16,428 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:16,446 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:16,582 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:16,639 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:16,642 - INFO - Processed Filariasis page created.
+2024-10-22 03:34:16,726 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:16,857 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:17,152 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:17,605 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:18,058 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:18,061 - INFO - Processed Tuberculosis page created.
+2024-10-22 03:34:18,114 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:18,425 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:18,671 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:18,886 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:19,105 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:19,234 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:19,438 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:19,496 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:19,497 - WARNING - Retrying (1/20)...
+2024-10-22 03:34:19,497 - INFO - box_check: Yes
+2024-10-22 03:34:19,497 - INFO - box_content: The reported Hepatitis data for the Chinese mainland from 2014 to 2024 shows significant fluctuations in both cases and deaths. Notably, case numbers exhibit seasonal and yearly variations, with peaks in the spring and early summer months, such as March and April, consistently seeing higher incidences. For instance, March 2017 recorded 142,147 cases, while March 2023 saw a surge to 155,705 cases. A concerning trend emerges starting in mid-2023, with a sharp increase in both cases and deaths, peaking in months like November 2023 (156,977 cases and 327 deaths) and December 2023 (143,778 cases and 428 deaths). This period marks a drastic rise in mortality that is not seen in earlier years.
+
+The data also highlights some annual patterns, such as a decrease in reported cases in February of each year, potentially reflecting seasonal trends or reporting delays. For instance, February 2015 recorded 92,978 cases, and February 2020 saw a drop to 63,330 cases. However, starting in 2023, the death toll rises disproportionately compared to the number of cases. For example, while July 2023 recorded 151,809 cases with 148 deaths, August 2024 saw a similar number of cases (163,748) but a significantly higher death toll of 438, indicating a possible shift in the severity or complications associated with Hepatitis during this time. This alarming rise in deaths post-2023 suggests a need for further investigation into potential factors like changes in virus strains, healthcare response capacity, or treatment efficacy.
+
+2024-10-22 03:34:19,610 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:19,797 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:19,859 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:19,929 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:19,932 - INFO - Processed Rubella page created.
+2024-10-22 03:34:20,026 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:20,292 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:20,295 - INFO - Processed Neonatal tetanus page created.
+2024-10-22 03:34:20,314 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:20,317 - INFO - Processed Hand foot and mouth disease page created.
+2024-10-22 03:34:20,701 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:20,704 - INFO - Processed Schistosomiasis page created.
+2024-10-22 03:34:20,944 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:20,946 - INFO - Processed Mumps page created.
+2024-10-22 03:34:20,977 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:20,979 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:20,982 - INFO - Processed Typhoid fever and paratyphoid fever page created.
+2024-10-22 03:34:21,134 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:21,220 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:21,925 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:22,068 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:22,071 - INFO - Processed Hepatitis C page created.
+2024-10-22 03:34:22,127 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:22,130 - INFO - Processed Epidemic hemorrhagic fever page created.
+2024-10-22 03:34:22,226 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:22,462 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:22,554 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:22,789 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:22,792 - INFO - Processed Kala azar page created.
+2024-10-22 03:34:23,183 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:23,187 - INFO - Processed Hepatitis B page created.
+2024-10-22 03:34:23,301 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:23,701 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:23,704 - INFO - Processed Hepatitis D page created.
+2024-10-22 03:34:24,084 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:24,419 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:24,764 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:24,914 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:25,147 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:25,151 - INFO - Processed Hepatitis A page created.
+2024-10-22 03:34:25,158 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:25,632 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:25,823 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:26,809 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:26,913 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:27,214 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:27,814 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:27,818 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:27,819 - INFO - Processed Human infection with H5N1 virus page created.
+2024-10-22 03:34:27,892 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:28,074 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:28,077 - INFO - Processed Scarlet fever page created.
+2024-10-22 03:34:29,028 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:29,156 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:29,159 - INFO - Processed Plague page created.
+2024-10-22 03:34:29,359 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:29,879 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:29,899 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:30,007 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:30,009 - WARNING - Retrying (1/20)...
+2024-10-22 03:34:30,009 - INFO - box_check: Yes
+2024-10-22 03:34:30,009 - INFO - box_content: The analysis of hepatitis-related deaths in mainland China reveals notable trends and fluctuations over the observed period from September 2014 to September 2024. The data indicates a generally low mortality rate in the earlier years, with deaths fluctuating modestly each month. However, as the timeline progresses towards 2023, a marked increase in the number of deaths becomes apparent. For instance, the number of deaths was consistently below 100 per month until reaching triple digits in April 2023, where fatalities begin to spike dramatically, reaching 428 in December 2023. This considerable increase in deaths, juxtaposed with the relatively stable number of reported cases, suggests a potential shift in the virulence or treatment effectiveness of the disease, which warrants further investigation.
+
+Examining the monthly pattern, there appears to be some consistency in the trends across different years, with peaks and troughs that may relate to seasonal factors or reporting practices. However, the sharp increase in 2023 and 2024 could indicate an emerging health challenge, such as an outbreak of a more severe strain, changes in healthcare accessibility, or public health interference. The data necessitates a closer examination of the healthcare infrastructure, disease management strategies, and potential socio-economic factors contributing to this rise in mortality. Moreover, this increase highlights the critical need for prompt public health interventions and further longitudinal studies to identify, mitigate, and manage the rise in fatalities associated with hepatitis in the region.
+2024-10-22 03:34:30,237 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:30,250 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:30,253 - INFO - Processed SARS-CoV page created.
+2024-10-22 03:34:30,314 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:30,775 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:30,843 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:30,846 - INFO - Processed Leprosy page created.
+2024-10-22 03:34:31,131 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:31,134 - INFO - Processed Meningococcal meningitis page created.
+2024-10-22 03:34:31,229 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:31,293 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:31,296 - INFO - Processed Malaria page created.
+2024-10-22 03:34:31,949 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:32,248 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:32,251 - INFO - Processed Acquired immune deficiency syndrome page created.
+2024-10-22 03:34:32,607 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:32,815 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:32,818 - INFO - Processed Leptospirosis page created.
+2024-10-22 03:34:33,333 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:33,582 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:33,585 - INFO - Processed Echinococcosis page created.
+2024-10-22 03:34:34,184 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:34,204 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:34,207 - INFO - Processed Dysentery page created.
+2024-10-22 03:34:34,338 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:35,069 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:35,072 - INFO - Processed Hepatitis E page created.
+2024-10-22 03:34:35,184 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:35,186 - INFO - Processed Dengue page created.
+2024-10-22 03:34:35,723 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:36,293 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:36,612 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:36,740 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:37,589 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:37,590 - WARNING - Retrying (1/20)...
+2024-10-22 03:34:37,590 - INFO - box_check: No
+2024-10-22 03:34:37,590 - INFO - box_content: The data on cholera cases and deaths in mainland China from 2014 to 2024 reveals a pattern of sporadic outbreaks, with notable increases in certain years but an absence of reported deaths throughout the period. Cases fluctuate seasonally, with higher numbers typically occurring during the warmer months, particularly from June to September. For instance, in 2016, 2018, 2019, and 2023, there were spikes in cases during the summer months, with August being a peak month in most of these years. The highest monthly case count occurred in August 2019, with 12 cases, followed by 12 cases in both August 2018 and August 2023. However, despite these fluctuations, the absence of deaths indicates effective management and treatment.
+
+From a temporal perspective, the data suggest that cholera is a recurring health concern, with varying intensities. Some years, such as 2016 and 2022, show a rise in cases following a relatively low incidence period. Notably, 2023 had one of the highest numbers of cases reported since 2014. Although the number of cases increased, the lack of fatalities suggests improvements in healthcare response, water sanitation, and early detection, contributing to a controlled public health impact despite the periodic outbreaks.
+
+2024-10-22 03:34:39,315 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:39,342 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:40,205 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:40,209 - INFO - Processed Rabies page created.
+2024-10-22 03:34:40,279 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:40,282 - INFO - Processed Measles page created.
+2024-10-22 03:34:40,805 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:41,698 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:41,701 - INFO - Processed Cholera page created.
+2024-10-22 03:34:41,716 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:41,719 - INFO - Processed Hepatitis page created.
+2024-10-22 03:34:42,791 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:43,772 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:43,776 - INFO - Processed Brucellosis page created.
+2024-10-22 03:34:45,367 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:46,269 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:46,271 - WARNING - Retrying (1/20)...
+2024-10-22 03:34:46,271 - INFO - box_check: Yes
+2024-10-22 03:34:46,271 - INFO - box_content: The analysis of infectious diarrhea mortality in the Chinese mainland from 2014 to 2024 indicates a relatively low and stable death toll despite fluctuations in case numbers. Initial years, particularly 2014 to 2016, saw a sparse distribution of deaths across months, ranging from zero to six deaths per month, with no significant correlation discernible between case numbers and fatalities. For instance, high case counts in December 2014 and 2015 (123,019 and 103,671 respectively) resulted in only three and five deaths, whereas lower counts in some months such as February 2016 (94,507 cases) resulted in just a single death, illustrating potential mitigating factors at play such as healthcare interventions or the inherent mildness of some outbreaks.
+
+Moving into subsequent years, a noticeable trend emerges where deaths gradually decrease, with 2021 and 2022 particularly highlighting this as minimal deaths are recorded despite a resurgence in cases. The consistency of fewer than six deaths monthly over such a large population base and high prevalence indicates a steady enhancement in public health responses, increased access to healthcare, or improvement in sanitary conditions and outbreak management strategies. This is further corroborated by the complete absence of deaths from February 2023 until August 2024, pointing towards possible successful early interventions and adaptive community health strategies over time. The singular death spikes in March 2024 and August 2024, despite high case numbers, suggest isolated incidents rather than a systemic issue, aligning with this overall trend of improved health outcomes.
+2024-10-22 03:34:48,438 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:49,564 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:49,568 - INFO - Processed Pertussis page created.
+2024-10-22 03:34:49,862 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:51,013 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 03:34:51,016 - INFO - Processed Infectious diarrhea page created.
+2024-10-22 03:34:51,019 - INFO - Initializing with Entra authority: https://login.microsoftonline.com/f3a5e4eb-f557-462b-ae68-0fef296ee183
+2024-10-22 03:34:51,475 - INFO - Microsoft Graph API token acquired successfully.
+2024-10-22 03:34:52,472 - INFO - The subscriber list downloaded successfully.
+2024-10-22 03:34:53,037 - ERROR - Failed to send email to 1.
+2024-10-22 03:34:53,037 - ERROR - {"error":{"code":"ErrorInvalidRecipients","message":"At least one recipient is not valid., Recipient 'lkg1116@@outlook.com' is not resolved. All recipients must be resolved before a message can be submitted."}}
+2024-10-22 03:34:53,597 - INFO - Email sent to 2 successfully.
+2024-10-22 03:34:53,825 - INFO - Email sent to 10 successfully.
+2024-10-22 03:34:54,069 - INFO - Email sent to 11 successfully.
+2024-10-22 03:34:54,360 - INFO - Email sent to 12 successfully.
+2024-10-22 03:34:54,623 - INFO - Email sent to 13 successfully.
+2024-10-22 03:34:54,854 - INFO - Email sent to 14 successfully.
+2024-10-22 03:34:55,070 - INFO - Email sent to 15 successfully.
+2024-10-22 03:34:55,292 - INFO - Email sent to 16 successfully.
+2024-10-22 03:34:55,665 - INFO - Email sent to 17 successfully.
+2024-10-22 03:34:55,883 - INFO - Email sent to 18 successfully.
+2024-10-22 03:34:56,300 - INFO - Email sent to 19 successfully.
+2024-10-22 03:34:56,540 - INFO - Email sent to 20 successfully.
+2024-10-22 03:34:57,274 - INFO - Email sent to 21 successfully.
+2024-10-22 03:34:57,519 - INFO - Email sent to 26 successfully.
+2024-10-22 03:34:57,740 - INFO - Email sent to 27 successfully.
+2024-10-22 03:34:57,741 - INFO - Data processing completed for ['2024 September'].

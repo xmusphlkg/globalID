@@ -36,27 +36,27 @@ Report:
     check: 'gpt-4-1106-preview'
   introduction: # create_report_page function
     create: 'gpt-4o'
-    check: 'gpt-3.5-turbo'
+    check: 'gpt-4o-mini'
   highlights: # create_report_page function
     create: 'gpt-4o'
-    check: 'gpt-3.5-turbo'
+    check: 'gpt-4o-mini'
   caseanalysis: # create_report_page function
     create: 'gpt-4o'
-    check: 'gpt-3.5-turbo'
+    check: 'gpt-4o-mini'
   deathanalysis: # create_report_page function
     create: 'gpt-4o'
-    check: 'gpt-3.5-turbo'
+    check: 'gpt-4o-mini'
 Mail:
   main: # send_mail function
-    create: 'gpt-3.5-turbo'
-    check: 'gpt-3.5-turbo'
+    create: 'gpt-4o-mini'
+    check: 'gpt-4o-mini'
   keywords:
-    create: 'gpt-3.5-turbo'
-    check: 'gpt-3.5-turbo'
+    create: 'gpt-4o-mini'
+    check: 'gpt-4o-mini'
 Website:
   main: # create_website function
-    create: 'gpt-3.5-turbo'
-    check: 'gpt-3.5-turbo'
+    create: 'gpt-4o-mini'
+    check: 'gpt-4o-mini'
 # other setting
 Link:
   main:

@@ -22,41 +22,41 @@ Source:
 # setting for model
 Data:
   translate:
-    create: 'gpt-4-1106-preview'
-    check: 'gpt-4-1106-preview'
+    create: 'gpt-4o'
+    check: 'gpt-4o'
 Report:
   cover:
     create: 'dall-e-3'
   abstract: # create_report_summary function
-    create: 'gpt-4-1106-preview'
-    check: 'gpt-4-1106-preview'
+    create: 'gpt-4o'
+    check: 'gpt-4o'
   news: # bing_analysis function
     create: 'gpt-4-all'
-    clean: 'gpt-4-1106-preview'
-    check: 'gpt-4-1106-preview'
+    clean: 'gpt-4o'
+    check: 'gpt-4o'
   introduction: # create_report_page function
     create: 'gpt-4o'
-    check: 'gpt-4o-mini'
+    check: 'gpt-4o'
   highlights: # create_report_page function
     create: 'gpt-4o'
-    check: 'gpt-4o-mini'
+    check: 'gpt-4o'
   caseanalysis: # create_report_page function
     create: 'gpt-4o'
-    check: 'gpt-4o-mini'
+    check: 'gpt-4o'
   deathanalysis: # create_report_page function
     create: 'gpt-4o'
-    check: 'gpt-4o-mini'
+    check: 'gpt-4o'
 Mail:
   main: # send_mail function
-    create: 'gpt-4o-mini'
-    check: 'gpt-4o-mini'
+    create: 'gpt-4o'
+    check: 'gpt-4o'
   keywords:
-    create: 'gpt-4o-mini'
-    check: 'gpt-4o-mini'
+    create: 'gpt-4o'
+    check: 'gpt-4o'
 Website:
   main: # create_website function
-    create: 'gpt-4o-mini'
-    check: 'gpt-4o-mini'
+    create: 'gpt-4o'
+    check: 'gpt-4o'
 # other setting
 Link:
   main:

@@ -106,7 +106,19 @@ def generate_reports(analysis_YearMonth, folder_path_get, folder_path_save, fold
     # calculate change data
     change_data = calculate_change_data(df, analysis_date)
     diseases_order, diseases_order_cn = generate_merge_chart(change_data, original_file=f'{folder_path_save}/{analysis_YearMonth}.csv')
+    
+    # create comparative table
     table_data = format_table_data(change_data, analysis_date)
+
+    # check Diseases and DiseasesCN not missing
+    if df['Diseases'].isnull().any() or df['DiseasesCN'].isnull().any():
+        missing_diseases = df[df['Diseases'].isnull() | df['DiseasesCN'].isnull()]
+        print("There are missing entries in the following disease records:")
+        print(missing_diseases[['Diseases', 'DiseasesCN']])
+    else:
+        print(table_data)
+
+    # reset table data index
     table_data['Diseases'] = pd.Categorical(table_data['Diseases'], categories=diseases_order + ['Total'], ordered=True)
     table_data = table_data.sort_values('Diseases')
     table_data = table_data.reset_index(drop=True)

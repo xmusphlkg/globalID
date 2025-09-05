@@ -11,6 +11,13 @@
 
 ### China CDC Monthly Report
 
+#### 2025 August
+
+Date: 20250905
+
+Updated: ['2025 August']
+
+
 #### 2025 July
 
 Date: 20250806

@@ -1,0 +1,796 @@
+2026-01-09 08:46:06,713 - INFO - Start processing 2025 December data...
+2026-01-09 08:46:12,357 - INFO - Plots created for 2025 December, 46 diseases.
+2026-01-09 08:46:21,354 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:22,105 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:22,255 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:23,004 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:23,006 - INFO - Mail content created for 2025 December.
+2026-01-09 08:46:23,014 - INFO - Summary page created for 2025 December.
+2026-01-09 08:46:24,997 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:25,033 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:25,094 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:25,099 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:25,129 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:25,175 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:25,223 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:25,303 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:25,369 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:25,425 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:25,534 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:25,825 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:25,856 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:25,917 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:25,925 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:25,944 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:25,950 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:25,955 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:26,060 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:26,061 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:26,081 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:26,086 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:26,134 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:26,135 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:26,158 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:26,214 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:26,220 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:26,245 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:26,252 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:26,278 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:26,287 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:26,303 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:26,311 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:26,313 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:26,333 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:26,389 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:26,392 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:26,393 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:26,417 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:26,427 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:26,467 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:26,548 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:26,549 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:26,560 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:26,586 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:26,618 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:26,619 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:26,627 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:26,630 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:26,641 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:26,650 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:26,655 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:26,686 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:26,691 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:26,751 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:26,752 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:26,759 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:26,772 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:26,797 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:26,803 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:26,817 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:26,845 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:26,850 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:26,935 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:26,942 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:26,992 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:27,054 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:27,093 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:27,129 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:27,169 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:27,174 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:27,214 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:27,227 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:27,258 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:27,325 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:27,372 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:27,372 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:27,400 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:27,434 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:27,469 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:27,470 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:27,474 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:27,525 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:27,604 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:27,607 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:27,614 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:27,637 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:27,684 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:27,685 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:27,697 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:27,700 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:27,738 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:28,124 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:28,301 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:28,451 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:28,558 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:28,588 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:28,661 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:28,743 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:28,760 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:28,904 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:28,967 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:29,109 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:29,114 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:29,167 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:29,173 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:29,211 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:29,253 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:29,269 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:29,281 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:29,286 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:29,334 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:29,340 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:29,342 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:29,348 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:29,380 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:29,403 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:29,472 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:29,492 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:29,525 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:29,525 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:29,536 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:29,564 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:29,658 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:29,658 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:29,667 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:29,678 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:29,684 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:29,722 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:29,768 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:29,839 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:29,842 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:29,848 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:29,851 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:29,886 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:29,900 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:29,901 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:29,910 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:29,944 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:29,944 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:30,002 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:30,010 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:30,068 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:30,075 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:30,091 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:30,094 - WARNING - Retrying (1/20)...
+2026-01-09 08:46:30,094 - INFO - box_check: Yes.
+2026-01-09 08:46:30,094 - INFO - box_content: - Tuberculosis cases in Chinese mainland have steadily declined from over 89,000 per month in late 2015 to between 48,000 and 59,000 monthly in 2025, indicating significant overall progress in TB control.<br/>
+- TB deaths per month have increased somewhat since 2022, rising from under 200 deaths monthly in prior years to between 228 and 318 deaths per month since late 2024, suggesting ongoing challenges in mortality reduction.<br/>
+- Seasonality persists, with case numbers peaking in spring (March-April) and dipping in winter, typical for TB epidemiology in China.<br/>
+- Overall, TB remains a persistent public health concern; recent declines in incidence are promising, but rising deaths highlight need for enhanced case management.<br/>
+2026-01-09 08:46:30,134 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:30,148 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:30,166 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:30,176 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:30,237 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:30,239 - WARNING - Retrying (1/20)...
+2026-01-09 08:46:30,239 - INFO - box_check: Yes.
+2026-01-09 08:46:30,239 - INFO - box_content: - **Sharp increase in deaths**: Starting mid-2023, Hepatitis-related deaths in mainland China rose dramatically, peaking at 632 in December 2024 and 585 in December 2025, compared with earlier years when monthly deaths rarely exceeded 70. <br/>
+- **Case numbers remain high**: Monthly reported Hepatitis cases have consistently exceeded 120,000 since 2020, with notable surges approaching 170,000–180,000 around early 2024, though a moderate decrease was observed by end of 2025. <br/>
+- **Seasonal and periodic fluctuations**: Both cases and deaths show monthly and seasonal variations, but the recent spike in deaths suggests an emerging public health concern. <br/>
+- **Current situation**: As of December 2025, Hepatitis presents a significant epidemic burden, marked by persistently high cases and a concerning rise in mortality. <br/>
+2026-01-09 08:46:30,244 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:30,269 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:30,293 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:30,327 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:30,333 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:30,335 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:30,342 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:30,346 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:30,384 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:30,423 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:30,449 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:30,455 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:30,458 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:30,477 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:30,557 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:30,612 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:30,620 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:30,789 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:30,792 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:30,818 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:30,911 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:30,914 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:30,927 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:30,948 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:30,985 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:30,993 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:31,039 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:31,047 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:31,138 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:31,347 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:31,428 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:31,896 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:32,025 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:32,057 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:32,072 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:32,581 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:32,963 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:32,964 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:33,000 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:33,024 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:33,096 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:33,112 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:33,251 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:33,276 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:33,294 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:33,381 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:33,470 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:33,540 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:33,602 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:33,608 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:33,666 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:33,685 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:33,825 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:33,849 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:33,882 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:33,908 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:33,941 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:33,977 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:33,983 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:33,985 - WARNING - Retrying (1/20)...
+2026-01-09 08:46:33,985 - INFO - box_check: Yes
+2026-01-09 08:46:33,985 - INFO - box_content: Reported Hepatitis B cases in the Chinese mainland from December 2015 to December 2025 reveal significant temporal fluctuations. From 2015 through 2019, monthly cases typically ranged from about 85,000 to 113,000, occasionally peaking above 120,000 in certain months, with deaths remaining relatively stable between 19 and 55 per month. In 2020, there was an anomalous drop in cases, especially in February (51,506), likely associated with disruptions in health services and reporting during the COVID-19 pandemic, before resuming previous baselines. From 2021 onwards, an upward trend in case numbers is evident, reaching unprecedented monthly highs over 150,000 by early 2024, while deaths largely remained below 50 per month, suggesting improvements in clinical management or possible changes in case classification.
+
+The pattern displays pronounced seasonal variation, with cases tending to surge in early spring and summer months, followed by relative declines in winter—which may reflect testing practices, population movements, or underlying social determinants. The continued low death counts alongside rising case numbers in recent years point to either better population-level surveillance and detection, expanded screening strategies, or shifts in demographic structure and disease chronicity. However, the surge in notifications in 2023-2025 also necessitates consideration of other factors, such as changes in reporting systems, increased public health interventions, or modifications in diagnostic criteria. The overall trend underscores the ongoing public health challenge of Hepatitis B in China, supporting the continued prioritization of vaccination, screening, and linkage to care initiatives.
+2026-01-09 08:46:34,034 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:34,069 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:34,081 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:34,105 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:34,131 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:34,138 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:34,148 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:34,149 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:34,164 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:34,205 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:34,220 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:34,284 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:34,305 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:34,306 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:34,319 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:34,321 - WARNING - Retrying (1/20)...
+2026-01-09 08:46:34,321 - INFO - box_check: Yes
+2026-01-09 08:46:34,321 - INFO - box_content: Analysis of the reported Hepatitis D case data for Chinese mainland from January 2016 through December 2025 reveals a sustained low incidence with observable temporal trends. Annual case numbers show a marked decline over the period: monthly counts in 2016–2017 commonly ranged from 30 to 60, while subsequent years presented consistently lower numbers, seldom exceeding 40 cases per month. The sharp decrease beginning in 2020 coincides with the onset of the COVID-19 pandemic, suggesting potential indirect effects such as altered health-seeking behavior, health system disruptions, or improvements in infection control measures. In later years (2022–2025), the monthly reported cases stabilized at lower levels—typically in the teens or 20s—indicating either sustained suppression of transmission, lasting behavioral changes, or possible underreporting.
+
+Notably, despite this long observation period and hundreds of reported cases, not a single death has been attributed to Hepatitis D, signifying either effective clinical management or predominance of subclinical and mild cases in the routine reporting system. The absence of mortality also reflects the overall rarity of severe outcomes, which may relate to comprehensive hepatitis B control given HDV’s dependence on HBV co-infection. Seasonal or sporadic fluctuations, such as periodic months with slightly elevated counts, do not reveal clear cyclical peaks, supporting the assertion that transmission is sporadic rather than driven by strong seasonal influences. The consistently low numbers and absence of mortality highlight Hepatitis D’s limited public health impact in the Chinese mainland, but also underscore the importance of ongoing surveillance to detect any future shifts in epidemiological patterns.
+2026-01-09 08:46:34,327 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:34,333 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:34,335 - WARNING - Retrying (1/20)...
+2026-01-09 08:46:34,335 - INFO - box_check: Yes
+2026-01-09 08:46:34,335 - INFO - box_content: The reported Hepatitis E case data from the Chinese mainland over the past decade demonstrates a pronounced seasonal pattern, with the highest monthly counts consistently seen in March and April, averaging 3,000–3,700 cases during those months. This spring peak likely reflects recurring environmental or behavioral factors, such as the availability and consumption of higher-risk foods (e.g., undercooked pork or contaminated water) or agricultural activities that affect exposure. Following the annual peak, case numbers typically decline through the latter half of the year, reaching their lowest levels in October to December, before gradually rising ahead of the next spring surge. Deaths per month remain low, usually between zero and three, with occasional higher months; the overall mortality rate is minimal compared to incidence, aligning with the generally self-limiting nature of Hepatitis E except in vulnerable populations.
+
+Examining longer-term trends, the data show substantial fluctuations tied to external disruptions. For instance, the case numbers in early 2020 dropped steeply, likely due to the widespread COVID-19 interventions, changes in healthcare seeking, or reporting practice, followed by a gradual return to pre-pandemic seasonal patterns. More recently, monthly cases since 2023 have rebounded, with numbers in spring months approaching or exceeding pre-2020 levels, suggesting that population behaviors and surveillance systems have normalized. Over the entire period, deaths have not shown any clustering or sustained increase, supporting the inference that while Hepatitis E is endemic and periodically surges, improvements in case management and public health measures may be mitigating its most severe impacts.
+2026-01-09 08:46:34,372 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:34,434 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:34,455 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:34,594 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:34,621 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:34,654 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:34,691 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:34,693 - WARNING - Retrying (1/20)...
+2026-01-09 08:46:34,693 - INFO - box_check: Yes.
+2026-01-09 08:46:34,693 - INFO - box_content: Analysis of the reported rabies data for the Chinese mainland over the decade reveals a marked and consistent downward trend in both cases and deaths from late 2015 through early 2023. Case counts declined from monthly highs in the range of 70–80 at the start of the period to persistent lows under 20 per month by 2021, and often even lower in subsequent years: this drop is echoed in the death counts, which both track and sometimes lag the case numbers. The ratio of deaths to reported cases remains notably high throughout, reflecting rabies' near invariably fatal course once symptoms manifest. Periods of accelerated drop, particularly after 2018, suggest strengthened intervention strategies, possibly vaccination campaigns, improved post-exposure prophylaxis, and better reporting or case management.
+
+From 2023 onward, the data shows a stabilization and then gradual resurgence in both cases and deaths, expanding back into the double digits and at times returning to levels last seen before 2021. This rebound, visible especially through 2024 and into 2025, with some months exceeding 20‒30 cases and deaths, raises questions about possible relaxation of control measures, changes in animal populations or human-animal interactions, or surveillance improvements capturing previously missed cases. Seasonal fluctuations are present but less pronounced than the overall annual trend, and the consistently high case-fatality ratio underscores ongoing critical gaps in timely rabies treatment. The long-term data highlights successes in rabies control as well as the need for renewed vigilance to prevent recurrence.
+2026-01-09 08:46:34,703 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:34,743 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:34,758 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:34,768 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:34,773 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:34,780 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:34,810 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:34,812 - WARNING - Retrying (1/20)...
+2026-01-09 08:46:34,812 - INFO - box_check: Yes
+2026-01-09 08:46:34,812 - INFO - box_content: Analysis of the surveillance data for Acquired Immune Deficiency Syndrome (AIDS) in mainland China from December 2015 through December 2025 reveals dynamic temporal trends, with evidence of both long-term escalation and seasonal variation. Reported cases and deaths show a multi-year upward trajectory, peaking in the years 2018 to 2021, during which monthly case counts often exceeded 6,000 and deaths at times rose above 2,000. This period is marked by pronounced annual cycles; notably, the lowest numbers consistently occur at the start of each calendar year (January–February), followed by a rise in spring and summer, and a substantial spike in late autumn to early winter (November–December). The magnitude of the end-of-year peak is distinctive, with up to 7,622 cases and 2,467 deaths in November 2018, likely reflecting combined factors such as reporting delays, healthcare utilization, or behavioral influences linked to holidays and migration.
+
+From 2022 onward, there appears to be a gradual reduction in both incidence and mortality, with monthly case numbers retreating from previous highs and deaths stabilizing at comparatively lower values by late 2024 and into 2025. The seasonal pattern remains, but the amplitude diminishes, suggesting improvements in case identification, treatment coverage, or possible shifts in risk behaviors. The sharp dip in cases in early 2023 (notably 1,815 cases in January versus over 5,000 in preceding months) may hint at either reporting disruptions, intervention implementation effects, or broader societal impacts such as post-pandemic healthcare strain. The mortality trends track closely with case notifications, indicating persistent challenges in disease management. Overall, the evolving pattern provides critical insights into the burden of AIDS and the ongoing need for targeted public health response in China.
+2026-01-09 08:46:34,826 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:34,863 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:34,864 - WARNING - Retrying (1/20)...
+2026-01-09 08:46:34,864 - INFO - box_check: Yes
+2026-01-09 08:46:34,864 - INFO - box_content: Over the span from December 2015 to December 2025, the reported pertussis cases in the Chinese mainland display marked fluctuations, punctuated by periods of both steady increase and abrupt surges. The data from 2016 to 2019 reflects a gradual rise in incidence, peaking seasonally in the summer months, suggestive of persistent, low-level endemic circulation with annual oscillations likely linked to population immunity and transmission dynamics. This period saw case counts climbing from several hundred to over four thousand per month at the height, yet mortality remained low and sporadic—often zero or one monthly death—highlighting improved clinical management or potentially less severe outbreaks.
+
+A pronounced anomaly emerges from late 2023 through most of 2024, with an unprecedented and sharp escalation in cases. Monthly reports surge to tens of thousands, reaching a climax in April and May 2024, far exceeding historical precedent. This explosion in case numbers is not mirrored by a comparable spike in deaths, which rise only modestly; this suggests either a shift toward more effective detection/reporting (possibly due to heightened surveillance), changes in diagnostic criteria, viral evolution, or a transient decline in population-level immunity, especially considering the context of pandemic-era disruptions to routine immunization. Following this peak, cases in late 2024 through 2025 plummet back toward pre-surge levels, suggesting containment, renewed immunization efforts, or depletion of susceptible individuals—with deaths remaining minimal. This temporal pattern warrants scrutiny of underlying drivers, including public health interventions, diagnostic changes, and vaccine coverage gaps.
+2026-01-09 08:46:34,881 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:34,935 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:35,001 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:35,029 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:35,061 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:35,063 - WARNING - Retrying (1/20)...
+2026-01-09 08:46:35,063 - INFO - box_check: Yes.
+2026-01-09 08:46:35,063 - INFO - box_content: The longitudinal malaria case data for Chinese mainland from late 2015 through 2025 reveals complex epidemiological trends. From 2015 to 2019, monthly cases generally ranged between 180–370, with sporadic peaks and troughs but relatively stable annual patterns. Deaths remained low but were intermittently present, rarely exceeding four per month. A pronounced decline in both cases and deaths occurred starting early 2020, corresponding with the onset of the COVID-19 pandemic and its public health interventions, which may have disrupted transmission or reporting. This period, especially from April to November 2020, saw monthly cases drop as low as 40–80, with deaths nearly absent, and this reduced incidence persisted through 2021–2022, before a rebound commenced in late 2022.
+
+From 2023 onward, the malaria case count shows a return to the pre-pandemic magnitude, peaking above 400 cases in recent months of 2025, maintaining a seasonal undulation suggestive of vector transmission cycles. Over the examined decade, deaths have remained relatively static in number compared to cases, indicating either effective case management or a changing case profile. Notably, periodic case surges in 2023–2025 outstrip those observed in earlier years, warranting epidemiological inquiry into possible changes in surveillance, travel, imported cases, or vector ecology. The sharp post-pandemic resurgence and subsequent rise in case volume suggest underlying vulnerabilities persisting despite overall improvements in malaria control, and highlight the need for sustained vigilance and adaptive strategies in the mainland’s approach to malaria elimination.
+2026-01-09 08:46:35,139 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:35,143 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:35,143 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:35,145 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:35,146 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:35,147 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:35,148 - WARNING - Retrying (1/20)...
+2026-01-09 08:46:35,157 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:35,158 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:35,158 - INFO - box_check: Yes.
+2026-01-09 08:46:35,164 - INFO - box_content: Reported rubella cases in the Chinese mainland demonstrate pronounced temporal variability from late 2015 through early 2025. The most striking feature is a large epidemic observed in 2019, where monthly cases peaked sharply from March through June, with May registering the highest count of 9,095 cases. Following this surge, case numbers fell precipitously in July and continued to decline through the end of 2019. Before the 2019 peak, rubella incidence showed moderate seasonality, with higher counts typically in the spring and early summer months—an expected pattern due to increased transmission among school-age children during these periods. After the 2019 epidemic, from 2020 onwards, cases remained consistently low, rarely surpassing 200 per month, and dropped further by 2023 and beyond, suggesting effective post-epidemic public health interventions and possibly enhanced routine immunization coverage.
+
+Mortality attributed to rubella remained extremely rare, with only two deaths reported throughout the entire dataset: one in June 2019 and another in March 2022, against the backdrop of thousands of reported cases, underscoring the generally mild nature of the disease in the immunocompetent population. The dramatic reduction in incidence after 2019 coincided with the global COVID-19 pandemic period, during which stringent control measures likely suppressed not only SARS-CoV-2 but also other communicable diseases, and healthcare-seeking behavior may also have undergone significant change. In the subsequent years, the baseline rubella incidence remained at historically low levels, suggesting that rubella virus circulation has been greatly curtailed and the population is benefiting from sustained immunity or public health vigilance.
+2026-01-09 08:46:35,163 - WARNING - Retrying (1/20)...
+2026-01-09 08:46:35,162 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:35,177 - INFO - box_check: Yes.
+2026-01-09 08:46:35,186 - INFO - box_content: Analysis of the reported anthrax cases in the Chinese mainland over the ten-year period reveals a pronounced seasonality, with incidence consistently peaking during the summer months—particularly July, August, and September. These peaks are marked by sharp increases, for instance, in August 2018 (103 cases), August 2021 (115 cases), August 2023 (123 cases), and August 2025 (106 cases). Outside these periods, monthly case counts typically remain below 30, highlighting the strong influence of environmental or behavioral factors tied to the summer period. This cyclical pattern suggests that activities such as livestock handling, pasture grazing, and environmental conditions during these months facilitate increased transmission, likely linked to anthrax’s ecological niche and exposure pathways.
+
+The number of deaths has remained relatively low, not exceeding two per month in reported data, and appears sporadic rather than clustered with case peaks, except for several years where summer and early autumn months not only had case surges but were also associated with more fatalities (e.g., August-September 2022 and 2024). The overall lethality relative to case numbers is limited, yet the regular recurrence of fatalities amidst larger outbreaks does indicate intermittent occurrences of more severe or less treatable presentations. Despite year-to-year fluctuations, the overall annual case burden demonstrates consistency in seasonal pattern but not in absolute numbers, hinting at underlying factors such as local outbreak management, changing livestock and farming practices, or variations in reporting and control efforts that may modulate both incidence and outcomes.
+2026-01-09 08:46:35,192 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:35,196 - WARNING - Retrying (1/20)...
+2026-01-09 08:46:35,196 - INFO - box_check: Yes
+2026-01-09 08:46:35,196 - INFO - box_content: Analysis of the Hepatitis A case data in the Chinese mainland from late 2015 to the end of 2025 reveals several notable temporal trends and shifts in reported incidence. From 2015 through 2019, monthly case counts typically fluctuated between 1,300 and 2,200, with discernible seasonality and sporadic peaks in late winter and early summer, but no multi-month sustained surge. Following 2019, a marked gradual decline in cases is evident, with monthly reports in 2020 through 2022 dropping below 1,500 and then continuing their downward trajectory, reaching lows of around 500–900 cases per month in late 2022 and into 2023. This period corresponds to the global impact of the COVID-19 pandemic, which may have influenced transmission dynamics, case ascertainment, or public health system prioritization. Mortality remained consistently low, with deaths limited to isolated months, rarely exceeding 1–2 per month and often zero.
+
+Beginning in 2024 and especially in 2025, an abrupt reversal appears, with monthly cases increasing sharply to pre-pandemic levels or higher (over 2,000 at several points), particularly in early 2025. This shift diverges from the preceding downward trend and suggests either a true resurgence, possibly due to waning population immunity, shifts in surveillance, or changes in environmental or behavioral risk factors, or a correction in reporting as pandemic disruptions subside. Throughout the entire decade, deaths remained infrequent relative to cases, indicative of generally low case-fatality ratios and potentially reflecting improvements in clinical management, the benign nature of the disease profile for most affected individuals, or ongoing vaccination and hygiene interventions. The data as a whole illustrates the interplay of social and epidemiological changes, highlighting both the success of public health initiatives and the susceptibility of infectious disease reporting to external shocks.
+2026-01-09 08:46:35,213 - WARNING - Retrying (1/20)...
+2026-01-09 08:46:35,218 - INFO - box_check: Yes
+2026-01-09 08:46:35,218 - INFO - box_content: The initial epidemic wave in early 2020 on the Chinese mainland was marked by a rapid escalation, with cases peaking sharply in February and a high corresponding death toll. Drastic public health interventions, including mobility restrictions, case isolation, and social distancing measures, corresponded with a dramatic decline in both cases and deaths from March onward, reflected in single- or double-digit monthly figures throughout most of 2020 and 2021. This period displays sustained containment, with very low transmission and virtually no deaths, punctuated only by minor local outbreaks, none of which resulted in significant mortality. The data for 2022 reveal a marked shift: March and April show a substantial surge in cases—upwards of 40,000 and 65,000, respectively—with April recording a notable increase in deaths, likely due to the emergence of the Omicron variant and subsequent adjustments in control measures.
+
+A major change is observed from early 2025, where a steep rise in incident cases occurs, reaching over 440,000 in May and maintaining high levels through subsequent months. This resurgence contrasts sharply not only with the preceding lull but also with the relatively low death counts, which remain single-digit monthly despite soaring case numbers. The decoupling of cases and mortality suggests shifts in population immunity, healthcare responses, or possible changes in viral pathogenicity. The late 2025 data demonstrates a gradual decline in case numbers towards the year’s end, possibly reflecting epidemic exhaustion, renewed interventions, or seasonal effects. Patterns over the five-year span illustrate distinct phases in epidemic dynamics, driven by public health interventions, viral evolution, and population immunity, with notable periods of both containment and resurgence.
+2026-01-09 08:46:35,231 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:35,339 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:35,354 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:35,359 - WARNING - Retrying (1/20)...
+2026-01-09 08:46:35,360 - INFO - box_check: Yes
+2026-01-09 08:46:35,360 - INFO - box_content: The case data for Kala azar (visceral leishmaniasis) in the Chinese mainland from December 2015 through the end of 2025 reveals observable fluctuation both within and between years, yet remains relatively low overall. The period from 2016–2019 is characterized by a baseline of monthly cases ranging typically between 10 and 30, with intermittent peaks. The following years, especially from 2021 onward, show a slight upwards trend in monthly case numbers, with several months reporting over 30 cases and a mild increase in amplitude. However, deaths remain rare, totaling only seven over the entire period and with no persistent clusters. The distribution of cases does not indicate pronounced seasonality but suggests some minor increases during late spring and summer months, particularly in recent reporting years.
+
+This data suggests Kala azar in the Chinese mainland is largely under control, with no signs of large-scale outbreaks or rapid escalation. The rare fatalities and steady annual case load imply either efficient clinical management or predominance of milder forms of the disease in the population. Nonetheless, sporadic spikes, especially in the more recent years and several months exceeding previous maxima, may warrant closer scrutiny to ensure effective early detection and case management. Ongoing vigilance is recommended to prevent resurgence, especially as the ecological or epidemiological dynamics may shift due to climate, vector distribution, or population movement, which can change the risk profile of this anthroponotic and zoonotic disease.
+2026-01-09 08:46:35,372 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:35,464 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:35,466 - WARNING - Retrying (1/20)...
+2026-01-09 08:46:35,466 - INFO - box_check: Yes
+2026-01-09 08:46:35,466 - INFO - box_content: Analysis of the reported dengue cases in the Chinese mainland from December 2015 through December 2025 reveals recurring annual surges of incidence, typically peaking between August and November. Each year, cases begin at low levels during the winter and spring, climb slightly through early summer, and then rapidly escalate in late summer, reaching a peak in the early autumn months before declining again in winter. This cyclical, seasonal pattern is pronounced in high-incidence years, notably 2019, 2023, and 2024, which saw sharp increases to thousands of cases in their peak months—with October of 2024 recording the highest monthly total in the dataset at 11,083 cases. Periods of low transmission, particularly from 2020 to 2022, coincide with the COVID-19 pandemic era, indicating an unprecedented reduction in spread and raising the possibility of behavioral, environmental, or reporting changes during that time.
+
+Dengue-related deaths are remarkably rare, confined to isolated months with intense outbreaks in 2016, 2017, 2018, 2019, and 2023, never exceeding two deaths in a given month and not recurring in most years. Observed case fatality is exceptionally low, and the rise in case numbers in later years does not correspond to a parallel rise in fatalities. This suggests either improved clinical management, a higher proportion of mild cases, or possibly underreporting of severe outcomes. The overall trend points to the reemergence and intensification of dengue after interruptions, confirming the disease’s sensitivity to seasonality and possibly to broader public health or societal changes, but also reflects effective control over mortality even as incidence fluctuates at high levels.
+2026-01-09 08:46:35,693 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:35,702 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:35,703 - WARNING - Retrying (1/20)...
+2026-01-09 08:46:35,703 - INFO - box_check: Yes.
+2026-01-09 08:46:35,703 - INFO - box_content: Analysis of the brucellosis case data from the Chinese mainland between 2015 and 2025 reveals a pronounced seasonal oscillation, with peaks consistently occurring from March to August and troughs in the late autumn and winter months. This pattern aligns with known epidemiological features of brucellosis, which is tied to livestock birthing cycles and increased human-animal contact during warmer months. After a period of moderate, relatively stable incidence between 2015 and 2019, there is a marked increase in the yearly case totals beginning in 2020, reaching notably higher peaks in 2021, 2022, and 2023, where monthly cases frequently exceed 9000 in summer months—doubling previous maxima. The sustained high case numbers in recent years may suggest changes in agricultural practices, surveillance sensitivity, reporting completeness, or underlying epidemiological drivers such as livestock vaccination coverage, animal movement, or climate factors.
+
+A striking aspect of the dataset is the consistently low mortality relative to case numbers, with deaths typically ranging from zero to two per month even at peak incidence. Total annual deaths rarely exceed single digits, resulting in a persistently low case-fatality rate, which is characteristic of brucellosis—especially when effective diagnosis and treatment are accessible. Occasional months show isolated spikes in deaths, but these do not coincide predictably with case surges, suggesting that fatal outcomes remain rare and may be influenced more by comorbidities or healthcare access among vulnerable demographics than by fluctuations in transmission intensity. Overall, the data points to brucellosis as a persistent zoonosis in Chinese mainland, heavily influenced by seasonality and recent epidemiologic shifts, but with limited lethality in the population.
+2026-01-09 08:46:35,722 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:35,723 - WARNING - Retrying (1/20)...
+2026-01-09 08:46:35,723 - INFO - box_check: Yes.
+2026-01-09 08:46:35,723 - INFO - box_content: Analysis of reported syphilis cases in mainland China from late 2015 through 2025 reveals a pronounced annual cyclicality and a general upward trend in incidence, particularly noticeable from 2018 onwards. Typically, case numbers dip in the early months of each year, especially in February, likely reflecting reporting delays and service interruptions around the Lunar New Year, before rising steadily through the spring and summer, peaking between July and September. The highest monthly totals are observed from 2019 onwards, with record peaks in July and August of 2023 and 2024, surpassing 60,000 cases per month—significantly above earlier years. Notably, there is a sharp drop in December 2022, which stands as an anomaly possibly linked to COVID-related public health disruptions. The death counts, compared to case numbers, remain consistently low, fluctuating between 1 and 10 per month, except for an isolated increase in January 2020 (25 deaths), possibly coinciding with early COVID-19 pandemic stress on healthcare systems.
+
+The increasing trend in absolute case numbers from 2018, culminating in the highest values in the past two years, suggests either improved surveillance and case detection, an actual increase in transmission, or a combination of both. There is no corresponding rise in deaths, indicative of either stable severity, effective case management, or both. Patterns in seasonality, with summer peaks and winter troughs, are consistent with sexually transmitted infection dynamics globally, often reflecting periods of increased mobility and social interaction. While data integrity appears robust, localized anomalies such as the February and December lows (especially in pandemic-affected years) warn that public health emergencies and holidays can distort month-to-month comparisons. The sustained rise through 2023–2025 warrants investigation into shifting risk factors, social behaviors, or changes in public health practice, given the unchanged mortality despite markedly increased caseload.
+2026-01-09 08:46:35,729 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:35,736 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:35,738 - WARNING - Retrying (1/20)...
+2026-01-09 08:46:35,738 - INFO - box_check: Yes.
+2026-01-09 08:46:35,738 - INFO - box_content: Analysis of the reported data for "Other hepatitis" cases in the Chinese mainland from December 2015 through December 2025 reveals a clear and substantial downward trend in case numbers over time. Initial monthly cases fluctuated between approximately 2,000 to 2,500 in 2015–2016, but progressively declined so that by 2019, monthly case counts largely ranged from about 1,000 to 1,300, and from 2021 onward generally fell below 900 per month. This decreasing trajectory persisted, with counts in 2024 and 2025 mostly remaining in the 400–700 range. The data are consistent with long-term improvements in disease control and/or changes in surveillance and reporting practices, as the trend does not reflect short-term fluctuations or abrupt shifts but rather a gradual attenuation. Seasonality is not prominent; while there is mild variability across months, no consistent annual peaks are evident.
+
+Mortality from "Other hepatitis" remained extremely low throughout the reporting period, with only sporadic deaths and almost always fewer than two per month. There are extended stretches with zero deaths for many consecutive months, indicating both the generally mild clinical course for reported cases and/or effective treatment regimes. Notably, death counts do not increase in concert with the few months displaying slightly higher case counts, implying that severity remained stable even when incidence rates fluctuated. The conjunction of steadily decreasing cases and persistently negligible deaths underscores the substantial control over this category of hepatitis within the population. The dataset suggests solid progress toward mitigation, possibly reflective of enhanced public health interventions, improvements in sanitation and healthcare access, or changes in risk exposures in the affected population.
+2026-01-09 08:46:35,806 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:36,078 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:36,079 - WARNING - Retrying (1/20)...
+2026-01-09 08:46:36,079 - INFO - box_check: Yes
+2026-01-09 08:46:36,080 - INFO - box_content: The reported gonorrhea data in mainland China from late 2015 to the end of 2025 reveals several notable trends in case numbers and temporal fluctuations. There is a clear seasonal pattern, with lower case counts typically recorded in January and February—likely influenced by reduced medical attendance during the Lunar New Year—and higher counts in late summer and early autumn months. From 2015 to 2019, annual case totals increase steadily, peaking in mid-2018 with monthly incidents exceeding 12,000, suggesting an upward trajectory in transmission, reporting, or both during this period. However, the onset of the COVID-19 pandemic in early 2020 coincides with a precipitous drop in reported cases, reaching a nadir in February 2020. This decline was likely shaped by disruptions in healthcare access and social restrictions rather than a true reduction in transmission, as case numbers gradually rebounded through 2021.
+
+From 2022 onwards, the monthly reported cases stabilized but remained somewhat below pre-pandemic highs. Case counts fluctuate typically between 8,000 and 10,000 per month, with only mild seasonal variation now evident. The incidence in summer months occasionally approaches levels last seen before 2020, but does not consistently match previous peaks, suggesting possible ongoing changes in healthcare-seeking behavior or case ascertainment. Mortality attributable to gonorrhea is exceedingly rare, with only sporadic deaths—almost always limited to a single individual per month and zero for most months—pointing to robust clinical management or the typically non-lethal nature of the disease. Overall, the data encapsulate a dynamic interplay between social, healthcare, and epidemiological drivers, with both long-term trends and abrupt disruptions visible over the decade.
+2026-01-09 08:46:36,107 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:36,117 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:36,118 - WARNING - Retrying (1/20)...
+2026-01-09 08:46:36,119 - INFO - box_check: Yes
+2026-01-09 08:46:36,119 - INFO - box_content: Analysis of the monthly dysentery cases across the Chinese mainland from late 2015 to the end of 2025 reveals marked seasonality and a sustained, sizable decline over time. Dysentery cases consistently peak during the warmest months (May to September) each year, with the highest tallies often seen in July and August. For example, in 2016 peak incidence reached over 18,000 cases in August, while winter months such as January and February generally report close to one-third of those figures. However, after 2019, a pronounced downward trend begins: monthly case numbers drop sharply during 2020, aligning with disruptive factors such as heightened hygiene, public health interventions, and altered healthcare seeking behaviors during the COVID-19 pandemic era. Subsequent years do not rebound to previous levels, and by 2023–2025 peak summer months rarely surpass 4,000 cases, signifying a structural shift in dysentery epidemiology.
+
+Throughout the decade of reporting, deaths were infrequent, with most months recording zero fatalities; the few exceptions (single-digit deaths, sporadically distributed) highlight the low lethality of dysentery within the highly surveilled and managed mainland context. The marked reduction in cases and sustained low mortality imply improved disease control measures, medical access, and possibly changing population exposures. While reporting artifacts, diagnostic shifts, or altered surveillance practices could contribute, the consistent seasonality and multi-year downward trajectory point to both environmental and systemic healthcare influences shaping dysentery transmission and burden. This longitudinal dataset underscores effective disease management while flagging the need for vigilance during summer peaks and continued investment in public health infrastructure.
+2026-01-09 08:46:36,176 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:36,178 - WARNING - Retrying (1/20)...
+2026-01-09 08:46:36,178 - INFO - box_check: Yes
+2026-01-09 08:46:36,178 - INFO - box_content: Across the period from 2015 through 2025, the reported Hepatitis C cases in mainland China displayed marked seasonality and year-to-year variability, with monthly counts typically ranging from around 15,000 to 24,000 before 2022. Peaks in reported cases were noted in the first and third quarters of most years, particularly around March, July, and August — months corresponding possibly with routine testing cycles or reporting delays following holidays. Notably, starting from early 2022, there was a visible shift: both case counts and deaths became more volatile, with a decrease in monthly cases from the historical mean and a sharp, disproportionate rise in reported deaths, culminating in more than 500 deaths per month by late 2024 and 2025, a significant contrast to the preceding period when deaths rarely exceeded 20 per month.
+
+This divergence suggests a change in either the epidemiological pattern, healthcare system dynamics, or reporting mechanisms rather than a simple consequence of incident cases. The abrupt increase in deaths, especially after 2022, against a backdrop of stable-to-declining case reports, may indicate a greater disclosure of late-stage or previously unrecorded chronic HCV cases leading to mortality, a possible backlog effect from earlier years, or enhanced surveillance and reporting of outcomes due to shifting national priorities, new policy interventions, or strains on healthcare resources. Alternatively, it could reflect broader public health system disruptions or shifts in population vulnerability, perhaps driven by the COVID-19 pandemic’s indirect effects, which altered access to care and chronic disease management for vulnerable groups. The data thus highlight both the importance of context in interpreting long-term surveillance metrics and the need for deeper morbidity and cohort tracking to clarify true trends in disease burden and fatality.
+2026-01-09 08:46:36,327 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:36,330 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:36,477 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:36,577 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:36,581 - INFO - Processed SARS-CoV page created.
+2026-01-09 08:46:36,773 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:36,813 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:36,815 - WARNING - Retrying (1/20)...
+2026-01-09 08:46:36,815 - INFO - box_check: Yes.
+2026-01-09 08:46:36,815 - INFO - box_content: Analysis of the hand, foot, and mouth disease (HFMD) data from the Chinese mainland reveals pronounced seasonality and significant fluctuations in case numbers and mortality over the past decade. From 2015 through 2019, the epidemiological pattern was marked by annual spring and summer peaks, with May through July consistently registering the highest case counts—often exceeding 300,000 cases per month—and occasional surges in severe outcomes. Mortality, while rare relative to incidence, showed a discernible reduction as years progressed, dropping from double digits in the mid-2010s to sporadic fatalities by 2019. The impact of non-pharmaceutical interventions during the COVID-19 pandemic is striking, with cases plummeting in early 2020 and remaining well below historical levels throughout that year, an effect likely driven by mobility restrictions, school closures, and augmented hygiene practices.
+
+Post-pandemic years demonstrate a return to the pre-COVID seasonal trend, though with some notable variability in amplitude and persistently low mortality. The dramatic suppression of cases in 2020 underscores the effectiveness of public health interventions, while the subsequent rebound in 2021 and 2022, with case numbers again peaking in summer months (though not to earlier pre-pandemic highs), highlights how population susceptibility may have increased during the interruption in transmission. In 2023 and into 2024–2025, the seasonal cycle reestablishes, with substantial case numbers reported in summer months and, unusually, a virtually complete cessation of fatalities for extended periods—suggesting either improvements in clinical management, viral shifts, or changes in reporting definitions. Overall, these data illustrate how HFMD transmission ebb and flow is tightly coupled to broader societal and public health changes, and how sustained surveillance is essential for real-time interpretation of epidemiological dynamics.
+2026-01-09 08:46:37,032 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:37,408 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:37,410 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:37,425 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:37,427 - WARNING - Retrying (1/20)...
+2026-01-09 08:46:37,427 - INFO - box_check: Yes.
+2026-01-09 08:46:37,427 - INFO - box_content: Over the past decade, the reported tuberculosis cases in the Chinese mainland exhibit a clear cyclical pattern, with seasonal peaks typically occurring in the spring and early summer months. Prior to 2020, monthly case counts routinely exceeded 80,000–100,000, but a marked reduction is evident from early 2020, most notably in February and March, coinciding with the onset of the COVID-19 pandemic and its associated disruptions. This drop likely reflects underreporting or reduced healthcare access, rather than a true decline in incidence, as tuberculosis case numbers partially rebounded in subsequent months but did not return to previous levels. Alongside the overall decline in notifications from 2020 onward, the period starting in 2022 shows a notable increase in reported deaths, with monthly mortality consistently elevated compared to prior years—a trend suggestive of either delayed diagnosis, treatment interruptions, changes in case severity, or possibly clinical misclassification during the pandemic recovery period.
+
+Observing more recent data into 2024 and early 2025, tuberculosis cases remain below the pre-pandemic baseline, stabilizing between 48,000 and 62,000 per month, combined with persistently higher deaths than historic norms. This shift in the case-to-death ratio raises concerns about ongoing challenges in care continuity or disease management, as well as possible lingering effects of the healthcare system burden and population vulnerability post-pandemic. Seasonality persists, but overall volumes remain depressed. The sustained elevation in deaths despite reduced notifications highlights the need for further analysis to distinguish true epidemiologic changes from artefacts of reporting, and underscores the importance of reinvigorating tuberculosis control efforts amidst the aftereffects of the COVID-19 era.
+2026-01-09 08:46:37,469 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:37,520 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:37,552 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:37,605 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:37,699 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:37,742 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:37,910 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:37,931 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:37,964 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:38,085 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:38,109 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:38,167 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:38,172 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:38,244 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:38,292 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:38,302 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:38,304 - WARNING - Retrying (1/20)...
+2026-01-09 08:46:38,304 - INFO - box_check: Yes.
+2026-01-09 08:46:38,304 - INFO - box_content: Analysis of the reported hepatitis cases in mainland China over the past decade reveals a relatively consistent monthly burden of notifications, usually fluctuating between 110,000 and 150,000 cases prior to 2023, with distinct seasonal variation where case counts generally dip in winter months and rise in spring and summer. The sharpest anomalies occur during periods of major disruption, such as the pronounced decrease in case reporting during February 2020, aligning with the COVID-19 outbreak and associated public health restrictions. This dip is abruptly followed by resumption of typical numbers, suggesting reporting and healthcare access disruptions rather than a true epidemiologic decline. Death counts prior to 2023 remain low, predominantly in the 30–60 range monthly, indicating stable mortality, potentially reflecting effective hepatitis management and low virulence or delayed progression for most cases.
+
+However, striking shifts emerge from early 2023 onward, as mortality surges dramatically across consecutive months, sometimes exceeding 600 deaths monthly by late 2024, while case numbers also escalate, peaking above 180,000 in certain months. This abrupt increase suggests either a change in the epidemiological landscape – such as the emergence of more virulent hepatitis strains, outbreaks in vulnerable populations, or systemic issues like reduced access to care and diagnostics. Alternatively, it could reflect changes in case and death definition/reporting, possible healthcare system stressors, or unaccounted co-morbid outbreaks. The persistence of high mortality in 2024 and into 2025, despite fluctuating case numbers, points to a sustained crisis in hepatitis control and significant public health implications, warranting urgent investigation into causative factors, healthcare strategies, and possible data reporting shifts to inform responsive interventions.
+2026-01-09 08:46:38,325 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:38,354 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:38,385 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:38,389 - INFO - Processed Novel Influenza page created.
+2026-01-09 08:46:38,444 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:38,449 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:38,450 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:38,460 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:38,469 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:38,478 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:38,483 - INFO - Processed Cholera page created.
+2026-01-09 08:46:38,489 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:38,517 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:38,578 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:38,585 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:38,627 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:38,631 - INFO - Processed Filariasis page created.
+2026-01-09 08:46:38,677 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:38,682 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:38,709 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:38,745 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:38,746 - WARNING - Retrying (1/20)...
+2026-01-09 08:46:38,746 - INFO - box_check: Yes.
+2026-01-09 08:46:38,746 - INFO - box_content: The reported data for poliomyelitis in the Chinese mainland from December 2015 through December 2025 demonstrate a complete absence of both cases and deaths for every month in the ten-year period. This consistent record of zero reported incidence and mortality is noteworthy, especially given poliomyelitis’s history as a devastating epidemic disease. The absence spans across years, months, and presumed seasonal or annual variation, indicating an extended interruption of endemic transmission and importation events. Such data strongly suggest a sustained state of polio-free certification and robust surveillance systems capable of detecting both wild and vaccine-derived poliovirus cases. There are no fluctuations, spikes, or outliers within this time frame, which excludes underreporting or lapses in detection as plausible explanations.
+
+The implications of this dataset are profound for public health and epidemiological evaluation. The lack of deaths over a decade reflects not only effective vaccination coverage but also the absence of even isolated outbreaks or single cases that could lead to fatal outcomes, which further underscores the strength and reach of polio prevention and response mechanisms in place. The data also reinforce the importance of continuing high levels of immunization and vigilance, given the risk posed by poliovirus importation from countries where transmission remains. Maintenance of zero deaths over this interval highlights the sustained elimination of poliomyelitis as a public health threat in the Chinese mainland and serves as evidence supporting ongoing advocacy for global eradication efforts.
+2026-01-09 08:46:38,787 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:38,854 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:38,896 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:38,991 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:38,992 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:39,013 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:39,015 - WARNING - Retrying (1/20)...
+2026-01-09 08:46:39,015 - INFO - box_check: Yes
+2026-01-09 08:46:39,015 - INFO - box_content: Plague deaths in the Chinese mainland from late 2015 through mid-2024 have demonstrated sporadic but persistent occurrence despite the disease’s rarity. Deaths were confined to specific years, with 1 in December 2017, 1 in September 2019, 1 in January 2020 (though without a reported case that month, suggesting delayed reporting or misclassification), 2 in August 2020, 1 in September 2022, 1 in August 2023, and 1 in August 2024, totaling 8 deaths. Notably, deaths tended to cluster in August and September over the years, months known for increased zoonotic risk due to climate and human activity patterns in endemic regions; this seasonality may point to environmental risk factors or heightened surveillance resulting in case discovery and fatality recording.
+
+Case fatality ratios varied markedly by month and year, ranging from months where all reported cases resulted in death (September 2019, December 2017, September 2022, January 2020, August 2024) to months of increased cases without deaths (November 2019, July/September 2020, August 2021, July 2022, November 2023). August 2020 stands out with both multiple cases and deaths, suggesting either a small-scale outbreak, delayed presentation, or challenges in case management. There is a pattern of death not always corresponding directly with case reports in the same month, indicating possible reporting lags, atypical detection practices, or retrospective assignment. The persistent albeit low-level mortality highlights both the successful containment of large-scale outbreaks and the significant lethality that persists, reflecting ongoing vulnerability among specific populations or in specific contexts.
+2026-01-09 08:46:39,051 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:39,052 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:39,071 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:39,073 - WARNING - Retrying (1/20)...
+2026-01-09 08:46:39,073 - INFO - box_check: Yes
+2026-01-09 08:46:39,073 - INFO - box_content: An analysis of deaths associated with leptospirosis in the Chinese mainland from December 2015 through December 2025 reveals low overall mortality, with sporadic occurrences of fatalities concentrated within particular months and years. Most months report zero deaths despite variable case counts, indicating an overall case fatality rate that is low but not uniformly distributed. Peaks in deaths tend to coincide with periods when case numbers rise, notably during the late summer and autumn months. For example, 2020 saw a notable increase, with 4 deaths in October among 53 cases, and 3 deaths in September with 110 cases. Other years, such as 2019, 2021, and 2022, showed isolated deaths often in months with moderate case counts, reflecting occasional clusters of increased disease severity but no sustained pattern.
+
+There is no clear evidence of a sustained upward trend in mortality over time, with most years presenting only single or few fatal outcomes, even when higher case numbers are reported. The absence of deaths in many months despite significant case counts—such as in 2023, 2024, and most of 2025—points toward improved clinical management, earlier detection, or possibly changes in the pathogenicity or exposure sources. The distribution of deaths predominantly in the latter part of the year, overlapping with peak case counts, suggests seasonal influences on both transmission and fatal outcomes, yet these do not systematically predict higher mortality each year. Overall, deaths are a rare outcome relative to reported cases, underscoring that while leptospirosis remains a public health concern, fatal events are sporadic and likely influenced by both local outbreak dynamics and healthcare responses.
+2026-01-09 08:46:39,091 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:39,116 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:39,138 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:39,144 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:39,147 - INFO - Processed Measles page created.
+2026-01-09 08:46:39,164 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:39,236 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:39,238 - WARNING - Retrying (1/20)...
+2026-01-09 08:46:39,238 - INFO - box_check: Yes
+2026-01-09 08:46:39,238 - INFO - box_content: The pattern of deaths associated with Japanese encephalitis in mainland China from 2015 through the partial data of 2025 reveals both temporal clustering and marked annual variability. Peak fatality counts, particularly between 2017 and 2019, coincided with surges in cases during late summer and early autumn—most notably in August and September—suggesting a strong correlation between high transmission season and fatality burden. However, there are intriguing deviations: fatality rates in some lower-incidence months are disproportionately high, such as April 2019, which saw 26 deaths from just 6 reported cases, and similarly small case counts with multiple deaths early in 2019. These outliers may indicate issues with delayed reporting, classification errors, underestimation of case numbers, or misattribution of deaths, and highlight challenges in surveillance quality or consistency.
+
+Across the dataset, there is evidence of a pronounced decline in fatality numbers from 2020 onward, even as seasonality remains apparent. The transition to single-digit annual deaths and fewer large surges in mortality may reflect improved clinical management, expanded immunisation coverage, or shifts in public health intervention strategies, as well as possible impacts from the COVID-19 pandemic on vector control, healthcare-seeking behaviour or disease reporting. Despite these improvements, the persistence of sporadic deaths in recent years—even with case counts comparable to previous lower-mortality seasons—points to ongoing vulnerabilities and underscores the need for continued high-quality surveillance, rapid diagnostic capacity, and timely intervention during periods of increased transmission.
+2026-01-09 08:46:39,243 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:39,244 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:39,325 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:39,349 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:39,351 - WARNING - Retrying (1/20)...
+2026-01-09 08:46:39,351 - INFO - box_check: Yes
+2026-01-09 08:46:39,351 - INFO - box_content: Analysis of deaths due to epidemic hemorrhagic fever in mainland China from December 2015 through December 2025 reveals marked seasonality and interannual variability in mortality burden. A consistent pattern emerges with deaths tending to peak in the late autumn and winter months—particularly November through January—coinciding with the highest monthly case counts. This cyclical mortality pattern is most prominent in 2017, 2018, 2021, with noticeable spikes in November and December, such as the 22 deaths in December 2017 and 33 deaths in November 2018, the single highest monthly death count in the given period. The subsequent years demonstrate a general decline in both cases and deaths, with 2023 onward showing notably lower mortality, often registering zero or single-digit deaths per month. These recent years show diminished seasonal amplitude, likely reflecting a contraction of epidemic foci, improved clinical management, or successful public health interventions.
+
+Mortality rates per case fluctuate, though major surges appear tied to large epidemic months rather than indicating worsening case fatality. For instance, in years with a rise in total cases, deaths also rise, but the ratio remains relatively consistent. Periods with minimal deaths, including months with no fatalities, correspond with both low absolute case numbers and relative stability, suggesting the underlying lethality did not increase when cases declined. The recent reduction in both case and death numbers post-2022 may be partly influenced by external factors such as the COVID-19 pandemic, which altered healthcare-seeking behaviors and disease surveillance. Overall, epidemic hemorrhagic fever remains a predictable seasonal risk with mortality tightly linked to incidence, while recent trends suggest progress toward control and mitigation of severe outcomes.
+2026-01-09 08:46:39,363 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:39,388 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:39,396 - INFO - Processed Diphtheria page created.
+2026-01-09 08:46:39,403 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:39,404 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:39,409 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:39,412 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:39,417 - INFO - Processed Scarlet fever page created.
+2026-01-09 08:46:39,460 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:39,493 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:39,497 - INFO - Processed Mumps page created.
+2026-01-09 08:46:39,517 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:39,584 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:39,708 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:39,710 - WARNING - Retrying (1/20)...
+2026-01-09 08:46:39,710 - INFO - box_check: Yes
+2026-01-09 08:46:39,710 - INFO - box_content: Over the decade-long period from December 2015 through December 2025 in the Chinese mainland, reported leprosy mortality remains exceedingly low. Out of thousands of notified cases, only four deaths are recorded: in January 2016, August 2019, December 2021, and a complete absence of any deaths in the subsequent years through the middle of 2025. The deaths are each isolated, never clustered or recurring in consecutive months, and are not directly correlated with spikes in incidence. For example, periods with relatively higher case counts, such as March 2016 and March 2017, do not coincide with any reported fatalities, nor do minor case surges in later years. This pattern suggests a persistently low case fatality rate that is stable well below 1%, and may be attributed to effective clinical management, early detection, and robust health system responses.
+
+The sustained near-zero mortality, even as monthly caseloads fluctuate from tens to over a hundred, points toward successful diagnosis and therapy, likely reflecting longstanding public health efforts. The occasional singular death could be associated with advanced age, comorbidities, or delayed presentation rather than systematic failure, given their sporadic distribution. Furthermore, there is a gradual decrease in both case numbers and deaths in the latter months and years, potentially indicative of a declining disease burden or enhanced surveillance and control measures. Altogether, the data provide evidence for leprosy as a controlled and rarely fatal disease in the contemporary context of the Chinese mainland, with mortality events being exceptional rather than expected outcomes.
+2026-01-09 08:46:39,769 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:39,818 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:39,821 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:39,822 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:39,831 - INFO - Processed Schistosomiasis page created.
+2026-01-09 08:46:39,907 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:39,909 - WARNING - Retrying (1/20)...
+2026-01-09 08:46:39,909 - INFO - box_check: Yes
+2026-01-09 08:46:39,909 - INFO - box_content: The trajectory of neonatal tetanus deaths in mainland China reflects a notable downward trend from late 2015 through the first half of 2025. In the earliest years, especially between 2015 and 2019, deaths occurred sporadically but with a visible concentration in months also reporting higher case numbers, such as December 2015 (1 death) and December 2016 (2 deaths). There were occasional clusters, such as 2019 where deaths were reported consistently across several consecutive months, as well as outliers—March 2021, for example, where a death was reported despite zero confirmed cases, a signal for potential reporting errors or late case recognition. Over the years, there is both a decline in absolute case numbers and a reduction in the occurrence of fatal outcomes, suggesting improved control measures and case management.
+
+From 2020 onwards, the mortality pattern becomes more sporadic and further decoupled from case incidence. While deaths continue to be reported annually in the early part of the decade, their frequency and regularity decrease substantially, with many months and even entire years lacking reported fatalities altogether. By 2023 and beyond, reported deaths are rare and do not correspond predictably to case numbers, reflecting both the significant reduction in disease burden and improved neonatal care. The most recent years, particularly 2024 and into early 2025, show only a single death in July 2025 amidst minimal monthly cases, indicating that while elimination has not been absolutely achieved, mortality due to neonatal tetanus has reached near-negligible levels in Chinese mainland, consistent with widespread immunization and better maternal health services.
+2026-01-09 08:46:39,936 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:39,937 - WARNING - Retrying (1/20)...
+2026-01-09 08:46:39,937 - INFO - box_check: Yes.
+2026-01-09 08:46:39,937 - INFO - box_content: Analysis of reported deaths from typhoid and paratyphoid fever in mainland China over the period 2015–2025 reveals an exceptionally low case fatality overall, with only sporadic deaths and extended periods of zero mortality. Most months between 2015 and 2025 saw zero recorded deaths despite hundreds of cases, suggesting both effective case management and substantial improvements in clinical care and access to antibiotics. Where deaths did occur, they were isolated to single months, with no evidence of clustering or persistent fatality spikes over multiple months. Peaks are infrequent and never exceed 3 deaths in a given month, with the highest single-month mortality recorded in June 2017, also coinciding with a seasonal increase in reported cases.
+
+There is no discernible long-term upward or downward trend in deaths; instead, there is notable consistency with very few instances above zero, regardless of fluctuation in reported cases. While seasonal increases in case numbers are evident (summer months), these do not generally correspond to proportional increases in deaths, reinforcing the observation that overall risks of fatal outcome remain low. The absence of major outbreaks or increased lethality further implies robust public health and early treatment systems, while the sporadic months with deaths may reflect isolated severe cases, delays in presentation, or underlying host vulnerabilities rather than system-wide issues. Collectively, the data indicate that while typhoid and paratyphoid remain endemic with ongoing transmission, death from these infections in Chinese mainland has become a rare event.
+2026-01-09 08:46:39,950 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:39,966 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:39,970 - INFO - Processed Monkey pox page created.
+2026-01-09 08:46:39,984 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:40,066 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:40,067 - WARNING - Retrying (1/20)...
+2026-01-09 08:46:40,067 - INFO - box_check: Yes.
+2026-01-09 08:46:40,067 - INFO - box_content: Over the period from December 2015 through December 2025, the reported deaths from infectious diarrhea in the Chinese mainland have exhibited marked fluctuations, but overall remained exceptionally low, in stark contrast to the substantial number of cases recorded each month. Monthly death counts were typically between zero and three, with rare months reaching a high of five deaths. Notably, during some months with very high incidence—such as early 2018 or mid-2025—death counts did not increase in proportion, indicating that despite the disease's ubiquity, it is rarely fatal under prevailing conditions. The case fatality rate (CFR) for most months hovers well below 0.005%, reflecting effective clinical management and perhaps the less virulent agents predominating the reported infectious diarrhea spectrum.
+
+A clear downward trend in fatalities is observed between 2021 and 2023, where multiple consecutive months report zero deaths despite tens of thousands of cases, suggesting improved public health measures, early intervention, or changes in case definitions or reporting. This pattern continued into recent years, with only sporadic deaths reported even as monthly case loads remained high or rose sharply in 2024 and 2025. These dynamics may point to successful implementation of treatment protocols, expanded access to care, or possibly a shift in the age or risk profile of affected populations. The data could also reflect increases in mild cases or possible overreporting of non-lethal forms of infectious diarrhea, further lowering the fatality proportion. Ultimately, the death toll from infectious diarrhea in the Chinese mainland has become negligible relative to incidence, underlining major progress in disease control while spotlighting the importance of ongoing vigilance to sustain these gains.
+2026-01-09 08:46:40,074 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:40,075 - WARNING - Retrying (1/20)...
+2026-01-09 08:46:40,075 - INFO - box_check: Yes
+2026-01-09 08:46:40,075 - INFO - box_content: The mortality patterns of meningococcal meningitis in the Chinese mainland from late 2015 to the end of 2025 reveal distinct temporal fluctuations and a general downward trend in both reported cases and deaths over the ten-year period. The years 2016 to 2018 exhibited relatively higher death counts, often with notable monthly spikes, such as March 2016 (4 deaths), December 2017 (6 deaths), and several months in mid-2018 showing two or more deaths. During this time, deaths reflected both sporadic and clustered occurrences, suggesting possible localized outbreaks or variations in disease severity and healthcare response. As years progressed, particularly from 2019 onward, a noticeable decline in deaths is evident, with several consecutive months registering zero fatalities, especially during and after 2020. This decline may indicate improved surveillance, preventive measures such as vaccination, enhanced case management, or perhaps changes in reporting protocols.
+
+Seasonal analysis shows that while cases rise during winter and early spring, deaths do not strictly correspond to case peaks, instead appearing sporadically throughout the year with some months, especially around December and March, showing higher fatality counts. In recent years, especially post-2020, fatal cases have become rare and usually isolated events, with only occasional months registering a single death and very few months with more than one. Even in months with moderately elevated case numbers, such as December and January, deaths are limited or absent, underscoring a reduced case fatality rate in the latter years of the dataset. By 2023 through 2025, sporadic deaths continue but rarely exceed one per month and are absent altogether in several consecutive months, pointing to an improved epidemiological profile for meningococcal meningitis in the region.
+2026-01-09 08:46:40,099 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:40,101 - WARNING - Retrying (1/20)...
+2026-01-09 08:46:40,101 - INFO - box_check: Yes.
+2026-01-09 08:46:40,101 - INFO - box_content: The death toll associated with echinococcosis in mainland China, spanning over a decade of monthly surveillance data, remains remarkably low relative to the number of reported cases, with most months showing zero fatalities and sporadic deaths scattered throughout the dataset. Closer examination indicates the absence of sustained increases, with deaths generally isolated to single or occasional months—for example, single deaths in March and April 2016, slight clustering in early 2019, minor upticks in the last half of 2020 and mid-2021, and notably, a small spike in July 2024. Even during periods of elevated case reporting, the fatality rate consistently hovers near zero percent, suggesting that the disease, while endemic and persistently recorded, is rarely lethal when accounting for reported incidence.
+
+This pattern may reflect several factors, including improved access to clinical intervention, advances in diagnosis and management, a predominance of less severe cases, or robust reporting mechanisms capturing a broad spectrum of disease severity. The rare instances of increased deaths—such as the five recorded in July 2024, and occasional months where deaths rise above baseline—stand out but do not establish a sustained trend, and may be linked to specific local outbreaks, demographic shifts, or reporting delays. The dataset, thus, supports a characterization of echinococcosis as a persistent but low-mortality public health concern in the region, emphasizing the success of health system responses while highlighting the need for continued vigilance to prevent sporadic lapses in mortality control.
+2026-01-09 08:46:40,143 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:40,305 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:40,350 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:40,573 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:40,576 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:40,577 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:40,728 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:40,928 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:40,930 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:40,931 - WARNING - Retrying (1/20)...
+2026-01-09 08:46:40,931 - INFO - box_check: Yes
+2026-01-09 08:46:40,931 - INFO - box_content: The reported influenza deaths in mainland China revealed distinct seasonal and annual variations, often correlating with surges in case counts during winter and early spring. Notably, years such as 2019 and early 2020 showed pronounced spikes in mortality, with peak months (e.g., January 2019 with 143 deaths and January 2020 with 108 deaths) coinciding with extraordinary surges in reported cases. In contrast, the typical pattern features low mortality rates even in months with substantial case numbers, suggesting either widespread mild infection, effective clinical interventions, or reporting/ascertainment limitations, especially during non-peak seasons. This trend shifted notably in 2023 and 2025, as both years demonstrated record-high case counts during several months, but deaths remained relatively contained compared to earlier years, possibly indicating improvements in healthcare capacity, disease management, or shifts in dominant circulating strains.
+
+Another noteworthy observation is the near-absence of influenza deaths in most summer and autumn months regardless of occasional moderate case counts, with multiple months reporting zero deaths across consecutive years. Periods corresponding to the COVID-19 pandemic (2020–2021) demonstrated drastic reductions in both influenza cases and deaths, consistent with global trends attributed to widespread non-pharmaceutical interventions. The overall temporal death patterns for influenza in the Chinese mainland suggest that the lethality of influenza fluctuates substantially year-to-year, with winter peaks yielding the majority of fatalities. The discrepancy between dramatic increases in cases in recent years versus more stable or relatively low fatality counts may reflect both changes in surveillance intensity and ongoing improvements in clinical management and vaccination coverage.
+2026-01-09 08:46:40,938 - INFO - Processed Typhus page created.
+2026-01-09 08:46:40,980 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:41,319 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:41,386 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:41,483 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:41,737 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:41,776 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:41,779 - INFO - Processed Acute hemorrhagic conjunctivitis page created.
+2026-01-09 08:46:41,791 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:42,146 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:42,169 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:42,225 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:42,240 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:42,295 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:42,421 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:42,485 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:42,503 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:42,504 - WARNING - Retrying (1/20)...
+2026-01-09 08:46:42,504 - INFO - box_check: Yes.
+2026-01-09 08:46:42,504 - INFO - box_content: The reported hepatitis B death data in the Chinese mainland from late 2015 through the end of 2025 reveals several notable patterns. The monthly number of deaths consistently ranged from about 17 to 55, with sporadic spikes (e.g., 80 deaths in January 2020, potentially reflecting disruptions related to the COVID-19 pandemic and healthcare system strain). Aside from such anomalies, the numbers fluctuated within a relatively tight band, with minor seasonal variability and a general absence of a sustained increasing or decreasing trend. These figures must be contextualized by considering the persistent high number of new cases each month, typically above 100,000 in recent years, suggesting that while hepatitis B remains endemic, case-fatality rates remain low and stable, possibly reflecting effective clinical management and public health interventions.
+
+Starting in early 2023, a pronounced increase in reported case numbers is visible, yet monthly deaths do not exhibit a corresponding rise, and in fact, remain at or below pre-pandemic levels. This decoupling may indicate expanded case detection efforts, changes in reporting, or improved treatment access, rather than an absolute surge in severe disease. Throughout the decade, periodic elevations in deaths align with fluctuations in reported cases but do not sustain, further implying resilience in the health system’s capacity to prevent progression to fatal outcomes. This scenario is likely facilitated by robust screening, early intervention, and widespread antiviral therapy, while the consistently modest death toll (relative to incidence) underscores both the chronic nature of hepatitis B in the population and the success of long-term control efforts in limiting hepatitis B-related mortality.
+2026-01-09 08:46:42,539 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:42,588 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:42,662 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:42,666 - INFO - Processed Poliomyelitis page created.
+2026-01-09 08:46:42,695 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:42,715 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:42,755 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:42,755 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:42,764 - INFO - Processed Hepatitis D page created.
+2026-01-09 08:46:42,997 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:43,041 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:43,047 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:43,073 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:43,077 - INFO - Processed Plague page created.
+2026-01-09 08:46:43,141 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:43,180 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:43,181 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:43,189 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:43,194 - INFO - Processed Leprosy page created.
+2026-01-09 08:46:43,210 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:43,213 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:43,214 - INFO - Processed Leptospirosis page created.
+2026-01-09 08:46:43,323 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:43,327 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:43,329 - WARNING - Retrying (1/20)...
+2026-01-09 08:46:43,329 - INFO - box_check: Yes
+2026-01-09 08:46:43,329 - INFO - box_content: Analysis of the reported Hepatitis E deaths in mainland China from December 2015 to December 2025 reveals a persistently low case fatality rate, with monthly deaths rarely exceeding single digits despite hundreds to thousands of reported cases each month. Sporadic peaks are visible, such as the 6 deaths in December 2017, 4 deaths in June 2018, and another spike with 4 deaths in January 2024. However, most months report 0–2 deaths, even in periods with elevated incidence, which suggests improved diagnosis, reporting, and possibly clinical management over the last decade. The absence of a clear seasonal pattern in deaths, compared with cases which tend to peak in early spring, indicates that fatal outcomes are not primarily driven by caseload surges but likely reflect underlying vulnerabilities such as age, comorbidities, or access-to-care issues.
+
+Notably, the years 2020 through early 2022 saw an overall reduction in both case counts and deaths, consistent with disruptions or changes in healthcare-seeking behavior during the COVID-19 pandemic. Deaths remained sporadic with no months over 3 fatalities. In contrast, the resumption of higher case numbers from late 2022 onwards did not lead to a proportional increase in deaths, supporting the notion that the overall mortality risk from Hepatitis E remains quite low in the general population of China. This pattern, marked by low but regular monthly deaths, points toward the disease’s established endemicity, a predominantly non-severe clinical course, and perhaps successful public health interventions, although continued vigilance for sporadic severe or vulnerable group cases is warranted.
+2026-01-09 08:46:43,333 - INFO - Processed Japanese encephalitis page created.
+2026-01-09 08:46:43,378 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:43,414 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:43,527 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:43,580 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:43,584 - INFO - Processed Hepatitis A page created.
+2026-01-09 08:46:43,590 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:43,591 - WARNING - Retrying (1/20)...
+2026-01-09 08:46:43,591 - INFO - box_check: Yes
+2026-01-09 08:46:43,591 - INFO - box_content: The mortality data for rabies in the Chinese mainland from late 2015 to the end of 2025 indicate persistent high case-fatality alongside an overall declining incidence. From 2015 through the mid-2010s, the majority of months report deaths comparable to or exceeding new cases, underscoring the almost universally fatal nature of symptomatic rabies. The gradual reduction in both case and death counts year-over-year, reaching single digits in several months by 2022 and 2023, suggests intensified public health measures and improved response in rabies exposure management. Nevertheless, isolated months reveal death counts identical to or greater than cases reported, likely reflecting delayed or retrospective case reporting and the lag between exposure, symptom onset, and fatal outcome. The data for late 2024 and throughout 2025 show a modest resurgence in both case and death numbers, though the deaths remain unyieldingly coupled to incidence, maintaining a high fatality probability, presumably from inadequacies in post-exposure prophylaxis or late presentation.
+
+Although the overall trend demonstrates a reduction in annual deaths, the sustained elevated case-fatality ratio signals ongoing challenges in rabies control—particularly in timely access to healthcare and PEP, as well as potential reporting artifacts. The periodic rise in deaths in months with fewer cases, notably in the winter months at several time points, may correspond to seasonality in animal bites or delays in seeking care. These fluctuations imply that while rabies prevention and control efforts are bearing fruit, further emphasis on education, rapid post-exposure intervention, and surveillance remains critical to driving down both cases and fatalities, with the ultimate aim of eliminating human rabies deaths.
+2026-01-09 08:46:43,604 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:43,608 - INFO - Processed Epidemic hemorrhagic fever page created.
+2026-01-09 08:46:43,631 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:43,633 - WARNING - Retrying (1/20)...
+2026-01-09 08:46:43,633 - INFO - box_check: Yes.
+2026-01-09 08:46:43,633 - INFO - box_content: Analysis of the reported deaths from anthrax in the Chinese mainland from December 2015 to December 2025 reveals a consistently low case fatality rate, with sporadic deaths occurring across the years. While annual case counts display a clear seasonal increase during the summer to early autumn—corresponding with periods favorable for exposure—anthrax deaths do not strictly track fluctuations in incidence. Fatalities are distributed irregularly, often with isolated 1–2 deaths per year. The mortality burden is never concentrated, suggesting effective case recognition, rapid treatment, and improved veterinary controls in endemic regions, though isolated events of increased deaths (such as two deaths in both June and December 2017, and two deaths in August 2018) may reflect outbreaks affecting vulnerable populations or delays in seeking care.
+
+Disaggregating recent data, the period from 2021 through 2025 shows a similar pattern with singular deaths scattered throughout high-incidence months, particularly in July–October. No clustering of deaths over several consecutive months occurs, and even in years with highest anthrax notifications, such as August 2021 (115 cases) and August 2023 (123 cases), deaths per month do not exceed one. The sporadic nature and absence of prolonged mortality spikes further support that public health and clinical management remain robust, containing the severity and outcome of anthrax cases. Nevertheless, the intermittent occurrence of deaths amidst hundreds of cases each year highlights ongoing pockets of transmission and risk, underscoring the requirement for unwavering surveillance and tailored interventions in high-risk periods and regions.
+2026-01-09 08:46:43,687 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:43,691 - INFO - Processed Echinococcosis page created.
+2026-01-09 08:46:43,732 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:43,821 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:43,822 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:43,829 - INFO - Processed Rubella page created.
+2026-01-09 08:46:43,862 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:43,877 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:43,896 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:43,898 - WARNING - Retrying (1/20)...
+2026-01-09 08:46:43,898 - INFO - box_check: Yes.
+2026-01-09 08:46:43,898 - INFO - box_content: The mortality dynamics of COVID-19 in mainland China display two distinct waves corresponding to early 2020 and the spring of 2022. The initial wave, spanning January through April 2020, saw high case counts and the largest concentration of reported deaths, peaking in February 2020 with 2,611 fatalities, followed by a marked decline thereafter. This drop was sustained through the remainder of 2020 and throughout most of 2021, even as sporadic case surges were recorded; deaths remained minimal, suggesting either successful containment, improvements in clinical management, or altered case ascertainment. Notably, from May 2020 into early 2022, months with hundreds to thousands of reported cases consistently showed either zero or negligible deaths, underscoring a relatively low case fatality rate for that protracted period.
+
+A resurgence of deaths occurred in spring 2022, most pronounced in April and May when cases surged dramatically—April 2022 registered 42 deaths per 10,000 cases, and May had 22 deaths per 10,000 cases. After these months, deaths once again plummeted and remained very low despite subsequent increases in cases. Even with the extremely large case counts reported from early to late 2025—a notable late wave with several months seeing over one hundred thousand new infections—reported deaths remained exceptionally low, with monthly totals rarely exceeding single digits. This observed dissociation between cases and deaths in later years likely reflects a complex interplay of widespread immunity, evolving viral characteristics, changes in surveillance or reporting, and improved clinical capacity, resulting in a mortality profile that largely decouples from infection surges in the most recent data.
+2026-01-09 08:46:43,925 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:43,925 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:43,931 - INFO - Processed Neonatal tetanus page created.
+2026-01-09 08:46:43,932 - INFO - Processed Typhoid fever and paratyphoid fever page created.
+2026-01-09 08:46:43,943 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:44,026 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:44,055 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:44,059 - INFO - Processed Infectious diarrhea page created.
+2026-01-09 08:46:44,101 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:44,103 - WARNING - Retrying (1/20)...
+2026-01-09 08:46:44,103 - INFO - box_check: Yes
+2026-01-09 08:46:44,103 - INFO - box_content: The reported data on dengue from Chinese mainland displays an extremely low mortality rate over the past decade, with only eight deaths recorded across nearly 65,000 cases from December 2015 through December 2025. Deaths are sporadic and do not cluster during periods of highest case incidence. For instance, in 2019—the year with the sharpest annual spike—there were three deaths (October and November) amidst more than 20,000 cases, yielding a crude case fatality rate (CFR) far below 0.02%. Other years with high transmission such as 2023 or 2024 (each registering over 20,000 cases) report just a single death or none at all. This pattern is consistent with the global understanding that dengue mortality, especially in regions with adequate surveillance and clinical management, remains rare despite substantial caseloads.
+
+Temporal analysis reveals deaths occur sporadically, sometimes during lower-incidence months, indicating individual-level factors such as underlying comorbidities, access to care, age, or severity of viral strain may play greater roles than epidemic intensity alone in lethality. The absence of deaths in recent years (2024–2025), even as monthly case counts rise to historical highs, suggests improved case management or reporting accuracy and points to systemic resilience in the health response. Overall, the persistently low and irregular deaths underscore the effectiveness of clinical and public health interventions in preventing dengue fatalities, while also raising the possibility that surveillance is effective in detecting and treating severe disease before progression to death.
+2026-01-09 08:46:44,132 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:44,135 - INFO - Processed Brucellosis page created.
+2026-01-09 08:46:44,139 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:44,142 - INFO - Processed Meningococcal meningitis page created.
+2026-01-09 08:46:44,219 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:44,267 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:44,270 - INFO - Processed Acquired immune deficiency syndrome page created.
+2026-01-09 08:46:44,381 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:44,382 - WARNING - Retrying (1/20)...
+2026-01-09 08:46:44,382 - INFO - box_check: Yes.
+2026-01-09 08:46:44,382 - INFO - box_content: The temporal distribution of malaria deaths in the Chinese mainland from late 2015 to the end of 2025 reveals periods of both relative stability and sporadic increases, with most months registering between zero and three deaths. While overall mortality is low compared to case numbers, the data shows occasional months with sharp increases in deaths, such as December 2019 (four deaths), November 2024 (four deaths), and several months where deaths spike to three. These increases do not directly coincide with years of highest case counts, suggesting that factors beyond sheer case volume drive mortality fluctuations. Additionally, the reduction in both cases and deaths during parts of 2020 and 2021 likely reflects pandemic-related impacts on travel, importation risks, and reporting, with subsequent years seeing a return to historical patterns.
+
+The monthly case fatality rate remains low overall, but some months show subtle clustering, possibly pointing to localized outbreaks, changes in malaria species, or variations in healthcare access and early recognition. The lack of marked seasonality in deaths relative to cases hints at effective containment and management of imported malaria cases, as indigenous transmission has been interrupted in the mainland. Persistent yet sporadic deaths reinforce ongoing vulnerability, especially in months or years following spikes in travel or in populations with comorbidities, delays in diagnosis, or limited access to antimalarial therapy. The data underscores that while control efforts remain robust, vigilance is necessary to prevent re-establishment and minimize sporadic deaths in at-risk subpopulations.
+2026-01-09 08:46:44,449 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:44,450 - WARNING - Retrying (1/20)...
+2026-01-09 08:46:44,450 - INFO - box_check: Yes
+2026-01-09 08:46:44,450 - INFO - box_content: The mortality profile for Kala-azar in the Chinese mainland from late 2015 to the end of 2025 demonstrates a strikingly low fatality rate, with only eight deaths recorded among 1,915 reported cases, yielding a case fatality ratio (CFR) of approximately 0.42%. Deaths were sporadically distributed—appearing in February 2016, November 2020, February 2022, February, April, August, and October 2023, and July 2025—indicating no clear seasonality or clustering. Notably, no year had more than two deaths, and several years (2017–2019, most of 2021 and 2024) had none, despite consistent case incidence. The interval between deaths varied from months to years, and fatalities did not correspond to peaks in case counts, suggesting isolated occurrences rather than outbreaks with heightened lethality.
+
+The persistently low mortality could be attributed to effective surveillance, early diagnosis, and timely treatment access in China, as most visceral leishmaniasis deaths occur when diagnosis is delayed or treatment is inaccessible. The absence of sustained increases in deaths, despite modest fluctuations in case numbers, implies that health system responses have remained robust over time, even as incident cases occasionally rose above historical monthly averages. Nevertheless, the very sporadic appearance of deaths warrants continued vigilance: all-cause and cause-specific mortality audit can further clarify whether these deaths resulted from clinical complications, delayed presentation, underlying comorbidities, or perhaps rare pathogen features. Overall, the data reflect continuous improvement in case management, though the unpredictable nature of fatalities underscores the necessity for ongoing quality assurance in Kala-azar control programs.
+2026-01-09 08:46:44,628 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:44,630 - WARNING - Retrying (1/20)...
+2026-01-09 08:46:44,630 - INFO - box_check: Yes
+2026-01-09 08:46:44,630 - INFO - box_content: Deaths attributed to pertussis in mainland China reveal a highly sporadic distribution over the decade-long time series, seldom paralleling surges in case notifications. During the 2016–2019 period, fatalities remained very low and scattered, with most months registering zero deaths even as case counts escalated annually, peaking seasonally from spring through autumn; only isolated months (e.g., July 2016, May 2018, March 2019, July 2019, December 2019) saw a single reported death, never closely following the case volume trend. This pattern continued in 2020–2022, as notification numbers were significantly impacted by pandemic-related disruptions, further depressing both case and mortality counts—deaths remained at or below one per month even as incident cases began recovering by late 2021 and into 2022.
+
+A dramatic divergence appears in 2023 and especially 2024, with both reported case numbers and fatalities climbing abnormally. In 2023, deaths abruptly rose—two in November and one in December and August—concurrent with the highest annual case burden since surveillance began. The outbreak in 2024 amplified this shift: monthly deaths spiked, reaching as high as eight in February and seven in April, with additional clusters across the year (though the case-to-death ratio still suggests a relatively low fatality rate). By mid to late 2024, fatalities again diminished even as incidence remained elevated. Notably, death counts show poor temporal correlation with periods of maximal case notification, except during exceptional outbreak peaks; months with tens of thousands of cases sometimes had low or zero reported deaths. This may reflect improved clinical management, reporting artifacts, or shifting age/immune profiles of those affected. In sum, while fatalities have generally remained rare, exceptional periods of heightened transmission led to observable, but still modest, increases in deaths, accentuating the importance of vigilance during surges.
+2026-01-09 08:46:44,711 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:44,715 - INFO - Processed Gonorrhea page created.
+2026-01-09 08:46:44,746 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:44,750 - INFO - Processed Influenza page created.
+2026-01-09 08:46:44,763 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:44,764 - WARNING - Retrying (1/20)...
+2026-01-09 08:46:44,764 - INFO - box_check: Yes
+2026-01-09 08:46:44,764 - INFO - box_content: From December 2015 to December 2025, reported deaths due to "Other hepatitis" in the Chinese mainland have remained consistently low despite a broad decline in case counts. Out of more than a hundred monthly reporting periods, only sporadic deaths—never exceeding two in a single month—have been recorded. In early years (2016–2019), deaths were spaced out but apparent; no deaths occurred for several consecutive months, then isolated cases appeared, typically aligning with neither peaks nor troughs in overall incidence. For example, in June 2018, two deaths were reported out of 1429 cases—one of the few times fatalities exceeded the usual count of zero or one. Across this ten-year span, months with one or two deaths occurred sporadically and without strong seasonal or annual pattern.
+
+Starting from the second half of 2022, the already rare deaths become even less frequent, with most months registering zero fatalities and small isolated increases in cases failing to correspond with elevated mortality. By 2023–2025, months with any deaths became exceptional, and most reported zero. This enduringly low lethality, even as the case count decreased sharply (from monthly figures over 2000 in 2015–2016 to well under 1000 since 2021), suggests either improved clinical management, shifts in reporting, or changes in the etiological profile of reported "Other hepatitis." The overall pattern points to a persistent minimization of death risk, highlighting this category as one of very low case-fatality within the spectrum of viral and non-viral hepatitis in China.
+2026-01-09 08:46:44,823 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:44,927 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:44,931 - INFO - Processed Dysentery page created.
+2026-01-09 08:46:44,990 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:44,991 - WARNING - Retrying (1/20)...
+2026-01-09 08:46:44,991 - INFO - box_check: Yes.
+2026-01-09 08:46:44,991 - INFO - box_content: Analysis of syphilis deaths in the Chinese mainland reveals persistently low mortality figures despite substantial and increasing case counts over the decade from December 2015 to December 2025. The monthly deaths seldom rise above single digits, with only rare spikes observed, such as the notably high 25 deaths in January 2020—a possible artifact coinciding with the onset of the COVID-19 pandemic, which may have impacted healthcare access and reporting. Outside such outliers, most months report between 2 and 9 deaths, even as the reported cases rise from roughly 38,000 to over 64,000 in peak months by 2024 and 2025. The case-fatality ratio remains extremely low overall, suggesting either effective disease management or that most detected cases are at earlier, treatable stages.
+
+No clear seasonal pattern emerges from the deaths data, nor are there consistent rises in fatality corresponding to increases in reported cases, indicating that increased case detection or reporting does not translate into a proportional rise in deaths. There is a modest uptick in death counts during certain years (notably in mid-2017, 2020, and peaks in spring 2025), but these do not appear cyclical or systematically linked with incidence surges. Notably, recent years (2023–2025) display continued high case numbers with deaths plateauing or even declining, which may reflect improved healthcare systems, expanded screening, treatment accessibility, or refined reporting. Overall, the data underline that syphilis mortality, as represented in official reports, remains an uncommon outcome, even as the burden of infection grows, highlighting both advances and persistent opportunities in syphilis control and healthcare response.
+2026-01-09 08:46:45,031 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:45,110 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:45,113 - INFO - Processed Hand foot and mouth disease page created.
+2026-01-09 08:46:45,333 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:45,765 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:45,767 - WARNING - Retrying (1/20)...
+2026-01-09 08:46:45,767 - INFO - box_check: Yes.
+2026-01-09 08:46:45,767 - INFO - box_content: A detailed examination of Hepatitis C mortality in mainland China over recent years reveals a striking and sustained escalation in reported deaths beginning early 2023, contrasting sharply with the relatively stable, low death counts that persisted from 2015 through 2022. Prior to 2023, monthly reported deaths rarely exceeded 20, with sporadic increases seen from mid-2022, when monthly deaths started to surpass previous norms—peaking above 30–40 and then sharply rising. The surge accelerates dramatically from April 2023 onward, with monthly deaths routinely breaking into triple digits, reaching as high as 393 by December 2023. In 2024, this pattern not only continues but intensifies: deaths per month surpass 300 multiple times and, most notably, spike to an unprecedented 589 in December—far exceeding any previous monthly totals. This steep mortality gradient remains in 2025, with several months reporting over 200 deaths, and a second substantial peak of 545 deaths in December.
+
+The sudden, dramatic increase in Hepatitis C deaths does not coincide with a proportional elevation in case numbers, which remain relatively stable and even decline gradually toward late 2024 and into 2025. This divergence between incidence and mortality rates may indicate a change in disease severity, a reporting artifact, or an external influence such as healthcare system disruptions, changes in treatment access, or epidemiological surveillance updates. Possible factors include impacts from the COVID-19 pandemic on chronic disease management, modifications in death reporting protocols, or a genuine shift in disease dynamics—such as aging of the infected population, leading to increased cirrhosis and hepatic complications. The abruptness and magnitude of the mortality increase underscore the urgent need for a targeted evaluation: investigation into clinical outcomes, healthcare accessibility, and data reporting practices will be critical to contextualize this phenomenon and inform control strategies for Hepatitis C in China.
+2026-01-09 08:46:45,874 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:45,974 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:45,976 - WARNING - Retrying (1/20)...
+2026-01-09 08:46:45,976 - INFO - box_check: Yes.
+2026-01-09 08:46:45,976 - INFO - box_content: Analysis of tuberculosis (TB) death trends in mainland China over the past decade reveals notable periods of stability and marked shifts which suggest both epidemiological and systemic influences. Between 2015 and 2019, the monthly TB deaths hovered mostly between 120 and 230, displaying moderate seasonal variation but no sustained, directional change. Incidence and mortality both closely followed annual cycles, with deaths peaking in spring and winter months, possibly reflecting delayed presentation and reporting following holidays or seasonal factors affecting transmission and host susceptibility.
+
+A sharp upward inflection in TB deaths emerges in 2022, where monthly deaths more than doubled, peaking recurrently above 300 and in some months reaching 367. This surge is striking against the backdrop of falling reported TB cases and coincides with the period of significant public health system disruptions following the COVID-19 pandemic, suggesting secondary impacts such as reduced access to timely diagnosis, treatment delays, or overwhelmed clinical infrastructures. Following the spike, deaths persist at this elevated level through 2023 and into 2024, despite continued fluctuation in case numbers and gradual reduction in newly reported TB cases. The data for 2025 signals a potential reversion to pre-2022 mortality norms, yet deaths remain notably higher than historical averages, underscoring sustained effects or slow recovery from the pandemic's system-wide disruption. This trend highlights the importance of health system resilience and continued vigilance in TB control as indirect impacts from large-scale public health emergencies may not be immediately reversible in terms of TB mortality.
+2026-01-09 08:46:46,189 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:46,193 - INFO - Processed Hepatitis B page created.
+2026-01-09 08:46:46,265 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:46,360 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:46,645 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:46,843 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:46,939 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:47,034 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:47,035 - WARNING - Retrying (1/20)...
+2026-01-09 08:46:47,035 - INFO - box_check: Yes.
+2026-01-09 08:46:47,035 - INFO - box_content: Analysis of the reported Hepatitis deaths in the Chinese mainland from late 2015 through 2025 reveals a distinct temporal pattern and several periods of dramatic change. Between 2015 and 2019, monthly hepatitis deaths fluctuated narrowly, typically ranging from 35 to 68 deaths, indicating a relatively stable mortality rate despite considerable case counts. The early part of the COVID-19 pandemic in 2020 did not demonstrate an immediate, sustained spike in deaths, with most months remaining within historical norms except January 2020, which saw a temporary increase to 100 deaths. Throughout 2021 and much of 2022, mortality continued this steady trend with only mild variability.
+
+From early 2023 onward, however, a pronounced and sustained escalation in hepatitis deaths became evident, severing the previous pattern of stability. While cases increased marginally, deaths rose sharply—by mid-to-late 2023, monthly deaths exceeded 300, climbing further still to over 600 by December 2024. This surge persisted into 2025, albeit with short reprieves in certain months, but remained many times higher than pre-2023 levels. The abrupt rise in mortality does not match a proportional increase in case numbers, suggesting that either disease severity, reporting practices, coinfections, access to care, or population vulnerabilities may have shifted. Seasonal cyclicality persists but is often overshadowed by dramatic upward trends post-2023. Overall, the mortality landscape for hepatitis in China appears fundamentally altered in the last two years of the data, meriting urgent investigation into the underlying drivers and the implications for public health response.
+2026-01-09 08:46:47,093 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:47,418 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:47,421 - INFO - Processed Rabies page created.
+2026-01-09 08:46:47,520 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:47,524 - INFO - Processed Anthrax page created.
+2026-01-09 08:46:47,596 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:47,692 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:47,777 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:47,827 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:47,831 - INFO - Processed Hepatitis E page created.
+2026-01-09 08:46:47,876 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:47,880 - INFO - Processed Dengue page created.
+2026-01-09 08:46:47,902 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:47,906 - INFO - Processed COVID-19 page created.
+2026-01-09 08:46:47,932 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:48,023 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:48,026 - INFO - Processed Malaria page created.
+2026-01-09 08:46:48,483 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:48,487 - INFO - Processed Kala azar page created.
+2026-01-09 08:46:48,611 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:48,615 - INFO - Processed Other hepatitis page created.
+2026-01-09 08:46:48,687 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:48,768 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:48,772 - INFO - Processed Pertussis page created.
+2026-01-09 08:46:48,799 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:48,802 - INFO - Processed Syphilis page created.
+2026-01-09 08:46:49,148 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:49,648 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:49,652 - INFO - Processed Hepatitis C page created.
+2026-01-09 08:46:50,693 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:50,697 - INFO - Processed Tuberculosis page created.
+2026-01-09 08:46:54,870 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:55,726 - INFO - HTTP Request: POST https://api.wyzai.top/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-09 08:46:55,730 - INFO - Processed Hepatitis page created.
+2026-01-09 08:46:55,733 - INFO - Initializing with Entra authority: https://login.microsoftonline.com/f3a5e4eb-f557-462b-ae68-0fef296ee183
+2026-01-09 08:46:55,951 - INFO - Microsoft Graph API token acquired successfully.
+2026-01-09 08:46:56,706 - INFO - The subscriber list downloaded successfully.
+2026-01-09 08:46:57,202 - ERROR - Failed to send email to 1.
+2026-01-09 08:46:57,202 - ERROR - {"error":{"code":"ErrorInvalidRecipients","message":"At least one recipient is not valid., Recipient 'lkg1116@@outlook.com' is not resolved. All recipients must be resolved before a message can be submitted."}}
+2026-01-09 08:46:57,804 - INFO - Email sent to 2 successfully.
+2026-01-09 08:46:58,000 - INFO - Email sent to 10 successfully.
+2026-01-09 08:46:58,263 - INFO - Email sent to 11 successfully.
+2026-01-09 08:46:58,492 - INFO - Email sent to 12 successfully.
+2026-01-09 08:46:58,752 - INFO - Email sent to 13 successfully.
+2026-01-09 08:46:58,979 - INFO - Email sent to 14 successfully.
+2026-01-09 08:46:59,244 - INFO - Email sent to 15 successfully.
+2026-01-09 08:46:59,486 - INFO - Email sent to 16 successfully.
+2026-01-09 08:46:59,705 - INFO - Email sent to 17 successfully.
+2026-01-09 08:47:00,013 - INFO - Email sent to 18 successfully.
+2026-01-09 08:47:00,263 - INFO - Email sent to 19 successfully.
+2026-01-09 08:47:00,618 - INFO - Email sent to 20 successfully.
+2026-01-09 08:47:00,904 - INFO - Email sent to 21 successfully.
+2026-01-09 08:47:01,110 - INFO - Email sent to 26 successfully.
+2026-01-09 08:47:01,341 - INFO - Email sent to 27 successfully.
+2026-01-09 08:47:01,547 - INFO - Email sent to 28 successfully.
+2026-01-09 08:47:01,549 - INFO - Data processing completed for ['2025 December'].

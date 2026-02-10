@@ -11,6 +11,13 @@
 
 ### China CDC Monthly Report
 
+#### 2026 January
+
+Date: 20260210
+
+Updated: ['2026 January']
+
+
 #### 2025 December
 
 Date: 20260109

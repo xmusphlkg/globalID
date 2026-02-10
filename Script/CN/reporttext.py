@@ -49,7 +49,7 @@ def openai_trans(model_create, model_check, user_content, setting, token = 500, 
                                   messages_check,
                                   "Translate - check",
                                   token, max_retries, delay)
-        if "Yes" in box_check:
+        if isinstance(box_check, str) and "Yes" in box_check:
             return content_raw
         else:
             attempt += 1
@@ -98,7 +98,7 @@ def openai_single(model_create, model_check,
                                   f"{disease} - {section} - Check",
                                  token, max_retries, delay)
         box_length = length_check(box_content, content_words)
-        if "Yes" in box_check and box_length:
+        if isinstance(box_check, str) and "Yes" in box_check and box_length:
             return box_content
         else:
             attempt += 1
@@ -147,7 +147,7 @@ def openai_mail(model_create, model_check, content_create, content_check, token 
                                  messages_check,
                                  "Mail - Check",
                                  token, max_retries, delay)
-        if "Yes" in box_check:
+        if isinstance(box_check, str) and "Yes" in box_check:
             return content_raw
         else:
             attempt += 1
@@ -192,7 +192,7 @@ def openai_key(model_create, model_check, content_create, content_check, token =
                                  messages_check,
                                  "Key -Check",
                                  token, max_retries, delay)
-        if "Yes" in box_check:
+        if isinstance(box_check, str) and "Yes" in box_check:
             return content_raw
         else:
             attempt += 1
@@ -272,7 +272,7 @@ def openai_abstract(model_create, model_check, content_create, content_check, to
                                 messages_check,
                                 "Abstract - Check",
                                 token, max_retries, delay)
-        if "Yes" in box_check:
+        if isinstance(box_check, str) and "Yes" in box_check:
             return content_raw
         else:
             attempt += 1
@@ -324,7 +324,7 @@ def bing_analysis(model_create, model_clean, model_check, content_create, conten
                                  "New - check",
                                  None,
                                  max_retries, delay)
-        if "Yes" in box_check:
+        if isinstance(box_check, str) and "Yes" in box_check:
             return content_clean
         else:
             attempt += 1

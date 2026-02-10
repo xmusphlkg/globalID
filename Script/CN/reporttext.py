@@ -63,7 +63,7 @@ def openai_trans(model_create, model_check, user_content, setting, token = 500, 
             logging.info(f"box_check: {box_check}")
             logging.info(f"box_content: {content_raw}")
     logging.error("Translate: Maximum retries reached. Failed to create response.")
-    return None
+    return ""
 
 def openai_single(model_create, model_check,
                   content_create, content_check,
@@ -125,7 +125,7 @@ def openai_single(model_create, model_check,
                                   {"role": "assistant", "content": box_content},
                                   {"role": "user", "content": content_add}]
     logging.error(f"{disease} - {section}: Maximum retries reached. Failed to create response.")
-    return None
+    return ""
     
 def openai_mail(model_create, model_check, content_create, content_check, token = 4096, max_retries=20, delay=1):
     """
@@ -174,7 +174,7 @@ def openai_mail(model_create, model_check, content_create, content_check, token 
             logging.info(f"box_content: {content_raw}")
 
     logging.error("Mail: Maximum retries reached. Failed to create response.")
-    return None
+    return ""
 
 def openai_key(model_create, model_check, content_create, content_check, token = 4096, max_retries=20, delay=1):
     """
@@ -224,7 +224,7 @@ def openai_key(model_create, model_check, content_create, content_check, token =
             logging.info(f"box_check: {box_check}")
             logging.info(f"box_content: {content_raw}")
     logging.error("Key: Maximum retries reached. Failed to create response.")
-    return None
+    return ""
     
 def openai_image(model_create, user_content, default, max_retries=20, delay=1):
     """
@@ -311,7 +311,7 @@ def openai_abstract(model_create, model_check, content_create, content_check, to
             logging.info(f"box_content: {content_raw}")
     
     logging.error("Abstract: Maximum retries reached. Failed to create response.")
-    return None
+    return ""
 
 def bing_analysis(model_create, model_clean, model_check, content_create, content_clean, content_check, max_retries=20, delay=1):
     """
@@ -362,7 +362,7 @@ def bing_analysis(model_create, model_clean, model_check, content_create, conten
             logging.info(f"box_check: {box_check}")
             logging.info(f"box_content: {content_raw}")
     logging.error("News: Maximum retries reached. Failed to create response.")
-    return None
+    return ""
 
 def fetch_openai(model, client, messages, info = "", token = 500, max_retries=20, delay=1):
     """

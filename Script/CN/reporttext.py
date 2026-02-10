@@ -40,6 +40,12 @@ def openai_trans(model_create, model_check, user_content, setting, token = 500, 
                                     messages_create,
                                     "Translate - create",
                                     token, max_retries, delay)
+        
+        if content_raw is None:
+            attempt += 1
+            logging.warning(f"Translate create failed ({attempt}/{max_retries})...")
+            continue
+
         messages_check = [{"role": "system",
                             "content": "You are a language editing robot."},
                             {"role": "user",
@@ -91,6 +97,12 @@ def openai_single(model_create, model_check,
                                    messages_create,
                                    f"{disease} - {section} - Create",
                                    token, max_retries, delay)
+        
+        if box_content is None:
+            attempt += 1
+            logging.warning(f"{disease} - {section}: Failed to create content ({attempt}/{max_retries})...")
+            continue
+
         messages_check = [{"role": "system", "content": "You are a language editing robot."},
                           {"role": "user", "content": content_check + "\n" + box_content}]
         box_check = fetch_openai(model_check, client,
@@ -141,6 +153,12 @@ def openai_mail(model_create, model_check, content_create, content_check, token 
                                    messages_create,
                                    "Mail - Create",
                                    token, max_retries, delay)
+
+        if content_raw is None:
+            attempt += 1
+            logging.warning(f"Mail - Create failed ({attempt}/{max_retries})...")
+            continue
+
         messages_check = [{"role": "system", "content": "You are a language editing robot."},
                           {"role": "user", "content": content_check.format(content_raw = content_raw)}]
         box_check = fetch_openai(model_check, client,
@@ -186,6 +204,12 @@ def openai_key(model_create, model_check, content_create, content_check, token =
                                    messages_create,
                                     "Key - Create",
                                    token, max_retries, delay)
+
+        if content_raw is None:
+            attempt += 1
+            logging.warning(f"Key - Create failed ({attempt}/{max_retries})...")
+            continue
+
         messages_check = [{"role": "system", "content": "You are a language editing robot."},
                            {"role": "user", "content": content_check.format(content_raw = content_raw)}]
         box_check = fetch_openai(model_check, client,
@@ -266,6 +290,12 @@ def openai_abstract(model_create, model_check, content_create, content_check, to
                                    messages_create,
                                     "Abstract - Create",
                                    token, max_retries, delay)
+
+        if content_raw is None:
+            attempt += 1
+            logging.warning(f"Abstract - Create failed ({attempt}/{max_retries})...")
+            continue
+
         messages_check = [{"role": "system", "content": "You are a language editing robot."},
                           {"role": "user", "content": content_check.format(content_raw = content_raw)}]
         box_check = fetch_openai(model_check, client,

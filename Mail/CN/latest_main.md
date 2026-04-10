@@ -1,6 +1,6 @@
 Dear [Recipient],
 
-I hope this email finds you well. China CDC has published the new data on the cases and deaths of notifiable infectious diseases in Chinese mainland in 2026 February.
+I hope this email finds you well. China CDC has published the new data on the cases and deaths of notifiable infectious diseases in Chinese mainland in 2026 March.
 
 
 
@@ -9,5 +9,5 @@ The notion generated automatically, and assistant by AI. Please check the data a
 Best regards,
 NIDS
 
-2026-03-12
+2026-04-10
 
